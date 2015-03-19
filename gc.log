@@ -1,1792 +1,256 @@
 Java HotSpot(TM) 64-Bit Server VM (25.25-b02) for windows-amd64 JRE (1.8.0_25-b18), built on Oct  7 2014 14:25:37 by "java_re" with MS VC++ 10.0 (VS2010)
-Memory: 4k page, physical 8246884k(5221912k free), swap 9627124k(5165472k free)
+Memory: 4k page, physical 8246884k(4781176k free), swap 9627124k(5029452k free)
 CommandLine flags: -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=268435456 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:-UseLargePagesIndividualAllocation 
-2015-03-13T14:26:55.348+0100: 0.235: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 91M->91M(256M), 0.0021875 secs]
-2015-03-13T14:26:55.351+01002015-03-13T14:26:55.351+0100: : 0.237: 0.237: [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0026323 seconds
-2015-03-13T14:26:55.351+0100: 0.238: [GC concurrent-root-region-scan-end, 0.0006749 secs]
-2015-03-13T14:26:55.351+0100: 0.238: [GC concurrent-mark-start]
-2015-03-13T14:26:55.351+0100: 0.238: [GC concurrent-mark-end, 0.0001183 secs]
-2015-03-13T14:26:55.359+0100: 0.245: [GC remark, 0.0013337 secs]
-2015-03-13T14:26:55.360+0100: 0.247: Total time for which application threads were stopped: 0.0086006 seconds
-2015-03-13T14:26:55.369+0100: 0.255: [GC cleanup 121M->30M(256M), 0.0018117 secs]
-2015-03-13T14:26:55.371+0100: 0.257: Total time for which application threads were stopped: 0.0102584 seconds
-2015-03-13T14:26:55.371+0100: 0.257: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.371+0100: 0.258: [GC concurrent-cleanup-end, 0.0001539 secs]
-2015-03-13T14:26:55.455+0100: 0.342: [GC pause (G1 Humongous Allocation) (young) 235M->234M(256M), 0.0022789 secs]
-2015-03-13T14:26:55.458+0100: 0.344: Total time for which application threads were stopped: 0.0025145 seconds
-2015-03-13T14:26:55.458+0100: 0.345: [Full GC (Allocation Failure)  234M->280K(256M), 0.0051654 secs]
-2015-03-13T14:26:55.464+0100: 0.350: Total time for which application threads were stopped: 0.0057601 seconds
-2015-03-13T14:26:55.484+0100: 0.371: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 110M->110M(256M), 0.0018327 secs]
-2015-03-13T14:26:55.486+0100: 0.373: Total time for which application threads were stopped: 0.0020155 seconds
-2015-03-13T14:26:55.486+0100: 0.373: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.486+0100: 0.373: [GC concurrent-root-region-scan-end, 0.0001715 secs]
-2015-03-13T14:26:55.486+0100: 0.373: [GC concurrent-mark-start]
-2015-03-13T14:26:55.487+0100: 0.374: [GC concurrent-mark-end, 0.0010117 secs]
-2015-03-13T14:26:55.491+0100: 0.378: [GC remark, 0.0014031 secs]
-2015-03-13T14:26:55.493+0100: 0.380: Total time for which application threads were stopped: 0.0054307 seconds
-2015-03-13T14:26:55.498+0100: 0.385: [GC cleanup 171M->61M(256M), 0.0019906 secs]
-2015-03-13T14:26:55.500+0100: 0.387: Total time for which application threads were stopped: 0.0069912 seconds
-2015-03-13T14:26:55.500+0100: 0.387: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.500+0100: 0.387: [GC concurrent-cleanup-end, 0.0001285 secs]
-2015-03-13T14:26:55.528+0100: 0.415: [GC pause (G1 Humongous Allocation) (young) 231M->231M(256M), 0.0018269 secs]
-2015-03-13T14:26:55.530+0100: 0.416: Total time for which application threads were stopped: 0.0020468 seconds
-2015-03-13T14:26:55.530+0100: 0.417: [Full GC (Allocation Failure)  231M->280K(256M), 0.0053345 secs]
-2015-03-13T14:26:55.535+0100: 0.422: Total time for which application threads were stopped: 0.0055299 seconds
-2015-03-13T14:26:55.547+0100: 0.434: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 75M->75M(256M), 0.0015781 secs]
-2015-03-13T14:26:55.549+0100: 0.436: Total time for which application threads were stopped: 0.0017599 seconds
-2015-03-13T14:26:55.549+0100: 0.436: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.549+0100: 0.436: [GC concurrent-root-region-scan-end, 0.0001618 secs]
-2015-03-13T14:26:55.549+0100: 0.436: [GC concurrent-mark-start]
-2015-03-13T14:26:55.550+0100: 0.437: [GC concurrent-mark-end, 0.0010131 secs]
-2015-03-13T14:26:55.555+0100: 0.442: [GC remark, 0.0018014 secs]
-2015-03-13T14:26:55.557+0100: 0.444: Total time for which application threads were stopped: 0.0068930 seconds
-2015-03-13T14:26:55.564+0100: 0.451: [GC cleanup 154M->79M(256M), 0.0020766 secs]
-2015-03-13T14:26:55.566+0100: 0.453: Total time for which application threads were stopped: 0.0084877 seconds
-2015-03-13T14:26:55.566+0100: 0.453: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.566+0100: 0.453: [GC concurrent-cleanup-end, 0.0001075 secs]
-2015-03-13T14:26:55.587+0100: 0.474: [GC pause (G1 Humongous Allocation) (young) 205M->205M(256M), 0.0016162 secs]
-2015-03-13T14:26:55.588+0100: 0.475: Total time for which application threads were stopped: 0.0018220 seconds
-2015-03-13T14:26:55.589+0100: 0.476: [Full GC (Allocation Failure)  205M->280K(256M), 0.0049181 secs]
-2015-03-13T14:26:55.594+0100: 0.481: Total time for which application threads were stopped: 0.0051326 seconds
-2015-03-13T14:26:55.608+0100: 0.495: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->89M(256M), 0.0011451 secs]
-2015-03-13T14:26:55.610+01002015-03-13T14:26:55.610+0100: : 0.4970.497: : [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0013489 seconds
-2015-03-13T14:26:55.610+0100: 0.497: [GC concurrent-root-region-scan-end, 0.0001794 secs]
-2015-03-13T14:26:55.610+0100: 0.497: [GC concurrent-mark-start]
-2015-03-13T14:26:55.611+0100: 0.498: [GC concurrent-mark-end, 0.0010371 secs]
-2015-03-13T14:26:55.617+0100: 0.504: [GC remark, 0.0017164 secs]
-2015-03-13T14:26:55.619+0100: 0.506: Total time for which application threads were stopped: 0.0080312 seconds
-2015-03-13T14:26:55.627+0100: 0.514: [GC cleanup 182M->93M(256M), 0.0019427 secs]
-2015-03-13T14:26:55.629+0100: 0.516: Total time for which application threads were stopped: 0.0094715 seconds
-2015-03-13T14:26:55.629+0100: 0.516: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.629+0100: 0.516: [GC concurrent-cleanup-end, 0.0001241 secs]
-2015-03-13T14:26:55.645+0100: 0.532: [GC pause (G1 Humongous Allocation) (young) 190M->190M(256M), 0.0017931 secs]
-2015-03-13T14:26:55.647+0100: 0.534: Total time for which application threads were stopped: 0.0020067 seconds
-2015-03-13T14:26:55.647+0100: 0.534: [Full GC (Allocation Failure)  190M->280K(256M), 0.0048560 secs]
-2015-03-13T14:26:55.652+0100: 0.539: Total time for which application threads were stopped: 0.0050764 seconds
-2015-03-13T14:26:55.669+0100: 0.556: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 101M->101M(256M), 0.0018836 secs]
-2015-03-13T14:26:55.671+0100: 0.558: Total time for which application threads were stopped: 0.0020937 seconds
-2015-03-13T14:26:55.671+0100: 0.558: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.671+0100: 0.558: [GC concurrent-root-region-scan-end, 0.0000821 secs]
-2015-03-13T14:26:55.671+0100: 0.558: [GC concurrent-mark-start]
-2015-03-13T14:26:55.672+0100: 0.559: [GC concurrent-mark-end, 0.0013982 secs]
-2015-03-13T14:26:55.679+0100: 0.566: [GC remark, 0.0017760 secs]
-2015-03-13T14:26:55.681+0100: 0.568: Total time for which application threads were stopped: 0.0088645 seconds
-2015-03-13T14:26:55.681+0100: 0.568: [GC cleanup 153M->52M(256M), 0.0008968 secs]
-2015-03-13T14:26:55.682+0100: 0.569: Total time for which application threads were stopped: 0.0010004 seconds
-2015-03-13T14:26:55.682+0100: 0.569: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.683+0100: 0.570: [GC concurrent-cleanup-end, 0.0001452 secs]
-2015-03-13T14:26:55.700+0100: 0.587: [GC pause (G1 Humongous Allocation) (young) 159M->159M(256M), 0.0017873 secs]
-2015-03-13T14:26:55.702+0100: 0.589: Total time for which application threads were stopped: 0.0020023 seconds
-2015-03-13T14:26:55.702+0100: 0.590: [Full GC (Allocation Failure)  159M->280K(256M), 0.0047045 secs]
-2015-03-13T14:26:55.707+0100: 0.594: Total time for which application threads were stopped: 0.0049322 seconds
-2015-03-13T14:26:55.726+0100: 0.613: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 111M->111M(256M), 0.0015708 secs]
-2015-03-13T14:26:55.727+0100: 0.614: Total time for which application threads were stopped: 0.0017848 seconds
-2015-03-13T14:26:55.727+0100: 0.614: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.728+0100: 0.615: [GC concurrent-root-region-scan-end, 0.0001158 secs]
-2015-03-13T14:26:55.728+0100: 0.615: [GC concurrent-mark-start]
-2015-03-13T14:26:55.729+0100: 0.616: [GC concurrent-mark-end, 0.0010429 secs]
-2015-03-13T14:26:55.737+0100: 0.624: [GC remark, 0.0013059 secs]
-2015-03-13T14:26:55.738+0100: 0.625: Total time for which application threads were stopped: 0.0096103 seconds
-2015-03-13T14:26:55.738+0100: 0.625: [GC cleanup 168M->57M(256M), 0.0013738 secs]
-2015-03-13T14:26:55.740+0100: 0.627: Total time for which application threads were stopped: 0.0014940 seconds
-2015-03-13T14:26:55.740+0100: 0.627: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.740+0100: 0.627: [GC concurrent-cleanup-end, 0.0001310 secs]
-2015-03-13T14:26:55.769+0100: 0.657: [GC pause (G1 Humongous Allocation) (young) 234M->234M(256M), 0.0017682 secs]
-2015-03-13T14:26:55.771+0100: 0.658: Total time for which application threads were stopped: 0.0019754 seconds
-2015-03-13T14:26:55.771+0100: 0.659: [Full GC (Allocation Failure)  234M->280K(256M), 0.0048868 secs]
-2015-03-13T14:26:55.777+0100: 0.664: Total time for which application threads were stopped: 0.0051135 seconds
-2015-03-13T14:26:55.786+0100: 0.674: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 61M->61M(256M), 0.0014935 secs]
-2015-03-13T14:26:55.788+0100: 0.675: Total time for which application threads were stopped: 0.0016822 seconds
-2015-03-13T14:26:55.788+0100: 0.675: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.788+0100: 0.675: [GC concurrent-root-region-scan-end, 0.0000933 secs]
-2015-03-13T14:26:55.788+0100: 0.675: [GC concurrent-mark-start]
-2015-03-13T14:26:55.790+0100: 0.677: [GC concurrent-mark-end, 0.0015581 secs]
-2015-03-13T14:26:55.799+0100: 0.686: [GC remark, 0.0015185 secs]
-2015-03-13T14:26:55.801+0100: 0.687: Total time for which application threads were stopped: 0.0101308 seconds
-2015-03-13T14:26:55.801+0100: 0.687: [GC cleanup 123M->62M(256M), 0.0016465 secs]
-2015-03-13T14:26:55.803+0100: 0.689: Total time for which application threads were stopped: 0.0017614 seconds
-2015-03-13T14:26:55.803+0100: 0.689: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.803+0100: 0.689: [GC concurrent-cleanup-end, 0.0000909 secs]
-2015-03-13T14:26:55.814+0100: 0.700: [GC pause (G1 Humongous Allocation) (young) 125M->125M(256M), 0.0011363 secs]
-2015-03-13T14:26:55.815+0100: 0.701: Total time for which application threads were stopped: 0.0013484 seconds
-2015-03-13T14:26:55.815+0100: 0.701: [Full GC (Allocation Failure)  125M->280K(256M), 0.0046629 secs]
-2015-03-13T14:26:55.820+0100: 0.706: Total time for which application threads were stopped: 0.0048873 seconds
-2015-03-13T14:26:55.831+0100: 0.718: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 64M->64M(256M), 0.0012111 secs]
-2015-03-13T14:26:55.833+0100: 0.719: Total time for which application threads were stopped: 0.0014237 seconds
-2015-03-13T14:26:55.833+0100: 0.719: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.833+0100: 0.719: [GC concurrent-root-region-scan-end, 0.0001442 secs]
-2015-03-13T14:26:55.833+0100: 0.719: [GC concurrent-mark-start]
-2015-03-13T14:26:55.834+0100: 0.720: [GC concurrent-mark-end, 0.0010278 secs]
-2015-03-13T14:26:55.843+0100: 0.729: [GC remark, 0.0013851 secs]
-2015-03-13T14:26:55.845+0100: 0.731: Total time for which application threads were stopped: 0.0106943 seconds
-2015-03-13T14:26:55.845+0100: 0.731: [GC cleanup 129M->65M(256M), 0.0018010 secs]
-2015-03-13T14:26:55.847+0100: 0.733: Total time for which application threads were stopped: 0.0019036 seconds
-2015-03-13T14:26:55.847+0100: 0.733: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.847+0100: 0.733: [GC concurrent-cleanup-end, 0.0001002 secs]
-2015-03-13T14:26:55.858+0100: 0.744: [GC pause (G1 Humongous Allocation) (young) 131M->131M(256M), 0.0010840 secs]
-2015-03-13T14:26:55.859+0100: 0.745: Total time for which application threads were stopped: 0.0013357 seconds
-2015-03-13T14:26:55.870+0100: 0.757: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 198M->198M(256M), 0.0014769 secs]
-2015-03-13T14:26:55.872+0100: 0.758: Total time for which application threads were stopped: 0.0016851 seconds
-2015-03-13T14:26:55.872+0100: 0.758: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.872+0100: 0.758: [GC concurrent-root-region-scan-end, 0.0000772 secs]
-2015-03-13T14:26:55.872+0100: 0.758: [GC concurrent-mark-start]
-2015-03-13T14:26:55.872+0100: 0.758: [GC pause (G1 Humongous Allocation) (young) 198M->198M(256M), 0.0015190 secs]
-2015-03-13T14:26:55.874+0100: 0.760: Total time for which application threads were stopped: 0.0016807 seconds
-2015-03-13T14:26:55.874+0100: 0.760: [Full GC (Allocation Failure)  198M->280K(256M), 0.0049376 secs]
-2015-03-13T14:26:55.879+0100: 0.765: Total time for which application threads were stopped: 0.0051707 seconds
-2015-03-13T14:26:55.879+0100: 0.765: [GC concurrent-mark-abort]
-2015-03-13T14:26:55.890+0100: 0.777: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->68M(256M), 0.0018244 secs]
-2015-03-13T14:26:55.892+0100: 0.779: Total time for which application threads were stopped: 0.0020326 seconds
-2015-03-13T14:26:55.892+0100: 0.779: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.893+0100: 0.779: [GC concurrent-root-region-scan-end, 0.0000802 secs]
-2015-03-13T14:26:55.893+0100: 0.779: [GC concurrent-mark-start]
-2015-03-13T14:26:55.894+0100: 0.780: [GC concurrent-mark-end, 0.0013562 secs]
-2015-03-13T14:26:55.904+0100: 0.790: [GC remark, 0.0009530 secs]
-2015-03-13T14:26:55.905+0100: 0.791: Total time for which application threads were stopped: 0.0109450 seconds
-2015-03-13T14:26:55.916+0100: 0.803: [GC cleanup 207M->139M(256M), 0.0017511 secs]
-2015-03-13T14:26:55.918+0100: 0.804: Total time for which application threads were stopped: 0.0131218 seconds
-2015-03-13T14:26:55.918+0100: 0.804: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.918+0100: 0.804: [GC concurrent-cleanup-end, 0.0000885 secs]
-2015-03-13T14:26:55.918+0100: 0.805: [GC pause (G1 Humongous Allocation) (young) 139M->139M(256M), 0.0011959 secs]
-2015-03-13T14:26:55.920+0100: 0.806: Total time for which application threads were stopped: 0.0013919 seconds
-2015-03-13T14:26:55.920+0100: 0.806: [Full GC (Allocation Failure)  139M->280K(256M), 0.0047059 secs]
-2015-03-13T14:26:55.925+0100: 0.811: Total time for which application threads were stopped: 0.0049474 seconds
-2015-03-13T14:26:55.937+0100: 0.823: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 71M->71M(256M), 0.0017071 secs]
-2015-03-13T14:26:55.938+0100: 0.825: Total time for which application threads were stopped: 0.0019124 seconds
-2015-03-13T14:26:55.938+0100: 0.825: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:55.939+0100: 0.825: [GC concurrent-root-region-scan-end, 0.0000811 secs]
-2015-03-13T14:26:55.939+0100: 0.825: [GC concurrent-mark-start]
-2015-03-13T14:26:55.940+0100: 0.826: [GC concurrent-mark-end, 0.0013391 secs]
-2015-03-13T14:26:55.951+0100: 0.837: [GC remark, 0.0015610 secs]
-2015-03-13T14:26:55.953+0100: 0.839: Total time for which application threads were stopped: 0.0126223 seconds
-2015-03-13T14:26:55.965+0100: 0.851: [GC cleanup 216M->145M(256M), 0.0016876 secs]
-2015-03-13T14:26:55.967+0100: 0.853: Total time for which application threads were stopped: 0.0137782 seconds
-2015-03-13T14:26:55.967+0100: 0.853: [GC concurrent-cleanup-start]
-2015-03-13T14:26:55.967+0100: 0.853: [GC concurrent-cleanup-end, 0.0001476 secs]
-2015-03-13T14:26:55.967+0100: 0.853: [GC pause (G1 Humongous Allocation) (young) 145M->145M(256M), 0.0014818 secs]
-2015-03-13T14:26:55.968+0100: 0.855: Total time for which application threads were stopped: 0.0016939 seconds
-2015-03-13T14:26:55.969+0100: 0.855: [Full GC (Allocation Failure)  145M->280K(256M), 0.0047221 secs]
-2015-03-13T14:26:55.974+0100: 0.860: Total time for which application threads were stopped: 0.0049596 seconds
-2015-03-13T14:26:55.987+0100: 0.873: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 74M->74M(256M), 0.0013885 secs]
-2015-03-13T14:26:55.988+01002015-03-13T14:26:55.988+0100: : 0.8740.874: : [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0017330 seconds
-2015-03-13T14:26:55.988+0100: 0.875: [GC concurrent-root-region-scan-end, 0.0000782 secs]
-2015-03-13T14:26:55.988+0100: 0.875: [GC concurrent-mark-start]
-2015-03-13T14:26:55.990+0100: 0.876: [GC concurrent-mark-end, 0.0013963 secs]
-2015-03-13T14:26:56.001+0100: 0.887: [GC remark, 0.0011739 secs]
-2015-03-13T14:26:56.002+0100: 0.889: Total time for which application threads were stopped: 0.0125974 seconds
-2015-03-13T14:26:56.002+0100: 0.889: [GC cleanup 149M->75M(256M), 0.0007864 secs]
-2015-03-13T14:26:56.003+0100: 0.890: Total time for which application threads were stopped: 0.0008909 seconds
-2015-03-13T14:26:56.003+0100: 0.890: [GC concurrent-cleanup-start]
-2015-03-13T14:26:56.003+0100: 0.890: [GC concurrent-cleanup-end, 0.0001442 secs]
-2015-03-13T14:26:56.017+0100: 0.903: [GC pause (G1 Humongous Allocation) (young) 151M->151M(256M), 0.0009662 secs]
-2015-03-13T14:26:56.018+0100: 0.905: Total time for which application threads were stopped: 0.0012120 seconds
-2015-03-13T14:26:56.018+0100: 0.905: [Full GC (Allocation Failure)  151M->280K(256M), 0.0045926 secs]
-2015-03-13T14:26:56.023+0100: 0.909: Total time for which application threads were stopped: 0.0048389 seconds
-2015-03-13T14:26:56.036+0100: 0.922: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 77M->77M(256M), 0.0011612 secs]
-2015-03-13T14:26:56.037+0100: 0.924: Total time for which application threads were stopped: 0.0013694 seconds
-2015-03-13T14:26:56.037+0100: 0.924: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.038+0100: 0.924: [GC concurrent-root-region-scan-end, 0.0000689 secs]
-2015-03-13T14:26:56.038+0100: 0.924: [GC concurrent-mark-start]
-2015-03-13T14:26:56.039+0100: 0.925: [GC concurrent-mark-end, 0.0015717 secs]
-2015-03-13T14:26:56.050+0100: 0.937: [GC remark, 0.0014994 secs]
-2015-03-13T14:26:56.052+0100: 0.938: Total time for which application threads were stopped: 0.0126277 seconds
-2015-03-13T14:26:56.052+0100: 0.938: [GC cleanup 155M->78M(256M), 0.0014764 secs]
-2015-03-13T14:26:56.054+0100: 0.940: Total time for which application threads were stopped: 0.0016353 seconds
-2015-03-13T14:26:56.054+0100: 0.940: [GC concurrent-cleanup-start]
-2015-03-13T14:26:56.054+0100: 0.940: [GC concurrent-cleanup-end, 0.0001544 secs]
-2015-03-13T14:26:56.067+0100: 0.953: [GC pause (G1 Humongous Allocation) (young) 157M->157M(256M), 0.0014378 secs]
-2015-03-13T14:26:56.069+0100: 0.955: Total time for which application threads were stopped: 0.0016475 seconds
-2015-03-13T14:26:56.069+0100: 0.955: [Full GC (Allocation Failure)  157M->280K(256M), 0.0044728 secs]
-2015-03-13T14:26:56.074+0100: 0.960: Total time for which application threads were stopped: 0.0047094 seconds
-2015-03-13T14:26:56.087+0100: 0.973: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 80M->80M(256M), 0.0014676 secs]
-2015-03-13T14:26:56.088+01002015-03-13T14:26:56.088+0100: : 0.975: 0.975: [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0016798 seconds
-2015-03-13T14:26:56.089+0100: 0.975: [GC concurrent-root-region-scan-end, 0.0000753 secs]
-2015-03-13T14:26:56.089+0100: 0.975: [GC concurrent-mark-start]
-2015-03-13T14:26:56.090+0100: 0.976: [GC concurrent-mark-end, 0.0010596 secs]
-2015-03-13T14:26:56.102+0100: 0.989: [GC remark, 0.0015962 secs]
-2015-03-13T14:26:56.104+0100: 0.990: Total time for which application threads were stopped: 0.0144140 seconds
-2015-03-13T14:26:56.117+0100: 1.004: [GC cleanup 243M->163M(256M), 0.0017272 secs]
-2015-03-13T14:26:56.119+0100: 1.006: Total time for which application threads were stopped: 0.0149653 seconds
-2015-03-13T14:26:56.119+0100: 1.006: [GC concurrent-cleanup-start]
-2015-03-13T14:26:56.119+0100: 1.006: [GC concurrent-cleanup-end, 0.0001212 secs]
-2015-03-13T14:26:56.120+0100: 1.006: [GC pause (G1 Humongous Allocation) (young) 163M->163M(256M), 0.0011690 secs]
-2015-03-13T14:26:56.121+0100: 1.007: Total time for which application threads were stopped: 0.0013606 seconds
-2015-03-13T14:26:56.121+0100: 1.007: [Full GC (Allocation Failure)  163M->280K(256M), 0.0045105 secs]
-2015-03-13T14:26:56.126+0100: 1.012: Total time for which application threads were stopped: 0.0047480 seconds
-2015-03-13T14:26:56.139+0100: 1.026: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->83M(256M), 0.0013479 secs]
-2015-03-13T14:26:56.141+0100: 1.027: Total time for which application threads were stopped: 0.0015581 seconds
-2015-03-13T14:26:56.141+0100: 1.027: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.141+0100: 1.027: [GC concurrent-root-region-scan-end, 0.0000767 secs]
-2015-03-13T14:26:56.141+0100: 1.027: [GC concurrent-mark-start]
-2015-03-13T14:26:56.142+0100: 1.028: [GC concurrent-mark-end, 0.0010444 secs]
-2015-03-13T14:26:56.155+0100: 1.041: [GC remark, 0.0020189 secs]
-2015-03-13T14:26:56.157+0100: 1.043: Total time for which application threads were stopped: 0.0147967 seconds
-2015-03-13T14:26:56.157+0100: 1.044: [GC pause (G1 Humongous Allocation) (young) 167M->167M(256M), 0.0014036 secs]
-2015-03-13T14:26:56.159+0100: 1.045: Total time for which application threads were stopped: 0.0015928 seconds
-2015-03-13T14:26:56.159+0100: 1.045: [Full GC (Allocation Failure)  167M->280K(256M), 0.0045623 secs]
-2015-03-13T14:26:56.164+0100: 1.050: Total time for which application threads were stopped: 0.0047915 seconds
-2015-03-13T14:26:56.178+0100: 1.064: [GC cleanup, 0.0000455 secs]
-2015-03-13T14:26:56.178+0100: 1.064: Total time for which application threads were stopped: 0.0139052 seconds
-2015-03-13T14:26:56.178+0100: 1.064: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.192+0100: 1.078: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 171M->171M(256M), 0.0017228 secs]
-2015-03-13T14:26:56.194+0100: 2015-03-13T14:26:56.194+0100: 1.080: 1.080[GC concurrent-root-region-scan-start]
-: Total time for which application threads were stopped: 0.0019583 seconds
-2015-03-13T14:26:56.194+0100: 1.080: [GC concurrent-root-region-scan-end, 0.0000850 secs]
-2015-03-13T14:26:56.194+0100: 1.080: [GC concurrent-mark-start]
-2015-03-13T14:26:56.194+0100: 1.080: [GC pause (G1 Humongous Allocation) (young) 171M->171M(256M), 0.0012619 secs]
-2015-03-13T14:26:56.195+0100: 1.081: Total time for which application threads were stopped: 0.0014588 seconds
-2015-03-13T14:26:56.195+0100: 1.082: [Full GC (Allocation Failure)  171M->280K(256M), 0.0043130 secs]
-2015-03-13T14:26:56.200+0100: 1.086: Total time for which application threads were stopped: 0.0045417 seconds
-2015-03-13T14:26:56.200+0100: 1.086: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.214+0100: 1.100: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 87M->87M(256M), 0.0017276 secs]
-2015-03-13T14:26:56.216+0100: 1.102: Total time for which application threads were stopped: 0.0019393 seconds
-2015-03-13T14:26:56.216+0100: 1.102: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.216+0100: 1.102: [GC concurrent-root-region-scan-end, 0.0001119 secs]
-2015-03-13T14:26:56.216+0100: 1.102: [GC concurrent-mark-start]
-2015-03-13T14:26:56.216+0100: 1.102: [GC pause (G1 Humongous Allocation) (young) 87M->87M(256M), 0.0017320 secs]
-2015-03-13T14:26:56.218+0100: 1.104: Total time for which application threads were stopped: 0.0019104 seconds
-2015-03-13T14:26:56.218+0100: 1.104: [Full GC (Allocation Failure)  87M->280K(256M), 0.0044958 secs]
-2015-03-13T14:26:56.223+0100: 1.109: Total time for which application threads were stopped: 0.0047475 seconds
-2015-03-13T14:26:56.223+0100: 1.109: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.237+0100: 1.124: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->88M(256M), 0.0014628 secs]
-2015-03-13T14:26:56.239+0100: 1.125: Total time for which application threads were stopped: 0.0016758 seconds
-2015-03-13T14:26:56.239+0100: 1.125: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.239+0100: 1.125: [GC concurrent-root-region-scan-end, 0.0001847 secs]
-2015-03-13T14:26:56.239+0100: 1.125: [GC concurrent-mark-start]
-2015-03-13T14:26:56.240+0100: 1.126: [GC concurrent-mark-end, 0.0010449 secs]
-2015-03-13T14:26:56.253+0100: 1.140: [GC remark, 0.0018308 secs]
-2015-03-13T14:26:56.255+0100: 1.141: Total time for which application threads were stopped: 0.0148607 seconds
-2015-03-13T14:26:56.255+0100: 1.142: [GC pause (G1 Humongous Allocation) (young) 177M->177M(256M), 0.0013616 secs]
-2015-03-13T14:26:56.257+0100: 1.143: Total time for which application threads were stopped: 0.0015400 seconds
-2015-03-13T14:26:56.257+0100: 1.143: [Full GC (Allocation Failure)  177M->280K(256M), 0.0047094 secs]
-2015-03-13T14:26:56.262+0100: 1.148: Total time for which application threads were stopped: 0.0049239 seconds
-2015-03-13T14:26:56.276+0100: 1.163: [GC cleanup, 0.0000450 secs]
-2015-03-13T14:26:56.276+0100: 1.163: Total time for which application threads were stopped: 0.0144512 seconds
-2015-03-13T14:26:56.276+0100: 1.163: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.291+0100: 1.178: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 181M->181M(256M), 0.0016084 secs]
-2015-03-13T14:26:56.293+0100: 1.179: Total time for which application threads were stopped: 0.0018171 seconds
-2015-03-13T14:26:56.293+0100: 1.179: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.293+0100: 1.179: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:56.293+0100: 1.180: [GC concurrent-root-region-scan-end, 0.0002014 secs]
-2015-03-13T14:26:56.293+0100: 1.180: [GC concurrent-mark-start]
- 181M->181M(256M), 0.0013758 secs]
-2015-03-13T14:26:56.295+0100: 1.181: Total time for which application threads were stopped: 0.0015532 seconds
-2015-03-13T14:26:56.295+0100: 1.181: [Full GC (Allocation Failure)  181M->280K(256M), 0.0047055 secs]
-2015-03-13T14:26:56.300+0100: 1.186: Total time for which application threads were stopped: 0.0049430 seconds
-2015-03-13T14:26:56.300+0100: 1.186: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.315+0100: 1.201: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 92M->92M(256M), 0.0018640 secs]
-2015-03-13T14:26:56.317+0100: 1.203: Total time for which application threads were stopped: 0.0020712 seconds
-2015-03-13T14:26:56.317+0100: 1.203: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.317+0100: 1.203: [GC concurrent-root-region-scan-end, 0.0001906 secs]
-2015-03-13T14:26:56.317+0100: 1.203: [GC concurrent-mark-start]
-2015-03-13T14:26:56.318+0100: 1.205: [GC concurrent-mark-end, 0.0010473 secs]
-2015-03-13T14:26:56.332+0100: 1.218: [GC remark, 0.0021069 secs]
-2015-03-13T14:26:56.334+0100: 1.220: Total time for which application threads were stopped: 0.0157634 seconds
-2015-03-13T14:26:56.334+0100: 1.221: [GC pause (G1 Humongous Allocation) (young) 185M->185M(256M), 0.0012394 secs]
-2015-03-13T14:26:56.335+0100: 1.222: Total time for which application threads were stopped: 0.0014002 seconds
-2015-03-13T14:26:56.336+0100: 1.222: [Full GC (Allocation Failure)  185M->280K(256M), 0.0045931 secs]
-2015-03-13T14:26:56.340+0100: 1.227: Total time for which application threads were stopped: 0.0048110 seconds
-2015-03-13T14:26:56.356+0100: 1.242: [GC cleanup, 0.0000425 secs]
-2015-03-13T14:26:56.356+0100: 1.242: Total time for which application threads were stopped: 0.0152448 seconds
-2015-03-13T14:26:56.356+0100: 1.242: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.371+0100: 1.258: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 189M->189M(256M), 0.0015326 secs]
-2015-03-13T14:26:56.373+0100: 1.259: Total time for which application threads were stopped: 0.0017408 seconds
-2015-03-13T14:26:56.373+0100: 1.259: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.373+0100: 1.260: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:56.373+0100: 1.260: [GC concurrent-root-region-scan-end, 0.0002043 secs]
-2015-03-13T14:26:56.373+0100: 1.260: [GC concurrent-mark-start]
- 189M->189M(256M), 0.0015825 secs]
-2015-03-13T14:26:56.375+0100: 1.261: Total time for which application threads were stopped: 0.0017560 seconds
-2015-03-13T14:26:56.375+0100: 1.262: [Full GC (Allocation Failure)  189M->280K(256M), 0.0044850 secs]
-2015-03-13T14:26:56.380+0100: 1.266: Total time for which application threads were stopped: 0.0047240 seconds
-2015-03-13T14:26:56.380+0100: 1.266: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.396+0100: 1.282: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 96M->96M(256M), 0.0017824 secs]
-2015-03-13T14:26:56.397+01002015-03-13T14:26:56.397+0100: : 1.2841.284: : [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0019960 seconds
-2015-03-13T14:26:56.398+0100: 1.284: [GC concurrent-root-region-scan-end, 0.0000870 secs]
-2015-03-13T14:26:56.398+0100: 1.284: [GC concurrent-mark-start]
-2015-03-13T14:26:56.399+0100: 1.285: [GC concurrent-mark-end, 0.0010297 secs]
-2015-03-13T14:26:56.413+0100: 1.300: [GC remark, 0.0016778 secs]
-2015-03-13T14:26:56.415+0100: 1.301: Total time for which application threads were stopped: 0.0160972 seconds
-2015-03-13T14:26:56.415+0100: 1.302: [GC pause (G1 Humongous Allocation) (young) 193M->193M(256M), 0.0015077 secs]
-2015-03-13T14:26:56.417+0100: 1.303: Total time for which application threads were stopped: 0.0016773 seconds
-2015-03-13T14:26:56.417+0100: 1.303: [Full GC (Allocation Failure)  193M->280K(256M), 0.0044367 secs]
-2015-03-13T14:26:56.421+0100: 1.308: Total time for which application threads were stopped: 0.0046561 seconds
-2015-03-13T14:26:56.437+0100: 1.324: [GC cleanup, 0.0000401 secs]
-2015-03-13T14:26:56.437+0100: 1.324: Total time for which application threads were stopped: 0.0157771 seconds
-2015-03-13T14:26:56.437+0100: 1.324: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.453+0100: 1.340: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 197M->197M(256M), 0.0018230 secs]
-2015-03-13T14:26:56.455+0100: 1.342: Total time for which application threads were stopped: 0.0020263 seconds
-2015-03-13T14:26:56.455+0100: 1.342: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.456+0100: 1.342: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:56.456+0100: 1.342: [GC concurrent-root-region-scan-end, 0.0002014 secs]
-2015-03-13T14:26:56.456+0100: 1.342: [GC concurrent-mark-start]
- 197M->197M(256M), 0.0013518 secs]
-2015-03-13T14:26:56.457+0100: 1.344: Total time for which application threads were stopped: 0.0014979 seconds
-2015-03-13T14:26:56.457+0100: 1.344: [Full GC (Allocation Failure)  197M->280K(256M), 0.0045652 secs]
-2015-03-13T14:26:56.462+0100: 1.348: Total time for which application threads were stopped: 0.0047744 seconds
-2015-03-13T14:26:56.462+0100: 1.349: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.478+0100: 1.365: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 100M->100M(256M), 0.0018112 secs]
-2015-03-13T14:26:56.480+0100: 1.367: Total time for which application threads were stopped: 0.0020165 seconds
-2015-03-13T14:26:56.480+0100: 1.367: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.481+0100: 1.367: [GC concurrent-root-region-scan-end, 0.0001867 secs]
-2015-03-13T14:26:56.481+0100: 1.367: [GC concurrent-mark-start]
-2015-03-13T14:26:56.482+0100: 1.368: [GC concurrent-mark-end, 0.0010341 secs]
-2015-03-13T14:26:56.497+0100: 1.383: [GC remark, 0.0018572 secs]
-2015-03-13T14:26:56.499+0100: 1.385: Total time for which application threads were stopped: 0.0168850 seconds
-2015-03-13T14:26:56.499+0100: 1.385: [GC pause (G1 Humongous Allocation) (young) 201M->201M(256M), 0.0015986 secs]
-2015-03-13T14:26:56.501+0100: 1.387: Total time for which application threads were stopped: 0.0017961 seconds
-2015-03-13T14:26:56.501+0100: 1.387: [Full GC (Allocation Failure)  201M->280K(256M), 0.0046234 secs]
-2015-03-13T14:26:56.505+0100: 1.392: Total time for which application threads were stopped: 0.0048516 seconds
-2015-03-13T14:26:56.522+0100: 1.409: [GC cleanup, 0.0000459 secs]
-2015-03-13T14:26:56.522+0100: 1.409: Total time for which application threads were stopped: 0.0164833 seconds
-2015-03-13T14:26:56.522+0100: 1.409: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.539+0100: 1.426: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 205M->205M(256M), 0.0015449 secs]
-2015-03-13T14:26:56.541+0100: 1.427: Total time for which application threads were stopped: 0.0018875 seconds
-2015-03-13T14:26:56.541+0100: 1.427: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.541+0100: 1.427: [GC concurrent-root-region-scan-end, 0.0001256 secs]
-2015-03-13T14:26:56.541+0100: 1.427: [GC concurrent-mark-start]
-2015-03-13T14:26:56.541+0100: 1.428: [GC pause (G1 Humongous Allocation) (young) 205M->205M(256M), 0.0014598 secs]
-2015-03-13T14:26:56.542+0100: 1.429: Total time for which application threads were stopped: 0.0016441 seconds
-2015-03-13T14:26:56.543+0100: 1.429: [Full GC (Allocation Failure)  205M->280K(256M), 0.0045803 secs]
-2015-03-13T14:26:56.547+0100: 1.434: Total time for which application threads were stopped: 0.0047993 seconds
-2015-03-13T14:26:56.548+0100: 1.434: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.565+0100: 1.451: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 104M->104M(256M), 0.0017692 secs]
-2015-03-13T14:26:56.566+0100: 1.453: Total time for which application threads were stopped: 0.0019818 seconds
-2015-03-13T14:26:56.567+0100: 1.453: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.567+0100: 1.453: [GC concurrent-root-region-scan-end, 0.0000841 secs]
-2015-03-13T14:26:56.567+0100: 1.453: [GC concurrent-mark-start]
-2015-03-13T14:26:56.568+0100: 1.454: [GC concurrent-mark-end, 0.0010332 secs]
-2015-03-13T14:26:56.583+0100: 1.470: [GC remark, 0.0020204 secs]
-2015-03-13T14:26:56.586+0100: 1.472: Total time for which application threads were stopped: 0.0177408 seconds
-2015-03-13T14:26:56.586+0100: 1.472: [GC pause (G1 Humongous Allocation) (young) 209M->209M(256M), 0.0009217 secs]
-2015-03-13T14:26:56.587+0100: 1.473: Total time for which application threads were stopped: 0.0010860 seconds
-2015-03-13T14:26:56.587+0100: 1.474: [Full GC (Allocation Failure)  209M->280K(256M), 0.0047216 secs]
-2015-03-13T14:26:56.592+0100: 1.478: Total time for which application threads were stopped: 0.0049303 seconds
-2015-03-13T14:26:56.609+0100: 1.495: [GC cleanup, 0.0000415 secs]
-2015-03-13T14:26:56.609+0100: 1.496: Total time for which application threads were stopped: 0.0170184 seconds
-2015-03-13T14:26:56.609+0100: 1.496: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.626+0100: 1.513: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 213M->213M(256M), 0.0020121 secs]
-2015-03-13T14:26:56.628+0100: 1.515: Total time for which application threads were stopped: 0.0022100 seconds
-2015-03-13T14:26:56.628+0100: 1.515: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.629+0100: 1.515: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:56.629+0100: 1.515: [GC concurrent-root-region-scan-end, 0.0001994 secs]
-2015-03-13T14:26:56.629+0100: 1.515: [GC concurrent-mark-start]
- 213M->213M(256M), 0.0012120 secs]
-2015-03-13T14:26:56.630+0100: 1.517: Total time for which application threads were stopped: 0.0013763 seconds
-2015-03-13T14:26:56.630+0100: 1.517: [Full GC (Allocation Failure)  213M->280K(256M), 0.0044621 secs]
-2015-03-13T14:26:56.635+0100: 1.521: Total time for which application threads were stopped: 0.0046981 seconds
-2015-03-13T14:26:56.635+0100: 1.522: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.652+0100: 1.539: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 108M->108M(256M), 0.0018689 secs]
-2015-03-13T14:26:56.654+0100: 1.541: Total time for which application threads were stopped: 0.0020727 seconds
-2015-03-13T14:26:56.654+0100: 1.541: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.655+0100: 1.541: [GC concurrent-root-region-scan-end, 0.0001031 secs]
-2015-03-13T14:26:56.655+0100: 1.541: [GC concurrent-mark-start]
-2015-03-13T14:26:56.656+0100: 1.542: [GC concurrent-mark-end, 0.0010014 secs]
-2015-03-13T14:26:56.672+0100: 1.559: [GC remark, 0.0018743 secs]
-2015-03-13T14:26:56.674+0100: 1.561: Total time for which application threads were stopped: 0.0183957 seconds
-2015-03-13T14:26:56.674+0100: 1.561: [GC cleanup 217M->109M(256M), 0.0014002 secs]
-2015-03-13T14:26:56.676+0100: 1.562: Total time for which application threads were stopped: 0.0015048 seconds
-2015-03-13T14:26:56.676+0100: 1.563: [GC concurrent-cleanup-start]
-2015-03-13T14:26:56.676+0100: 1.563: [GC concurrent-cleanup-end, 0.0001412 secs]
-2015-03-13T14:26:56.676+0100: 1.563: [GC pause (G1 Humongous Allocation) (young) 109M->109M(256M), 0.0007248 secs]
-2015-03-13T14:26:56.677+0100: 1.564: Total time for which application threads were stopped: 0.0008905 seconds
-2015-03-13T14:26:56.677+0100: 1.564: [Full GC (Allocation Failure)  109M->280K(256M), 0.0043027 secs]
-2015-03-13T14:26:56.681+0100: 1.568: Total time for which application threads were stopped: 0.0045056 seconds
-2015-03-13T14:26:56.699+0100: 1.586: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 110M->110M(256M), 0.0017892 secs]
-2015-03-13T14:26:56.701+0100: 1.588: Total time for which application threads were stopped: 0.0019920 seconds
-2015-03-13T14:26:56.701+0100: 1.588: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.701+0100: 1.588: [GC concurrent-root-region-scan-end, 0.0001579 secs]
-2015-03-13T14:26:56.701+0100: 1.588: [GC concurrent-mark-start]
-2015-03-13T14:26:56.702+0100: 1.589: [GC concurrent-mark-end, 0.0010131 secs]
-2015-03-13T14:26:56.719+0100: 1.606: [GC remark, 0.0018166 secs]
-2015-03-13T14:26:56.721+0100: 1.608: Total time for which application threads were stopped: 0.0184235 seconds
-2015-03-13T14:26:56.721+0100: 1.608: [GC pause (G1 Humongous Allocation) (young) 221M->221M(256M), 0.0016113 secs]
-2015-03-13T14:26:56.723+0100: 1.610: Total time for which application threads were stopped: 0.0017863 seconds
-2015-03-13T14:26:56.723+0100: 1.610: [GC cleanup 221M->111M(256M), 0.0010273 secs]
-2015-03-13T14:26:56.724+0100: 1.611: Total time for which application threads were stopped: 0.0011221 seconds
-2015-03-13T14:26:56.724+0100: 1.611: [GC concurrent-cleanup-start]
-2015-03-13T14:26:56.724+0100: 1.611: [GC concurrent-cleanup-end, 0.0001496 secs]
-2015-03-13T14:26:56.724+0100: 1.611: [GC pause (G1 Humongous Allocation) (young) 111M->111M(256M), 0.0006559 secs]
-2015-03-13T14:26:56.725+0100: 1.612: Total time for which application threads were stopped: 0.0007903 seconds
-2015-03-13T14:26:56.725+0100: 1.612: [Full GC (Allocation Failure)  111M->280K(256M), 0.0042402 secs]
-2015-03-13T14:26:56.730+0100: 1.616: Total time for which application threads were stopped: 0.0044518 seconds
-2015-03-13T14:26:56.748+0100: 1.635: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 112M->112M(256M), 0.0017496 secs]
-2015-03-13T14:26:56.750+0100: 2015-03-13T14:26:56.750+0100: 1.636: 1.636: Total time for which application threads were stopped: 0.0019490 seconds
+2015-03-19T16:19:23.226+0100: 0.103: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 92M->91M(256M), 0.0010532 secs]
+2015-03-19T16:19:23.226+0100: 0.104: Total time for which application threads were stopped: 0.0034309 seconds
+2015-03-19T16:19:23.226+0100: 0.104: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.226+0100: 0.104: [GC concurrent-root-region-scan-end, 0.0002859 secs]
+2015-03-19T16:19:23.226+0100: 0.104: [GC concurrent-mark-start]
+2015-03-19T16:19:23.226+0100: 0.105: [GC concurrent-mark-end, 0.0005141 secs]
+2015-03-19T16:19:23.226+0100: 0.111: [GC remark, 0.0006050 secs]
+2015-03-19T16:19:23.226+0100: 0.112: Total time for which application threads were stopped: 0.0065612 seconds
+2015-03-19T16:19:23.226+0100: 0.112: [GC cleanup 122M->50M(256M), 0.0005224 secs]
+2015-03-19T16:19:23.226+0100: 0.112: Total time for which application threads were stopped: 0.0005821 seconds
+2015-03-19T16:19:23.226+0100: 0.112: [GC concurrent-cleanup-start]
+2015-03-19T16:19:23.226+0100: 0.112: [GC concurrent-cleanup-end, 0.0000630 secs]
+2015-03-19T16:19:23.262+0100: 0.139: [GC pause (G1 Humongous Allocation) (young) 220M->218M(256M), 0.0010576 secs]
+2015-03-19T16:19:23.262+0100: 0.140: Total time for which application threads were stopped: 0.0024695 seconds
+2015-03-19T16:19:23.262+0100: 0.140: [Full GC (Allocation Failure)  218M->284K(256M), 0.0025516 secs]
+2015-03-19T16:19:23.262+0100: 0.143: Total time for which application threads were stopped: 0.0026680 seconds
+2015-03-19T16:19:23.262+0100: 0.149: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 105M->104M(256M), 0.0005762 secs]
+2015-03-19T16:19:23.262+0100: 0.149: Total time for which application threads were stopped: 0.0022696 seconds
+2015-03-19T16:19:23.262+0100: 0.149: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.262+0100: 0.149: [GC concurrent-root-region-scan-end, 0.0000538 secs]
+2015-03-19T16:19:23.262+0100: 0.149: [GC concurrent-mark-start]
+2015-03-19T16:19:23.262+0100: 0.150: [GC concurrent-mark-end, 0.0006349 secs]
+2015-03-19T16:19:23.278+0100: 0.153: [GC remark, 0.0006314 secs]
+2015-03-19T16:19:23.278+0100: 0.154: Total time for which application threads were stopped: 0.0036987 seconds
+2015-03-19T16:19:23.278+0100: 0.155: [GC cleanup 181M->119M(256M), 0.0003353 secs]
+2015-03-19T16:19:23.278+0100: 0.155: Total time for which application threads were stopped: 0.0016294 seconds
+2015-03-19T16:19:23.278+0100: 0.155: [GC concurrent-cleanup-start]
+2015-03-19T16:19:23.278+0100: 0.155: [GC concurrent-cleanup-end, 0.0000494 secs]
+2015-03-19T16:19:23.278+0100: 0.161: [GC pause (G1 Humongous Allocation) (young) 217M->215M(256M), 0.0003700 secs]
+2015-03-19T16:19:23.278+0100: 0.161: Total time for which application threads were stopped: 0.0013885 seconds
+2015-03-19T16:19:23.278+0100: 0.161: [Full GC (Allocation Failure)  215M->49M(256M), 0.0021866 secs]
+2015-03-19T16:19:23.278+0100: 0.164: Total time for which application threads were stopped: 0.0022740 seconds
+2015-03-19T16:19:23.278+0100: 0.166: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 104M->103M(256M), 0.0003235 secs]
+2015-03-19T16:19:23.278+01002015-03-19T16:19:23.278+0100: : 0.167: 0.167: [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0029641 seconds
+2015-03-19T16:19:23.278+0100: 0.167: [GC concurrent-root-region-scan-end, 0.0000215 secs]
+2015-03-19T16:19:23.278+0100: 0.167: [GC concurrent-mark-start]
+2015-03-19T16:19:23.278+0100: 0.167: [GC concurrent-mark-end, 0.0006256 secs]
+2015-03-19T16:19:23.294+0100: 0.171: [GC remark, 0.0007663 secs]
+2015-03-19T16:19:23.294+0100: 0.171: Total time for which application threads were stopped: 0.0040911 seconds
+2015-03-19T16:19:23.294+0100: 0.173: [GC cleanup 193M->144M(256M), 0.0002898 secs]
+2015-03-19T16:19:23.294+0100: 0.173: Total time for which application threads were stopped: 0.0014950 seconds
+2015-03-19T16:19:23.294+0100: 0.173: [GC concurrent-cleanup-start]
+2015-03-19T16:19:23.294+0100: 0.173: [GC concurrent-cleanup-end, 0.0000386 secs]
+2015-03-19T16:19:23.294+0100: 0.178: [GC pause (G1 Humongous Allocation) (young) 221M->219M(256M), 0.0003533 secs]
+2015-03-19T16:19:23.294+0100: 0.179: Total time for which application threads were stopped: 0.0023860 seconds
+2015-03-19T16:19:23.294+0100: 0.179: [Full GC (Allocation Failure)  219M->284K(256M), 0.0020028 secs]
+2015-03-19T16:19:23.294+0100: 0.181: Total time for which application threads were stopped: 0.0020913 seconds
+2015-03-19T16:19:23.294+0100: 0.182: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 20M->20M(256M), 0.0002654 secs]
+2015-03-19T16:19:23.294+01002015-03-19T16:19:23.294+0100: : 0.183: 0.183: [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0018484 seconds
+2015-03-19T16:19:23.294+0100: 0.183: [GC concurrent-root-region-scan-end, 0.0000083 secs]
+2015-03-19T16:19:23.294+0100: 0.183: [GC concurrent-mark-start]
+2015-03-19T16:19:23.309+0100: 0.187: Total time for which application threads were stopped: 0.0042920 seconds
+2015-03-19T16:19:23.309+0100: 0.188: [GC concurrent-mark-end, 0.0050935 secs]
+2015-03-19T16:19:23.309+0100: 0.193: [GC remark, 0.0006251 secs]
+2015-03-19T16:19:23.309+0100: 0.193: Total time for which application threads were stopped: 0.0056179 seconds
+2015-03-19T16:19:23.309+0100: 0.195: [GC cleanup 196M->196M(256M), 0.0002395 secs]
+2015-03-19T16:19:23.309+0100: 0.196: Total time for which application threads were stopped: 0.0021939 seconds
+2015-03-19T16:19:23.309+0100: 0.198: [GC pause (G1 Humongous Allocation) (young) 237M->235M(256M), 0.0003377 secs]
+2015-03-19T16:19:23.309+0100: 0.198: Total time for which application threads were stopped: 0.0025101 seconds
+2015-03-19T16:19:23.309+0100: 0.198: [Full GC (Allocation Failure)  235M->284K(256M), 0.0025819 secs]
+2015-03-19T16:19:23.325+0100: 0.201: Total time for which application threads were stopped: 0.0026895 seconds
+2015-03-19T16:19:23.325+0100: 0.207: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 92M->92M(256M), 0.0003998 secs]
+2015-03-19T16:19:23.325+0100: 2015-03-19T16:19:23.325+0100: 0.2080.208: : [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0023361 seconds
+2015-03-19T16:19:23.325+0100: 0.208: [GC concurrent-root-region-scan-end, 0.0000269 secs]
+2015-03-19T16:19:23.325+0100: 0.208: [GC concurrent-mark-start]
+2015-03-19T16:19:23.325+0100: 0.209: [GC concurrent-mark-end, 0.0007106 secs]
+2015-03-19T16:19:23.325+0100: 0.214: [GC remark, 0.0008997 secs]
+2015-03-19T16:19:23.340+0100: 0.215: Total time for which application threads were stopped: 0.0064243 seconds
+2015-03-19T16:19:23.340+0100: 0.217: [GC cleanup 215M->192M(256M), 0.0002703 secs]
+2015-03-19T16:19:23.340+0100: 0.217: Total time for which application threads were stopped: 0.0021817 seconds
+2015-03-19T16:19:23.340+0100: 0.217: [GC concurrent-cleanup-start]
+2015-03-19T16:19:23.340+0100: 0.217: [GC concurrent-cleanup-end, 0.0000235 secs]
+2015-03-19T16:19:23.340+0100: 0.219: [GC pause (G1 Humongous Allocation) (young) 214M->212M(256M), 0.0003055 secs]
+2015-03-19T16:19:23.340+0100: 0.219: Total time for which application threads were stopped: 0.0019847 seconds
+2015-03-19T16:19:23.340+0100: 0.219: [Full GC (Allocation Failure)  212M->284K(256M), 0.0020287 secs]
+2015-03-19T16:19:23.340+0100: 0.221: Total time for which application threads were stopped: 0.0021191 seconds
+2015-03-19T16:19:23.340+0100: 0.228: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 102M->102M(256M), 0.0004281 secs]
+2015-03-19T16:19:23.340+0100: 0.228: Total time for which application threads were stopped: 0.0011026 seconds
+2015-03-19T16:19:23.340+0100: 0.228: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.340+0100: 0.228: [GC concurrent-root-region-scan-end, 0.0000254 secs]
+2015-03-19T16:19:23.340+0100: 0.228: [GC concurrent-mark-start]
+2015-03-19T16:19:23.340+0100: 0.229: [GC concurrent-mark-end, 0.0007429 secs]
+2015-03-19T16:19:23.356+0100: 0.234: [GC remark, 0.0008367 secs]
+2015-03-19T16:19:23.356+0100: 0.234: Total time for which application threads were stopped: 0.0053144 seconds
+2015-03-19T16:19:23.356+0100: 0.236: [GC cleanup 235M->207M(256M), 0.0002150 secs]
+2015-03-19T16:19:23.356+0100: 0.237: Total time for which application threads were stopped: 0.0021973 seconds
+2015-03-19T16:19:23.356+0100: 0.237: [GC concurrent-cleanup-start]
+2015-03-19T16:19:23.356+0100: 0.237: [GC concurrent-cleanup-end, 0.0000264 secs]
+2015-03-19T16:19:23.356+0100: 0.239: [GC pause (G1 Humongous Allocation) (young) 233M->231M(256M), 0.0003240 secs]
+2015-03-19T16:19:23.356+0100: 0.239: Total time for which application threads were stopped: 0.0023156 seconds
+2015-03-19T16:19:23.356+0100: 0.239: [Full GC (Allocation Failure)  231M->284K(256M), 0.0020585 secs]
+2015-03-19T16:19:23.356+0100: 0.241: Total time for which application threads were stopped: 0.0021489 seconds
+2015-03-19T16:19:23.372+0100: 0.248: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 112M->112M(256M), 0.0003265 secs]
+2015-03-19T16:19:23.372+0100: 2015-03-19T16:19:23.372+0100: 0.249: 0.249: [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0032363 seconds
+2015-03-19T16:19:23.372+0100: 0.249: [GC concurrent-root-region-scan-end, 0.0000259 secs]
+2015-03-19T16:19:23.372+0100: 0.249: [GC concurrent-mark-start]
+2015-03-19T16:19:23.372+0100: 0.253: [GC pause (G1 Humongous Allocation) (young) 201M->200M(256M), 0.0002458 secs]
+2015-03-19T16:19:23.372+0100: 0.253: Total time for which application threads were stopped: 0.0044264 seconds
+2015-03-19T16:19:23.372+0100: 0.253: [Full GC (Allocation Failure)  201M->284K(256M), 0.0018660 secs]
+2015-03-19T16:19:23.372+0100: 0.255: Total time for which application threads were stopped: 0.0019461 seconds
+2015-03-19T16:19:23.372+0100: 0.255: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.387+0100: 0.263: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 119M->119M(256M), 0.0003255 secs]
+2015-03-19T16:19:23.387+0100: 2015-03-19T16:19:23.387+0100: 0.263: 0.263[GC concurrent-root-region-scan-start]
+: Total time for which application threads were stopped: 0.0033189 seconds
+2015-03-19T16:19:23.387+0100: 0.263: [GC concurrent-root-region-scan-end, 0.0000215 secs]
+2015-03-19T16:19:23.387+0100: 0.263: [GC concurrent-mark-start]
+2015-03-19T16:19:23.387+0100: 0.268: [GC pause (G1 Humongous Allocation) (young) 212M->211M(256M), 0.0002522 secs]
+2015-03-19T16:19:23.387+0100: 0.268: Total time for which application threads were stopped: 0.0047284 seconds
+2015-03-19T16:19:23.387+0100: 0.268: [Full GC (Allocation Failure)  211M->284K(256M), 0.0019046 secs]
+2015-03-19T16:19:23.387+0100: 0.270: Total time for which application threads were stopped: 0.0019818 seconds
+2015-03-19T16:19:23.387+0100: 0.270: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.387+0100: 0.277: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 126M->126M(256M), 0.0003250 secs]
+2015-03-19T16:19:23.387+0100: 2015-03-19T16:19:23.387+0100: 0.277: 0.277: [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0007316 seconds
+2015-03-19T16:19:23.387+0100: 0.277: [GC concurrent-root-region-scan-end, 0.0000195 secs]
+2015-03-19T16:19:23.387+0100: 0.277: [GC concurrent-mark-start]
+2015-03-19T16:19:23.403+0100: 0.280: [GC pause (G1 Humongous Allocation) (young) 190M->189M(256M), 0.0002497 secs]
+2015-03-19T16:19:23.403+0100: 0.280: Total time for which application threads were stopped: 0.0034621 seconds
+2015-03-19T16:19:23.403+0100: 0.281: [GC pause (G1 Humongous Allocation) (young) 190M->189M(256M), 0.0002380 secs]
+2015-03-19T16:19:23.403+0100: 0.281: Total time for which application threads were stopped: 0.0003103 seconds
+2015-03-19T16:19:23.403+0100: 0.281: [Full GC (Allocation Failure)  189M->284K(256M), 0.0018767 secs]
+2015-03-19T16:19:23.403+0100: 0.283: Total time for which application threads were stopped: 0.0019564 seconds
+2015-03-19T16:19:23.403+0100: 0.283: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.403+0100: 0.291: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 132M->132M(256M), 0.0003216 secs]
+2015-03-19T16:19:23.403+0100: 2015-03-19T16:19:23.403+0100: 0.2910.291: : [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0035017 seconds
+2015-03-19T16:19:23.403+0100: 0.291: [GC concurrent-root-region-scan-end, 0.0000225 secs]
+2015-03-19T16:19:23.403+0100: 0.291: [GC concurrent-mark-start]
+2015-03-19T16:19:23.419+0100: 0.295: [GC pause (G1 Humongous Allocation) (young) 202M->201M(256M), 0.0002844 secs]
+2015-03-19T16:19:23.419+0100: 0.295: Total time for which application threads were stopped: 0.0039997 seconds
+2015-03-19T16:19:23.419+0100: 0.296: [Full GC (Allocation Failure)  202M->284K(256M), 0.0019676 secs]
+2015-03-19T16:19:23.419+0100: 0.298: Total time for which application threads were stopped: 0.0020527 seconds
+2015-03-19T16:19:23.419+0100: 0.298: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.419+0100: 0.306: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 138M->138M(256M), 0.0004609 secs]
+2015-03-19T16:19:23.419+0100: 2015-03-19T16:19:23.419+0100: 0.307: 0.307: [GC concurrent-root-region-scan-start]
+Total time for which application threads were stopped: 0.0041234 seconds
+2015-03-19T16:19:23.419+0100: 0.307: [GC concurrent-root-region-scan-end, 0.0000239 secs]
+2015-03-19T16:19:23.419+0100: 0.307: [GC concurrent-mark-start]
+2015-03-19T16:19:23.434+0100: 0.310: [GC pause (G1 Humongous Allocation) (young) 208M->207M(256M), 0.0004677 secs]
+2015-03-19T16:19:23.434+0100: 0.311: Total time for which application threads were stopped: 0.0038751 seconds
+2015-03-19T16:19:23.434+0100: 0.311: [Full GC (Allocation Failure)  207M->284K(256M), 0.0020067 secs]
+2015-03-19T16:19:23.434+0100: 0.313: Total time for which application threads were stopped: 0.0021670 seconds
+2015-03-19T16:19:23.434+0100: 0.313: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.434+0100: 0.322: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 145M->144M(256M), 0.0005190 secs]
+2015-03-19T16:19:23.434+0100: 0.322: Total time for which application threads were stopped: 0.0041512 seconds
+2015-03-19T16:19:23.434+0100: 0.323: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.434+0100: 0.323: [GC concurrent-root-region-scan-end, 0.0000499 secs]
+2015-03-19T16:19:23.434+0100: 0.323: [GC concurrent-mark-start]
+2015-03-19T16:19:23.450+0100: 0.325: [GC pause (G1 Humongous Allocation) (young) 181M->180M(256M), 0.0003509 secs]
+2015-03-19T16:19:23.450+0100: 0.326: Total time for which application threads were stopped: 0.0030844 seconds
+2015-03-19T16:19:23.450+0100: 0.326: [Full GC (Allocation Failure)  180M->284K(256M), 0.0018997 secs]
+2015-03-19T16:19:23.450+0100: 0.328: Total time for which application threads were stopped: 0.0019833 seconds
+2015-03-19T16:19:23.450+0100: 0.328: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.450+0100: 0.337: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 150M->149M(256M), 0.0003929 secs]
+2015-03-19T16:19:23.450+0100: 0.337: Total time for which application threads were stopped: 0.0041840 seconds
+2015-03-19T16:19:23.450+0100: 0.337: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.450+0100: 0.337: [GC concurrent-root-region-scan-end, 0.0000357 secs]
+2015-03-19T16:19:23.450+0100: 0.337: [GC concurrent-mark-start]
+2015-03-19T16:19:23.465+0100: 0.341: [GC pause (G1 Humongous Allocation) (young) 225M->224M(256M), 0.0004096 secs]
+2015-03-19T16:19:23.465+0100: 0.342: Total time for which application threads were stopped: 0.0041092 seconds
+2015-03-19T16:19:23.465+0100: 0.342: [Full GC (Allocation Failure)  224M->75M(256M), 0.0019950 secs]
+2015-03-19T16:19:23.465+0100: 0.344: Total time for which application threads were stopped: 0.0020790 seconds
+2015-03-19T16:19:23.465+0100: 0.344: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.465+0100: 0.351: [GC pause (G1 Humongous Allocation) (young) 192M->191M(256M), 0.0004374 secs]
+2015-03-19T16:19:23.465+0100: 0.352: Total time for which application threads were stopped: 0.0078934 seconds
+2015-03-19T16:19:23.465+0100: 0.352: [Full GC (Allocation Failure)  191M->284K(256M), 0.0020614 secs]
+2015-03-19T16:19:23.465+0100: 0.354: Total time for which application threads were stopped: 0.0021592 seconds
+2015-03-19T16:19:23.481+0100: 0.363: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 159M->158M(256M), 0.0004848 secs]
+2015-03-19T16:19:23.481+0100: 0.363: Total time for which application threads were stopped: 0.0008035 seconds
+2015-03-19T16:19:23.481+0100: 0.363: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.481+0100: 0.363: [GC concurrent-root-region-scan-end, 0.0000455 secs]
+2015-03-19T16:19:23.481+0100: 0.363: [GC concurrent-mark-start]
+2015-03-19T16:19:23.481+0100: 0.366: [GC pause (G1 Humongous Allocation) (young) 199M->198M(256M), 0.0003841 secs]
+2015-03-19T16:19:23.481+0100: 0.367: Total time for which application threads were stopped: 0.0034318 seconds
+2015-03-19T16:19:23.481+0100: 0.367: [Full GC (Allocation Failure)  198M->284K(256M), 0.0020468 secs]
+2015-03-19T16:19:23.481+0100: 0.369: Total time for which application threads were stopped: 0.0021333 seconds
+2015-03-19T16:19:23.481+0100: 0.369: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.497+0100: 0.379: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 163M->163M(256M), 0.0005889 secs]
+2015-03-19T16:19:23.497+0100: 0.379: Total time for which application threads were stopped: 0.0041400 seconds
+2015-03-19T16:19:23.497+0100: 0.379: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.497+0100: 0.379: [GC concurrent-root-region-scan-end, 0.0000396 secs]
+2015-03-19T16:19:23.497+0100: 0.379: [GC concurrent-mark-start]
+2015-03-19T16:19:23.497+0100: 0.383: [GC pause (G1 Humongous Allocation) (young) 205M->204M(256M), 0.0005356 secs]
+2015-03-19T16:19:23.497+0100: 0.383: Total time for which application threads were stopped: 0.0035594 seconds
+2015-03-19T16:19:23.497+0100: 0.383: [Full GC (Allocation Failure)  204M->284K(256M), 0.0019661 secs]
+2015-03-19T16:19:23.497+0100: 0.385: Total time for which application threads were stopped: 0.0020448 seconds
+2015-03-19T16:19:23.497+0100: 0.385: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.512+0100: 0.396: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 169M->168M(256M), 0.0006945 secs]
+2015-03-19T16:19:23.512+0100: 0.396: Total time for which application threads were stopped: 0.0043614 seconds
+2015-03-19T16:19:23.512+0100: 0.396: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.512+0100: 0.396: [GC concurrent-root-region-scan-end, 0.0000445 secs]
+2015-03-19T16:19:23.512+0100: 0.396: [GC concurrent-mark-start]
+2015-03-19T16:19:23.512+0100: 0.396: [GC pause (G1 Humongous Allocation) (young) 168M->168M(256M), 0.0003294 secs]
+2015-03-19T16:19:23.512+0100: 0.397: Total time for which application threads were stopped: 0.0003861 seconds
+2015-03-19T16:19:23.512+0100: 0.397: [Full GC (Allocation Failure)  168M->284K(256M), 0.0018748 secs]
+2015-03-19T16:19:23.512+0100: 0.399: Total time for which application threads were stopped: 0.0019569 seconds
+2015-03-19T16:19:23.512+0100: 0.399: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.528+0100: 0.408: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 174M->172M(256M), 0.0007556 secs]
+2015-03-19T16:19:23.528+0100: 0.409: Total time for which application threads were stopped: 0.0012570 seconds
+2015-03-19T16:19:23.528+0100: 0.409: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.528+0100: 0.409: [GC concurrent-root-region-scan-end, 0.0000523 secs]
+2015-03-19T16:19:23.528+0100: 0.409: [GC concurrent-mark-start]
+2015-03-19T16:19:23.528+0100: 0.412: [GC pause (G1 Humongous Allocation) (young) 216M->215M(256M), 0.0004423 secs]
+2015-03-19T16:19:23.528+0100: 0.412: Total time for which application threads were stopped: 0.0036762 seconds
+2015-03-19T16:19:23.528+0100: 0.412: [Full GC (Allocation Failure)  215M->43M(256M), 0.0022257 secs]
+2015-03-19T16:19:23.528+0100: 0.415: Total time for which application threads were stopped: 0.0023112 seconds
+2015-03-19T16:19:23.528+0100: 0.415: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.544+0100: 0.422: [GC pause (G1 Humongous Allocation) (young) 176M->175M(256M), 0.0005288 secs]
+2015-03-19T16:19:23.544+0100: 0.422: Total time for which application threads were stopped: 0.0073035 seconds
+2015-03-19T16:19:23.544+0100: 0.422: [Full GC (Allocation Failure)  175M->132M(256M), 0.0019275 secs]
+2015-03-19T16:19:23.544+0100: 0.424: Total time for which application threads were stopped: 0.0020057 seconds
+2015-03-19T16:19:23.544+0100: 0.429: [GC pause (G1 Humongous Allocation) (young) 223M->222M(256M), 0.0007399 secs]
+2015-03-19T16:19:23.544+0100: 0.429: Total time for which application threads were stopped: 0.0052235 seconds
+2015-03-19T16:19:23.544+0100: 0.430: [Full GC (Allocation Failure)  222M->284K(256M), 0.0021905 secs]
+2015-03-19T16:19:23.544+0100: 0.432: Total time for which application threads were stopped: 0.0022824 seconds
+2015-03-19T16:19:23.559+0100: 0.443: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 183M->182M(256M), 0.0007668 secs]
+2015-03-19T16:19:23.559+0100: 2015-03-19T16:19:23.559+01000.444: : 0.444: Total time for which application threads were stopped: 0.0050417 seconds
 [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.750+0100: 1.637: [GC concurrent-root-region-scan-end, 0.0001583 secs]
-2015-03-13T14:26:56.750+0100: 1.637: [GC concurrent-mark-start]
-2015-03-13T14:26:56.751+0100: 1.638: [GC concurrent-mark-end, 0.0010864 secs]
-2015-03-13T14:26:56.768+0100: 1.655: [GC remark, 0.0018332 secs]
-2015-03-13T14:26:56.770+0100: 1.657: Total time for which application threads were stopped: 0.0188492 seconds
-2015-03-13T14:26:56.770+0100: 1.657: [GC pause (G1 Humongous Allocation) (young) 225M->225M(256M), 0.0017047 secs]
-2015-03-13T14:26:56.772+0100: 1.659: Total time for which application threads were stopped: 0.0018792 seconds
-2015-03-13T14:26:56.772+0100: 1.659: [Full GC (Allocation Failure)  225M->280K(256M), 0.0047294 secs]
-2015-03-13T14:26:56.777+0100: 1.664: Total time for which application threads were stopped: 0.0049640 seconds
-2015-03-13T14:26:56.795+0100: 1.682: [GC cleanup, 0.0000415 secs]
-2015-03-13T14:26:56.795+0100: 1.682: Total time for which application threads were stopped: 0.0183888 seconds
-2015-03-13T14:26:56.795+0100: 1.682: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.814+0100: 1.701: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 229M->229M(256M), 0.0015581 secs]
-2015-03-13T14:26:56.816+0100: 1.703: Total time for which application threads were stopped: 0.0017711 seconds
-2015-03-13T14:26:56.816+0100: 1.703: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.816+0100: 1.703: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:56.816+0100: 1.703: [GC concurrent-root-region-scan-end, 0.0001896 secs]
-2015-03-13T14:26:56.816+0100: 1.703: [GC concurrent-mark-start]
- 229M->229M(256M), 0.0013396 secs]
-2015-03-13T14:26:56.818+0100: 1.704: Total time for which application threads were stopped: 0.0015209 seconds
-2015-03-13T14:26:56.818+0100: 1.705: [Full GC (Allocation Failure)  229M->280K(256M), 0.0045564 secs]
-2015-03-13T14:26:56.822+0100: 1.709: Total time for which application threads were stopped: 0.0047939 seconds
-2015-03-13T14:26:56.823+0100: 1.709: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.841+0100: 1.728: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 116M->116M(256M), 0.0017941 secs]
-2015-03-13T14:26:56.843+0100: 1.730: Total time for which application threads were stopped: 0.0020033 seconds
-2015-03-13T14:26:56.843+0100: 1.730: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.843+0100: 1.730: [GC concurrent-root-region-scan-end, 0.0001393 secs]
-2015-03-13T14:26:56.843+0100: 1.730: [GC concurrent-mark-start]
-2015-03-13T14:26:56.844+0100: 1.731: [GC concurrent-mark-end, 0.0010234 secs]
-2015-03-13T14:26:56.862+0100: 1.749: [GC remark, 0.0016988 secs]
-2015-03-13T14:26:56.864+0100: 1.751: Total time for which application threads were stopped: 0.0194489 seconds
-2015-03-13T14:26:56.864+0100: 1.751: [GC pause (G1 Humongous Allocation) (young) 233M->233M(256M), 0.0013763 secs]
-2015-03-13T14:26:56.866+0100: 1.753: Total time for which application threads were stopped: 0.0015522 seconds
-2015-03-13T14:26:56.866+0100: 1.753: [Full GC (Allocation Failure)  233M->280K(256M), 0.0043756 secs]
-2015-03-13T14:26:56.870+0100: 1.757: Total time for which application threads were stopped: 0.0046018 seconds
-2015-03-13T14:26:56.889+0100: 1.776: [GC cleanup, 0.0000420 secs]
-2015-03-13T14:26:56.889+0100: 1.776: Total time for which application threads were stopped: 0.0189787 seconds
-2015-03-13T14:26:56.890+0100: 1.776: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.909+0100: 1.796: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 237M->237M(256M), 0.0014716 secs]
-2015-03-13T14:26:56.910+0100: 1.797: Total time for which application threads were stopped: 0.0016773 seconds
-2015-03-13T14:26:56.911+0100: 1.797: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.911+0100: 1.798: 2015-03-13T14:26:56.911+0100: [GC pause (G1 Humongous Allocation) (young)1.798: [GC concurrent-root-region-scan-end, 0.0001471 secs]
-2015-03-13T14:26:56.911+0100: 1.798: [GC concurrent-mark-start]
- 237M->237M(256M), 0.0012609 secs]
-2015-03-13T14:26:56.912+0100: 1.799: Total time for which application threads were stopped: 0.0014344 seconds
-2015-03-13T14:26:56.912+0100: 1.799: [Full GC (Allocation Failure)  237M->280K(256M), 0.0045559 secs]
-2015-03-13T14:26:56.917+0100: 1.804: Total time for which application threads were stopped: 0.0047846 seconds
-2015-03-13T14:26:56.917+0100: 1.804: [GC concurrent-mark-abort]
-2015-03-13T14:26:56.937+0100: 1.824: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 120M->120M(256M), 0.0018880 secs]
-2015-03-13T14:26:56.939+0100: 1.826: Total time for which application threads were stopped: 0.0020957 seconds
-2015-03-13T14:26:56.939+0100: 1.826: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:56.939+0100: 1.826: [GC concurrent-root-region-scan-end, 0.0001569 secs]
-2015-03-13T14:26:56.939+0100: 1.826: [GC concurrent-mark-start]
-2015-03-13T14:26:56.940+0100: 1.827: [GC concurrent-mark-end, 0.0010429 secs]
-2015-03-13T14:26:56.958+0100: 1.845: [GC remark, 0.0019368 secs]
-2015-03-13T14:26:56.960+0100: 1.847: Total time for which application threads were stopped: 0.0201008 seconds
-2015-03-13T14:26:56.960+0100: 1.847: [GC pause (G1 Humongous Allocation) (young) 241M->241M(256M), 0.0013499 secs]
-2015-03-13T14:26:56.962+0100: 1.849: Total time for which application threads were stopped: 0.0015356 seconds
-2015-03-13T14:26:56.962+0100: 1.849: [Full GC (Allocation Failure)  241M->280K(256M), 0.0043169 secs]
-2015-03-13T14:26:56.966+0100: 1.853: Total time for which application threads were stopped: 0.0045491 seconds
-2015-03-13T14:26:56.986+0100: 1.873: [GC cleanup, 0.0000411 secs]
-2015-03-13T14:26:56.986+0100: 1.873: Total time for which application threads were stopped: 0.0200295 seconds
-2015-03-13T14:26:56.987+0100: 1.874: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.007+0100: 1.894: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 245M->245M(256M), 0.0021069 secs]
-2015-03-13T14:26:57.009+0100: 1.896: Total time for which application threads were stopped: 0.0023239 seconds
-2015-03-13T14:26:57.009+0100: 1.896: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.009+0100: 1.896: [GC concurrent-root-region-scan-end, 0.0000841 secs]
-2015-03-13T14:26:57.009+0100: 1.896: [GC concurrent-mark-start]
-2015-03-13T14:26:57.009+0100: 1.896: [GC pause (G1 Humongous Allocation) (young) 245M->245M(256M), 0.0014662 secs]
-2015-03-13T14:26:57.011+0100: 1.898: Total time for which application threads were stopped: 0.0016299 seconds
-2015-03-13T14:26:57.011+0100: 1.898: [Full GC (Allocation Failure)  245M->280K(256M), 0.0048980 secs]
-2015-03-13T14:26:57.016+0100: 1.903: Total time for which application threads were stopped: 0.0051610 seconds
-2015-03-13T14:26:57.017+0100: 1.904: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.037+0100: 1.924: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 124M->124M(256M), 0.0019940 secs]
-2015-03-13T14:26:57.039+0100: 1.926: Total time for which application threads were stopped: 0.0022130 seconds
-2015-03-13T14:26:57.039+0100: 1.926: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.039+0100: 1.926: [GC concurrent-root-region-scan-end, 0.0001139 secs]
-2015-03-13T14:26:57.039+0100: 1.926: [GC concurrent-mark-start]
-2015-03-13T14:26:57.041+0100: 1.928: [GC concurrent-mark-end, 0.0016314 secs]
-2015-03-13T14:26:57.060+0100: 1.947: [GC remark, 0.0017487 secs]
-2015-03-13T14:26:57.062+0100: 1.949: Total time for which application threads were stopped: 0.0209014 seconds
-2015-03-13T14:26:57.062+0100: 1.949: [GC pause (G1 Humongous Allocation) (young) 249M->249M(256M), 0.0012761 secs]
-2015-03-13T14:26:57.064+0100: 1.951: Total time for which application threads were stopped: 0.0014872 seconds
-2015-03-13T14:26:57.064+0100: 1.951: [Full GC (Allocation Failure)  249M->280K(256M), 0.0050060 secs]
-2015-03-13T14:26:57.069+0100: 1.956: Total time for which application threads were stopped: 0.0052577 seconds
-2015-03-13T14:26:57.091+0100: 1.978: [GC cleanup, 0.0000547 secs]
-2015-03-13T14:26:57.091+0100: 1.978: Total time for which application threads were stopped: 0.0213613 seconds
-2015-03-13T14:26:57.091+0100: 1.978: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.091+0100: 1.978: [GC pause (G1 Humongous Allocation) (young) 126M->126M(256M), 0.0017017 secs]
-2015-03-13T14:26:57.093+0100: 1.980: Total time for which application threads were stopped: 0.0019539 seconds
-2015-03-13T14:26:57.093+0100: 1.980: [Full GC (Allocation Failure)  126M->280K(256M), 0.0047802 secs]
-2015-03-13T14:26:57.098+0100: 1.985: Total time for which application threads were stopped: 0.0050270 seconds
-2015-03-13T14:26:57.120+0100: 2.008: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 127M->127M(256M), 0.0019896 secs]
-2015-03-13T14:26:57.123+0100: 2.010: Total time for which application threads were stopped: 0.0022007 seconds
-2015-03-13T14:26:57.123+0100: 2.010: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.123+0100: 2.010: [GC concurrent-root-region-scan-end, 0.0001119 secs]
-2015-03-13T14:26:57.123+0100: 2.010: [GC concurrent-mark-start]
-2015-03-13T14:26:57.123+0100: 2.010: [GC pause (G1 Humongous Allocation) (young) 127M->127M(256M), 0.0013958 secs]
-2015-03-13T14:26:57.124+0100: 2.011: Total time for which application threads were stopped: 0.0015874 seconds
-2015-03-13T14:26:57.124+0100: 2.012: [Full GC (Allocation Failure)  127M->280K(256M), 0.0045285 secs]
-2015-03-13T14:26:57.129+0100: 2.016: Total time for which application threads were stopped: 0.0047695 seconds
-2015-03-13T14:26:57.129+0100: 2.016: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.152+0100: 2.038: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 128M->128M(256M), 0.0019745 secs]
-2015-03-13T14:26:57.154+0100: 2.040: Total time for which application threads were stopped: 0.0022310 seconds
-2015-03-13T14:26:57.154+0100: 2.040: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.154+0100: 2.040: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.154+0100: 2.040: [GC concurrent-root-region-scan-end, 0.0001769 secs]
-2015-03-13T14:26:57.154+0100: 2.040: [GC concurrent-mark-start]
- 128M->128M(256M), 0.0016177 secs]
-2015-03-13T14:26:57.156+0100: 2.042: Total time for which application threads were stopped: 0.0017966 seconds
-2015-03-13T14:26:57.156+0100: 2.042: [Full GC (Allocation Failure)  128M->280K(256M), 0.0046874 secs]
-2015-03-13T14:26:57.161+0100: 2.047: Total time for which application threads were stopped: 0.0049317 seconds
-2015-03-13T14:26:57.161+0100: 2.047: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.182+0100: 2.069: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 129M->129M(256M), 0.0020571 secs]
-2015-03-13T14:26:57.185+0100: 2.071: Total time for which application threads were stopped: 0.0022652 seconds
-2015-03-13T14:26:57.185+0100: 2.071: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.185+0100: 2.071: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.185+0100: 2.071: [GC concurrent-root-region-scan-end, 0.0001740 secs]
-2015-03-13T14:26:57.185+0100: 2.071: [GC concurrent-mark-start]
- 129M->129M(256M), 0.0012712 secs]
-2015-03-13T14:26:57.186+0100: 2.072: Total time for which application threads were stopped: 0.0014393 seconds
-2015-03-13T14:26:57.186+0100: 2.072: [Full GC (Allocation Failure)  129M->280K(256M), 0.0048252 secs]
-2015-03-13T14:26:57.191+0100: 2.077: Total time for which application threads were stopped: 0.0050681 seconds
-2015-03-13T14:26:57.191+0100: 2.078: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.213+0100: 2.100: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 130M->130M(256M), 0.0018708 secs]
-2015-03-13T14:26:57.215+0100: 2.102: Total time for which application threads were stopped: 0.0020795 seconds
-2015-03-13T14:26:57.215+0100: 2.102: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.216+0100: 2.102: [GC concurrent-root-region-scan-end, 0.0000738 secs]
-2015-03-13T14:26:57.216+0100: 2.102: [GC concurrent-mark-start]
-2015-03-13T14:26:57.216+0100: 2.102: [GC pause (G1 Humongous Allocation) (young) 130M->130M(256M), 0.0012790 secs]
-2015-03-13T14:26:57.217+0100: 2.103: Total time for which application threads were stopped: 0.0014584 seconds
-2015-03-13T14:26:57.217+0100: 2.103: [Full GC (Allocation Failure)  130M->280K(256M), 0.0046439 secs]
-2015-03-13T14:26:57.222+0100: 2.108: Total time for which application threads were stopped: 0.0048853 seconds
-2015-03-13T14:26:57.222+0100: 2.108: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.244+0100: 2.130: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 131M->131M(256M), 0.0015366 secs]
-2015-03-13T14:26:57.246+01002015-03-13T14:26:57.246+0100: : 2.132: 2.132: [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0017936 seconds
-2015-03-13T14:26:57.246+0100: 2.132: 2015-03-13T14:26:57.246+0100: [GC pause (G1 Humongous Allocation) (young)2.132: [GC concurrent-root-region-scan-end, 0.0001691 secs]
-2015-03-13T14:26:57.246+0100: 2.132: [GC concurrent-mark-start]
- 131M->131M(256M), 0.0014339 secs]
-2015-03-13T14:26:57.247+0100: 2.134: Total time for which application threads were stopped: 0.0016060 seconds
-2015-03-13T14:26:57.248+0100: 2.134: [Full GC (Allocation Failure)  131M->280K(256M), 0.0048775 secs]
-2015-03-13T14:26:57.253+0100: 2.139: Total time for which application threads were stopped: 0.0051536 seconds
-2015-03-13T14:26:57.253+0100: 2.139: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.275+0100: 2.161: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 132M->132M(256M), 0.0016886 secs]
-2015-03-13T14:26:57.277+0100: 2.163: Total time for which application threads were stopped: 0.0019051 seconds
-2015-03-13T14:26:57.277+0100: 2.163: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.277+0100: 2.163: [GC concurrent-root-region-scan-end, 0.0001197 secs]
-2015-03-13T14:26:57.277+0100: 2015-03-13T14:26:57.277+0100: 2.163: [GC concurrent-mark-start]
-2.163: [GC pause (G1 Humongous Allocation) (young) 132M->132M(256M), 0.0014872 secs]
-2015-03-13T14:26:57.278+0100: 2.165: Total time for which application threads were stopped: 0.0016778 seconds
-2015-03-13T14:26:57.279+0100: 2.165: [Full GC (Allocation Failure)  132M->280K(256M), 0.0047255 secs]
-2015-03-13T14:26:57.283+0100: 2.170: Total time for which application threads were stopped: 0.0049713 seconds
-2015-03-13T14:26:57.284+0100: 2.170: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.306+0100: 2.192: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 133M->133M(256M), 0.0017907 secs]
-2015-03-13T14:26:57.308+0100: 2015-03-13T14:26:57.308+0100: 2.194: 2.194: [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0020184 seconds
-2015-03-13T14:26:57.308+0100: 2.194: 2015-03-13T14:26:57.308+0100: [GC pause (G1 Humongous Allocation) (young)2.194: [GC concurrent-root-region-scan-end, 0.0001784 secs]
-2015-03-13T14:26:57.308+0100: 2.194: [GC concurrent-mark-start]
- 133M->133M(256M), 0.0014637 secs]
-2015-03-13T14:26:57.309+0100: 2.196: Total time for which application threads were stopped: 0.0016348 seconds
-2015-03-13T14:26:57.310+0100: 2.196: [Full GC (Allocation Failure)  133M->280K(256M), 0.0047538 secs]
-2015-03-13T14:26:57.315+0100: 2.201: Total time for which application threads were stopped: 0.0049928 seconds
-2015-03-13T14:26:57.315+0100: 2.201: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.337+0100: 2.223: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 134M->134M(256M), 0.0019984 secs]
-2015-03-13T14:26:57.339+0100: 2.225: Total time for which application threads were stopped: 0.0022149 seconds
-2015-03-13T14:26:57.339+0100: 2.225: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.339+0100: 2.225: [GC concurrent-root-region-scan-end, 0.0000811 secs]
-2015-03-13T14:26:57.339+0100: 2.225: [GC concurrent-mark-start]
-2015-03-13T14:26:57.339+0100: 2.225: [GC pause (G1 Humongous Allocation) (young) 134M->134M(256M), 0.0012946 secs]
-2015-03-13T14:26:57.340+0100: 2.226: Total time for which application threads were stopped: 0.0014711 seconds
-2015-03-13T14:26:57.340+0100: 2.227: [Full GC (Allocation Failure)  134M->280K(256M), 0.0046703 secs]
-2015-03-13T14:26:57.345+0100: 2.231: Total time for which application threads were stopped: 0.0049093 seconds
-2015-03-13T14:26:57.345+0100: 2.232: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.368+0100: 2.254: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 135M->135M(256M), 0.0019671 secs]
-2015-03-13T14:26:57.370+0100: 2.256: Total time for which application threads were stopped: 0.0021875 seconds
-2015-03-13T14:26:57.370+0100: 2.256: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.370+0100: 2015-03-13T14:26:57.370+01002.256: : 2.256[GC concurrent-root-region-scan-end, 0.0001583 secs]
-: 2015-03-13T14:26:57.370+0100: [GC pause (G1 Humongous Allocation) (young)2.256: [GC concurrent-mark-start]
- 135M->135M(256M), 0.0011798 secs]
-2015-03-13T14:26:57.371+0100: 2.257: Total time for which application threads were stopped: 0.0013474 seconds
-2015-03-13T14:26:57.371+0100: 2.257: [Full GC (Allocation Failure)  135M->280K(256M), 0.0043902 secs]
-2015-03-13T14:26:57.376+0100: 2.262: Total time for which application threads were stopped: 0.0046351 seconds
-2015-03-13T14:26:57.376+0100: 2.262: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.398+0100: 2.285: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 136M->136M(256M), 0.0017858 secs]
-2015-03-13T14:26:57.400+0100: 2.287: Total time for which application threads were stopped: 0.0020224 seconds
-2015-03-13T14:26:57.400+0100: 2.287: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.400+0100: 2.287: [GC concurrent-root-region-scan-end, 0.0000850 secs]
-2015-03-13T14:26:57.400+0100: 2.287: [GC concurrent-mark-start]
-2015-03-13T14:26:57.400+0100: 2.287: [GC pause (G1 Humongous Allocation) (young) 136M->136M(256M), 0.0014906 secs]
-2015-03-13T14:26:57.402+0100: 2.288: Total time for which application threads were stopped: 0.0016876 seconds
-2015-03-13T14:26:57.402+0100: 2.289: [Full GC (Allocation Failure)  136M->280K(256M), 0.0046018 secs]
-2015-03-13T14:26:57.407+0100: 2.293: Total time for which application threads were stopped: 0.0048467 seconds
-2015-03-13T14:26:57.407+0100: 2.293: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.430+0100: 2.316: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 137M->137M(256M), 0.0017008 secs]
-2015-03-13T14:26:57.431+0100: 2.318: Total time for which application threads were stopped: 0.0019236 seconds
-2015-03-13T14:26:57.431+0100: 2.318: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.432+0100: 2.318: [GC concurrent-root-region-scan-end, 0.0001491 secs]
-2015-03-13T14:26:57.432+0100: 2.318: [GC concurrent-mark-start]
-2015-03-13T14:26:57.432+0100: 2.318: [GC pause (G1 Humongous Allocation) (young) 137M->137M(256M), 0.0015151 secs]
-2015-03-13T14:26:57.433+0100: 2.320: Total time for which application threads were stopped: 0.0017003 seconds
-2015-03-13T14:26:57.433+0100: 2.320: [Full GC (Allocation Failure)  137M->280K(256M), 0.0045310 secs]
-2015-03-13T14:26:57.438+0100: 2.324: Total time for which application threads were stopped: 0.0047773 seconds
-2015-03-13T14:26:57.438+0100: 2.325: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.461+0100: 2.347: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 138M->138M(256M), 0.0016568 secs]
-2015-03-13T14:26:57.463+0100: 2.349: Total time for which application threads were stopped: 0.0018738 seconds
-2015-03-13T14:26:57.463+0100: 2.349: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.463+0100: 2.349: [GC concurrent-root-region-scan-end, 0.0000850 secs]
-2015-03-13T14:26:57.463+0100: 2.349: [GC concurrent-mark-start]
-2015-03-13T14:26:57.463+0100: 2.349: [GC pause (G1 Humongous Allocation) (young) 138M->138M(256M), 0.0016631 secs]
-2015-03-13T14:26:57.465+0100: 2.351: Total time for which application threads were stopped: 0.0018381 seconds
-2015-03-13T14:26:57.465+0100: 2.351: [Full GC (Allocation Failure)  138M->280K(256M), 0.0048100 secs]
-2015-03-13T14:26:57.470+0100: 2.356: Total time for which application threads were stopped: 0.0050769 seconds
-2015-03-13T14:26:57.470+0100: 2.356: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.493+0100: 2.379: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 139M->139M(256M), 0.0018102 secs]
-2015-03-13T14:26:57.494+0100: 2.381: Total time for which application threads were stopped: 0.0020429 seconds
-2015-03-13T14:26:57.494+0100: 2.381: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.495+0100: 2.381: [GC concurrent-root-region-scan-end, 0.0000845 secs]
-2015-03-13T14:26:57.495+0100: 2.381: [GC concurrent-mark-start]
-2015-03-13T14:26:57.495+0100: 2.381: [GC pause (G1 Humongous Allocation) (young) 139M->139M(256M), 0.0014036 secs]
-2015-03-13T14:26:57.496+0100: 2.383: Total time for which application threads were stopped: 0.0015654 seconds
-2015-03-13T14:26:57.496+0100: 2.383: [Full GC (Allocation Failure)  139M->280K(256M), 0.0045246 secs]
-2015-03-13T14:26:57.501+0100: 2.387: Total time for which application threads were stopped: 0.0047709 seconds
-2015-03-13T14:26:57.501+0100: 2.387: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.525+0100: 2.411: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 140M->140M(256M), 0.0019036 secs]
-2015-03-13T14:26:57.527+0100: 2.413: 2015-03-13T14:26:57.527+0100: Total time for which application threads were stopped: 0.0021568 seconds
-2.413: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.527+0100: 2015-03-13T14:26:57.527+0100: 2.413: 2.413: [GC pause (G1 Humongous Allocation) (young)[GC concurrent-root-region-scan-end, 0.0001496 secs]
-2015-03-13T14:26:57.527+0100: 2.413: [GC concurrent-mark-start]
- 140M->140M(256M), 0.0014383 secs]
-2015-03-13T14:26:57.528+0100: 2.415: Total time for which application threads were stopped: 0.0016113 seconds
-2015-03-13T14:26:57.529+0100: 2.415: [Full GC (Allocation Failure)  140M->280K(256M), 0.0045818 secs]
-2015-03-13T14:26:57.533+0100: 2.420: Total time for which application threads were stopped: 0.0048462 seconds
-2015-03-13T14:26:57.533+0100: 2.420: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.556+0100: 2.443: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 141M->141M(256M), 0.0018273 secs]
-2015-03-13T14:26:57.558+0100: 2.445: Total time for which application threads were stopped: 0.0020395 seconds
-2015-03-13T14:26:57.558+0100: 2.445: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.558+0100: 2.445: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.558+0100: 2.445: [GC concurrent-root-region-scan-end, 0.0001759 secs]
-2015-03-13T14:26:57.558+0100: 2.445: [GC concurrent-mark-start]
- 141M->141M(256M), 0.0013083 secs]
-2015-03-13T14:26:57.560+0100: 2.446: Total time for which application threads were stopped: 0.0014755 seconds
-2015-03-13T14:26:57.560+0100: 2.446: [Full GC (Allocation Failure)  141M->280K(256M), 0.0045960 secs]
-2015-03-13T14:26:57.565+0100: 2.451: Total time for which application threads were stopped: 0.0048433 seconds
-2015-03-13T14:26:57.565+0100: 2.451: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.588+0100: 2.475: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 142M->142M(256M), 0.0017374 secs]
-2015-03-13T14:26:57.590+0100: 2.476: Total time for which application threads were stopped: 0.0019520 seconds
-2015-03-13T14:26:57.590+0100: 2.476: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.590+0100: 2.477: [GC concurrent-root-region-scan-end, 0.0001334 secs]
-2015-03-13T14:26:57.590+0100: 2015-03-13T14:26:57.590+01002.477: : [GC concurrent-mark-start]
-2.477: [GC pause (G1 Humongous Allocation) (young) 142M->142M(256M), 0.0015634 secs]
-2015-03-13T14:26:57.592+0100: 2.478: Total time for which application threads were stopped: 0.0017330 seconds
-2015-03-13T14:26:57.592+0100: 2.478: [Full GC (Allocation Failure)  142M->280K(256M), 0.0045554 secs]
-2015-03-13T14:26:57.597+0100: 2.483: Total time for which application threads were stopped: 0.0047998 seconds
-2015-03-13T14:26:57.597+0100: 2.483: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.620+0100: 2.507: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 143M->143M(256M), 0.0014779 secs]
-2015-03-13T14:26:57.622+0100: 2.508: Total time for which application threads were stopped: 0.0016881 seconds
-2015-03-13T14:26:57.622+0100: 2.508: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.622+0100: 2.508: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.622+0100: 2.508: [GC concurrent-root-region-scan-end, 0.0002048 secs]
-2015-03-13T14:26:57.622+0100: 2.508: [GC concurrent-mark-start]
- 143M->143M(256M), 0.0013357 secs]
-2015-03-13T14:26:57.623+0100: 2.510: Total time for which application threads were stopped: 0.0015067 seconds
-2015-03-13T14:26:57.624+0100: 2.510: [Full GC (Allocation Failure)  143M->280K(256M), 0.0047778 secs]
-2015-03-13T14:26:57.628+0100: 2.515: Total time for which application threads were stopped: 0.0050256 seconds
-2015-03-13T14:26:57.629+0100: 2.515: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.652+0100: 2.539: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 144M->144M(256M), 0.0020683 secs]
-2015-03-13T14:26:57.654+0100: 2.541: Total time for which application threads were stopped: 0.0022775 seconds
-2015-03-13T14:26:57.654+0100: 2.541: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.654+0100: 2.541: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.654+0100: 2.541: [GC concurrent-root-region-scan-end, 0.0001867 secs]
-2015-03-13T14:26:57.655+0100: 2.541: [GC concurrent-mark-start]
- 144M->144M(256M), 0.0013792 secs]
-2015-03-13T14:26:57.656+0100: 2.543: Total time for which application threads were stopped: 0.0016719 seconds
-2015-03-13T14:26:57.656+0100: 2.543: [Full GC (Allocation Failure)  144M->280K(256M), 0.0044161 secs]
-2015-03-13T14:26:57.661+0100: 2.547: Total time for which application threads were stopped: 0.0046458 seconds
-2015-03-13T14:26:57.661+0100: 2.547: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.684+0100: 2.571: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 145M->145M(256M), 0.0017369 secs]
-2015-03-13T14:26:57.686+0100: 2.573: Total time for which application threads were stopped: 0.0019442 seconds
-2015-03-13T14:26:57.686+0100: 2.573: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.686+0100: 2.573: [GC concurrent-root-region-scan-end, 0.0000865 secs]
-2015-03-13T14:26:57.686+0100: 2.573: [GC concurrent-mark-start]
-2015-03-13T14:26:57.686+0100: 2.573: [GC pause (G1 Humongous Allocation) (young) 145M->145M(256M), 0.0016441 secs]
-2015-03-13T14:26:57.688+0100: 2.575: Total time for which application threads were stopped: 0.0018132 seconds
-2015-03-13T14:26:57.688+0100: 2.575: [Full GC (Allocation Failure)  145M->280K(256M), 0.0045324 secs]
-2015-03-13T14:26:57.693+0100: 2.579: Total time for which application threads were stopped: 0.0047788 seconds
-2015-03-13T14:26:57.693+0100: 2.580: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.719+0100: 2.606: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 146M->146M(256M), 0.0017692 secs]
-2015-03-13T14:26:57.721+0100: 2.608: Total time for which application threads were stopped: 0.0019881 seconds
-2015-03-13T14:26:57.721+0100: 2.608: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.721+0100: 2.608: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.721+0100: 2.608: [GC concurrent-root-region-scan-end, 0.0001842 secs]
-2015-03-13T14:26:57.721+0100: 2.608: [GC concurrent-mark-start]
- 146M->146M(256M), 0.0018449 secs]
-2015-03-13T14:26:57.723+0100: 2.610: Total time for which application threads were stopped: 0.0020096 seconds
-2015-03-13T14:26:57.723+0100: 2.610: [Full GC (Allocation Failure)  146M->280K(256M), 0.0043194 secs]
-2015-03-13T14:26:57.728+0100: 2.614: Total time for which application threads were stopped: 0.0045613 seconds
-2015-03-13T14:26:57.728+0100: 2.614: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.752+0100: 2.639: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 147M->147M(256M), 0.0020409 secs]
-2015-03-13T14:26:57.754+0100: 2.641: Total time for which application threads were stopped: 0.0022579 seconds
-2015-03-13T14:26:57.754+0100: 2.641: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.754+0100: 2.641: [GC concurrent-root-region-scan-end, 0.0001031 secs]
-2015-03-13T14:26:57.754+0100: 2.641: [GC concurrent-mark-start]
-2015-03-13T14:26:57.754+0100: 2.641: [GC pause (G1 Humongous Allocation) (young) 147M->147M(256M), 0.0013000 secs]
-2015-03-13T14:26:57.756+0100: 2.642: Total time for which application threads were stopped: 0.0014667 seconds
-2015-03-13T14:26:57.756+0100: 2.642: [Full GC (Allocation Failure)  147M->280K(256M), 0.0045442 secs]
-2015-03-13T14:26:57.761+0100: 2.647: Total time for which application threads were stopped: 0.0047998 seconds
-2015-03-13T14:26:57.761+0100: 2.647: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.785+0100: 2.672: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 148M->148M(256M), 0.0013675 secs]
-2015-03-13T14:26:57.787+01002015-03-13T14:26:57.787+0100: : 2.6732.673: : [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0015923 seconds
-2015-03-13T14:26:57.787+0100: 2.673: [GC concurrent-root-region-scan-end, 0.0000635 secs]
-2015-03-13T14:26:57.787+0100: 2.673: [GC concurrent-mark-start]
-2015-03-13T14:26:57.787+0100: 2.673: [GC pause (G1 Humongous Allocation) (young) 148M->148M(256M), 0.0017619 secs]
-2015-03-13T14:26:57.789+0100: 2.675: Total time for which application threads were stopped: 0.0019368 seconds
-2015-03-13T14:26:57.789+0100: 2.675: [Full GC (Allocation Failure)  148M->280K(256M), 0.0045984 secs]
-2015-03-13T14:26:57.794+0100: 2.680: Total time for which application threads were stopped: 0.0048829 seconds
-2015-03-13T14:26:57.794+0100: 2.680: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.818+0100: 2.705: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 149M->149M(256M), 0.0018019 secs]
-2015-03-13T14:26:57.820+0100: 2.707: Total time for which application threads were stopped: 0.0020219 seconds
-2015-03-13T14:26:57.820+0100: 2.707: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.820+0100: 2.707: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.820+0100: 2.707: [GC concurrent-root-region-scan-end, 0.0001901 secs]
-2015-03-13T14:26:57.820+0100: 2.707: [GC concurrent-mark-start]
- 149M->149M(256M), 0.0013914 secs]
-2015-03-13T14:26:57.822+0100: 2.708: Total time for which application threads were stopped: 0.0015659 seconds
-2015-03-13T14:26:57.822+0100: 2.709: [Full GC (Allocation Failure)  149M->280K(256M), 0.0043458 secs]
-2015-03-13T14:26:57.827+0100: 2.713: Total time for which application threads were stopped: 0.0045989 seconds
-2015-03-13T14:26:57.827+0100: 2.713: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.851+0100: 2.738: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 150M->150M(256M), 0.0014198 secs]
-2015-03-13T14:26:57.853+0100: 2.740: Total time for which application threads were stopped: 0.0016363 seconds
-2015-03-13T14:26:57.853+0100: 2.740: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.853+0100: 2.740: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.853+0100: 2.740: [GC concurrent-root-region-scan-end, 0.0002018 secs]
-2015-03-13T14:26:57.853+0100: 2.740: [GC concurrent-mark-start]
- 150M->150M(256M), 0.0015185 secs]
-2015-03-13T14:26:57.855+0100: 2.741: Total time for which application threads were stopped: 0.0016964 seconds
-2015-03-13T14:26:57.855+0100: 2.742: [Full GC (Allocation Failure)  150M->280K(256M), 0.0044894 secs]
-2015-03-13T14:26:57.860+0100: 2.746: Total time for which application threads were stopped: 0.0047534 seconds
-2015-03-13T14:26:57.860+0100: 2.746: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.884+0100: 2.771: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 151M->151M(256M), 0.0014945 secs]
-2015-03-13T14:26:57.886+0100: 2.772: Total time for which application threads were stopped: 0.0017135 seconds
-2015-03-13T14:26:57.886+0100: 2.773: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.886+0100: 2.773: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.886+0100: 2.773: [GC concurrent-root-region-scan-end, 0.0001960 secs]
-2015-03-13T14:26:57.886+0100: 2.773: [GC concurrent-mark-start]
- 151M->151M(256M), 0.0017262 secs]
-2015-03-13T14:26:57.888+0100: 2.774: Total time for which application threads were stopped: 0.0019002 seconds
-2015-03-13T14:26:57.888+0100: 2.775: [Full GC (Allocation Failure)  151M->280K(256M), 0.0043379 secs]
-2015-03-13T14:26:57.893+0100: 2.779: Total time for which application threads were stopped: 0.0046058 seconds
-2015-03-13T14:26:57.893+0100: 2.779: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.917+0100: 2.804: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 152M->152M(256M), 0.0016925 secs]
-2015-03-13T14:26:57.919+0100: 2.806: Total time for which application threads were stopped: 0.0019055 seconds
-2015-03-13T14:26:57.919+0100: 2.806: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.919+0100: 2.806: [GC concurrent-root-region-scan-end, 0.0000845 secs]
-2015-03-13T14:26:57.919+0100: 2.806: [GC concurrent-mark-start]
-2015-03-13T14:26:57.919+0100: 2.806: [GC pause (G1 Humongous Allocation) (young) 152M->152M(256M), 0.0015361 secs]
-2015-03-13T14:26:57.921+0100: 2.808: Total time for which application threads were stopped: 0.0017061 seconds
-2015-03-13T14:26:57.921+0100: 2.808: [Full GC (Allocation Failure)  152M->280K(256M), 0.0043374 secs]
-2015-03-13T14:26:57.926+0100: 2.812: Total time for which application threads were stopped: 0.0045862 seconds
-2015-03-13T14:26:57.926+0100: 2.813: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.950+0100: 2.837: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 153M->153M(256M), 0.0017179 secs]
-2015-03-13T14:26:57.952+0100: 2.839: Total time for which application threads were stopped: 0.0019349 seconds
-2015-03-13T14:26:57.952+0100: 2.839: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.952+0100: 2.839: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:57.952+0100: 2.839: [GC concurrent-root-region-scan-end, 0.0001735 secs]
-2015-03-13T14:26:57.953+0100: 2.839: [GC concurrent-mark-start]
- 153M->153M(256M), 0.0012453 secs]
-2015-03-13T14:26:57.954+0100: 2.841: Total time for which application threads were stopped: 0.0014168 seconds
-2015-03-13T14:26:57.954+0100: 2.841: [Full GC (Allocation Failure)  153M->280K(256M), 0.0044684 secs]
-2015-03-13T14:26:57.959+0100: 2.845: Total time for which application threads were stopped: 0.0047182 seconds
-2015-03-13T14:26:57.959+0100: 2.845: [GC concurrent-mark-abort]
-2015-03-13T14:26:57.984+0100: 2.871: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 154M->154M(256M), 0.0018391 secs]
-2015-03-13T14:26:57.986+0100: 2.873: Total time for which application threads were stopped: 0.0020649 seconds
-2015-03-13T14:26:57.986+0100: 2.873: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:57.986+0100: 2.873: [GC concurrent-root-region-scan-end, 0.0000826 secs]
-2015-03-13T14:26:57.986+0100: 2.873: [GC concurrent-mark-start]
-2015-03-13T14:26:57.986+0100: 2.873: [GC pause (G1 Humongous Allocation) (young) 154M->154M(256M), 0.0017149 secs]
-2015-03-13T14:26:57.988+0100: 2.875: Total time for which application threads were stopped: 0.0018767 seconds
-2015-03-13T14:26:57.988+0100: 2.875: [Full GC (Allocation Failure)  154M->280K(256M), 0.0046243 secs]
-2015-03-13T14:26:57.993+0100: 2.880: Total time for which application threads were stopped: 0.0048858 seconds
-2015-03-13T14:26:57.993+0100: 2.880: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.019+0100: 2.905: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 155M->155M(256M), 0.0017809 secs]
-2015-03-13T14:26:58.020+0100: 2.907: Total time for which application threads were stopped: 0.0020048 seconds
-2015-03-13T14:26:58.020+0100: 2.907: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.021+0100: 2.907: [GC concurrent-root-region-scan-end, 0.0000929 secs]
-2015-03-13T14:26:58.021+0100: 2.907: [GC concurrent-mark-start]
-2015-03-13T14:26:58.021+0100: 2.907: [GC pause (G1 Humongous Allocation) (young) 155M->155M(256M), 0.0014051 secs]
-2015-03-13T14:26:58.022+0100: 2.909: Total time for which application threads were stopped: 0.0015781 seconds
-2015-03-13T14:26:58.022+0100: 2.909: [Full GC (Allocation Failure)  155M->280K(256M), 0.0044332 secs]
-2015-03-13T14:26:58.027+0100: 2.914: Total time for which application threads were stopped: 0.0046840 seconds
-2015-03-13T14:26:58.027+0100: 2.914: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.052+0100: 2.939: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 156M->156M(256M), 0.0017809 secs]
-2015-03-13T14:26:58.054+0100: 2.941: Total time for which application threads were stopped: 0.0020018 seconds
-2015-03-13T14:26:58.054+0100: 2.941: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.054+0100: 2.941: [GC concurrent-root-region-scan-end, 0.0000973 secs]
-2015-03-13T14:26:58.054+0100: 2.941: [GC concurrent-mark-start]
-2015-03-13T14:26:58.054+0100: 2.941: [GC pause (G1 Humongous Allocation) (young) 156M->156M(256M), 0.0014466 secs]
-2015-03-13T14:26:58.056+0100: 2.943: Total time for which application threads were stopped: 0.0016187 seconds
-2015-03-13T14:26:58.056+0100: 2.943: [Full GC (Allocation Failure)  156M->280K(256M), 0.0048208 secs]
-2015-03-13T14:26:58.061+0100: 2.948: Total time for which application threads were stopped: 0.0050891 seconds
-2015-03-13T14:26:58.061+0100: 2.948: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.087+0100: 2.974: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 157M->157M(256M), 0.0016299 secs]
-2015-03-13T14:26:58.089+0100: 2.975: Total time for which application threads were stopped: 0.0018650 seconds
-2015-03-13T14:26:58.089+0100: 2.975: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.089+0100: 2.976: [GC concurrent-root-region-scan-end, 0.0000914 secs]
-2015-03-13T14:26:58.089+0100: 2.976: [GC concurrent-mark-start]
-2015-03-13T14:26:58.089+0100: 2.976: [GC pause (G1 Humongous Allocation) (young) 157M->157M(256M), 0.0013572 secs]
-2015-03-13T14:26:58.090+0100: 2.977: Total time for which application threads were stopped: 0.0015292 seconds
-2015-03-13T14:26:58.090+0100: 2.977: [Full GC (Allocation Failure)  157M->280K(256M), 0.0050300 secs]
-2015-03-13T14:26:58.096+0100: 2.982: Total time for which application threads were stopped: 0.0053012 seconds
-2015-03-13T14:26:58.096+0100: 2.983: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.122+0100: 3.009: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 158M->158M(256M), 0.0018459 secs]
-2015-03-13T14:26:58.124+0100: 3.011: Total time for which application threads were stopped: 0.0020619 seconds
-2015-03-13T14:26:58.124+0100: 3.011: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.124+0100: 3.0112015-03-13T14:26:58.124+0100: : 3.011: [GC concurrent-root-region-scan-end, 0.0001168 secs]
-[GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.124+0100: 3.011: [GC concurrent-mark-start]
- 158M->158M(256M), 0.0014476 secs]
-2015-03-13T14:26:58.125+0100: 3.012: Total time for which application threads were stopped: 0.0016128 seconds
-2015-03-13T14:26:58.126+0100: 3.012: [Full GC (Allocation Failure)  158M->280K(256M), 0.0044420 secs]
-2015-03-13T14:26:58.130+0100: 3.017: Total time for which application threads were stopped: 0.0046947 seconds
-2015-03-13T14:26:58.130+0100: 3.017: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.157+0100: 3.044: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 159M->159M(256M), 0.0015028 secs]
-2015-03-13T14:26:58.159+0100: 3.045: 2015-03-13T14:26:58.159+0100: Total time for which application threads were stopped: 0.0017228 seconds
-3.045: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.159+0100: 3.046: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.159+0100: 3.046: [GC concurrent-root-region-scan-end, 0.0001725 secs]
-2015-03-13T14:26:58.159+0100: 3.046: [GC concurrent-mark-start]
- 159M->159M(256M), 0.0015781 secs]
-2015-03-13T14:26:58.160+0100: 3.047: Total time for which application threads were stopped: 0.0017262 seconds
-2015-03-13T14:26:58.160+0100: 3.047: [Full GC (Allocation Failure)  159M->280K(256M), 0.0047099 secs]
-2015-03-13T14:26:58.165+0100: 3.052: Total time for which application threads were stopped: 0.0049479 seconds
-2015-03-13T14:26:58.166+0100: 3.052: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.192+0100: 3.079: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 160M->160M(256M), 0.0018777 secs]
-2015-03-13T14:26:58.194+0100: 3.081: Total time for which application threads were stopped: 0.0020878 seconds
-2015-03-13T14:26:58.194+0100: 3.081: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.194+0100: 3.081: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.194+0100: 3.081: [GC concurrent-root-region-scan-end, 0.0001305 secs]
-2015-03-13T14:26:58.194+0100: 3.081: [GC concurrent-mark-start]
- 160M->160M(256M), 0.0009564 secs]
-2015-03-13T14:26:58.195+0100: 3.082: Total time for which application threads were stopped: 0.0010928 seconds
-2015-03-13T14:26:58.195+0100: 3.082: [Full GC (Allocation Failure)  160M->280K(256M), 0.0043526 secs]
-2015-03-13T14:26:58.200+0100: 3.087: Total time for which application threads were stopped: 0.0045857 seconds
-2015-03-13T14:26:58.200+0100: 3.087: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.226+0100: 3.113: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 161M->161M(256M), 0.0019051 secs]
-2015-03-13T14:26:58.228+0100: 3.115: Total time for which application threads were stopped: 0.0021260 seconds
-2015-03-13T14:26:58.228+0100: 3.115: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.229+0100: 3.116: [GC concurrent-root-region-scan-end, 0.0001012 secs]
-2015-03-13T14:26:58.229+0100: 3.116: [GC concurrent-mark-start]
-2015-03-13T14:26:58.229+0100: 3.116: [GC pause (G1 Humongous Allocation) (young) 161M->161M(256M), 0.0014334 secs]
-2015-03-13T14:26:58.230+0100: 3.117: Total time for which application threads were stopped: 0.0016060 seconds
-2015-03-13T14:26:58.230+0100: 3.117: [Full GC (Allocation Failure)  161M->280K(256M), 0.0043736 secs]
-2015-03-13T14:26:58.235+0100: 3.122: Total time for which application threads were stopped: 0.0046190 seconds
-2015-03-13T14:26:58.235+0100: 3.122: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.262+0100: 3.149: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 162M->162M(256M), 0.0021269 secs]
-2015-03-13T14:26:58.264+0100: 3.151: Total time for which application threads were stopped: 0.0023381 seconds
-2015-03-13T14:26:58.264+0100: 3.151: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.264+0100: 2015-03-13T14:26:58.264+0100: 3.151: 3.151: [GC concurrent-root-region-scan-end, 0.0001569 secs]
-[GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.264+0100: 3.151: [GC concurrent-mark-start]
- 162M->162M(256M), 0.0012687 secs]
-2015-03-13T14:26:58.266+0100: 3.153: Total time for which application threads were stopped: 0.0014398 seconds
-2015-03-13T14:26:58.266+0100: 3.153: [Full GC (Allocation Failure)  162M->280K(256M), 0.0046116 secs]
-2015-03-13T14:26:58.270+0100: 3.157: Total time for which application threads were stopped: 0.0048648 seconds
-2015-03-13T14:26:58.271+0100: 3.158: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.297+0100: 3.184: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 163M->163M(256M), 0.0018547 secs]
-2015-03-13T14:26:58.299+0100: 3.186: Total time for which application threads were stopped: 0.0020624 seconds
-2015-03-13T14:26:58.299+0100: 3.186: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.299+0100: 3.186: [GC concurrent-root-region-scan-end, 0.0001227 secs]
-2015-03-13T14:26:58.299+0100: 3.186: [GC concurrent-mark-start]
-2015-03-13T14:26:58.299+0100: 3.186: [GC pause (G1 Humongous Allocation) (young) 163M->163M(256M), 0.0011984 secs]
-2015-03-13T14:26:58.301+0100: 3.188: Total time for which application threads were stopped: 0.0013675 seconds
-2015-03-13T14:26:58.301+0100: 3.188: [Full GC (Allocation Failure)  163M->280K(256M), 0.0044205 secs]
-2015-03-13T14:26:58.305+0100: 3.192: Total time for which application threads were stopped: 0.0046756 seconds
-2015-03-13T14:26:58.306+0100: 3.193: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.332+0100: 3.219: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 164M->164M(256M), 0.0016582 secs]
-2015-03-13T14:26:58.334+0100: 3.221: Total time for which application threads were stopped: 0.0018660 seconds
-2015-03-13T14:26:58.334+0100: 3.221: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.334+0100: 3.221: [GC concurrent-root-region-scan-end, 0.0001158 secs]
-2015-03-13T14:26:58.334+0100: 3.221: [GC concurrent-mark-start]
-2015-03-13T14:26:58.334+0100: 3.221: [GC pause (G1 Humongous Allocation) (young) 164M->164M(256M), 0.0014427 secs]
-2015-03-13T14:26:58.336+0100: 3.223: Total time for which application threads were stopped: 0.0015903 seconds
-2015-03-13T14:26:58.336+0100: 3.223: [Full GC (Allocation Failure)  164M->280K(256M), 0.0046170 secs]
-2015-03-13T14:26:58.341+0100: 3.228: Total time for which application threads were stopped: 0.0048917 seconds
-2015-03-13T14:26:58.341+0100: 3.228: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.372+0100: 3.259: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 165M->165M(256M), 0.0017389 secs]
-2015-03-13T14:26:58.374+0100: 3.261: Total time for which application threads were stopped: 0.0019842 seconds
-2015-03-13T14:26:58.374+0100: 3.261: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.374+0100: 3.261: [GC concurrent-root-region-scan-end, 0.0000894 secs]
-2015-03-13T14:26:58.374+0100: 3.261: [GC concurrent-mark-start]
-2015-03-13T14:26:58.374+0100: 3.261: [GC pause (G1 Humongous Allocation) (young) 165M->165M(256M), 0.0014329 secs]
-2015-03-13T14:26:58.376+0100: 3.263: Total time for which application threads were stopped: 0.0016279 seconds
-2015-03-13T14:26:58.376+0100: 3.263: [Full GC (Allocation Failure)  165M->280K(256M), 0.0046150 secs]
-2015-03-13T14:26:58.381+0100: 3.268: Total time for which application threads were stopped: 0.0048804 seconds
-2015-03-13T14:26:58.381+0100: 3.268: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.408+0100: 3.295: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 166M->166M(256M), 0.0016920 secs]
-2015-03-13T14:26:58.410+0100: 3.297: Total time for which application threads were stopped: 0.0019104 seconds
-2015-03-13T14:26:58.410+0100: 3.297: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.410+0100: 3.297: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.410+0100: 3.297: [GC concurrent-root-region-scan-end, 0.0001979 secs]
-2015-03-13T14:26:58.410+0100: 3.297: [GC concurrent-mark-start]
- 166M->166M(256M), 0.0015634 secs]
-2015-03-13T14:26:58.412+0100: 3.299: Total time for which application threads were stopped: 0.0017335 seconds
-2015-03-13T14:26:58.412+0100: 3.299: [Full GC (Allocation Failure)  166M->280K(256M), 0.0044176 secs]
-2015-03-13T14:26:58.417+0100: 3.304: Total time for which application threads were stopped: 0.0046703 seconds
-2015-03-13T14:26:58.417+0100: 3.304: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.444+0100: 3.331: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 167M->167M(256M), 0.0014979 secs]
-2015-03-13T14:26:58.446+0100: 3.333: Total time for which application threads were stopped: 0.0017135 seconds
-2015-03-13T14:26:58.446+0100: 3.333: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.446+0100: 3.333: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.446+0100: 3.333: [GC concurrent-root-region-scan-end, 0.0002077 secs]
-2015-03-13T14:26:58.446+0100: 3.333: [GC concurrent-mark-start]
- 167M->167M(256M), 0.0015390 secs]
-2015-03-13T14:26:58.448+0100: 3.335: Total time for which application threads were stopped: 0.0017066 seconds
-2015-03-13T14:26:58.448+0100: 3.335: [Full GC (Allocation Failure)  167M->280K(256M), 0.0044240 secs]
-2015-03-13T14:26:58.452+0100: 3.340: Total time for which application threads were stopped: 0.0046840 seconds
-2015-03-13T14:26:58.453+0100: 3.340: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.481+0100: 3.367: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 168M->168M(256M), 0.0016934 secs]
-2015-03-13T14:26:58.483+0100: 3.369: Total time for which application threads were stopped: 0.0019080 seconds
-2015-03-13T14:26:58.483+0100: 3.369: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.483+0100: 3.369: [GC concurrent-root-region-scan-end, 0.0001109 secs]
-2015-03-13T14:26:58.483+0100: 3.369: [GC concurrent-mark-start]
-2015-03-13T14:26:58.483+0100: 3.369: [GC pause (G1 Humongous Allocation) (young) 168M->168M(256M), 0.0014095 secs]
-2015-03-13T14:26:58.484+0100: 3.371: Total time for which application threads were stopped: 0.0015810 seconds
-2015-03-13T14:26:58.485+0100: 3.371: [Full GC (Allocation Failure)  168M->280K(256M), 0.0047055 secs]
-2015-03-13T14:26:58.489+0100: 3.376: Total time for which application threads were stopped: 0.0049601 seconds
-2015-03-13T14:26:58.490+0100: 3.376: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.517+0100: 3.403: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 169M->169M(256M), 0.0018024 secs]
-2015-03-13T14:26:58.519+0100: 3.405: Total time for which application threads were stopped: 0.0020160 seconds
-2015-03-13T14:26:58.519+0100: 3.405: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.519+0100: 3.405: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.519+0100: 3.405: [GC concurrent-root-region-scan-end, 0.0001681 secs]
-2015-03-13T14:26:58.519+0100: 3.405: [GC concurrent-mark-start]
- 169M->169M(256M), 0.0013113 secs]
-2015-03-13T14:26:58.521+0100: 3.407: Total time for which application threads were stopped: 0.0014593 seconds
-2015-03-13T14:26:58.521+0100: 3.407: [Full GC (Allocation Failure)  169M->280K(256M), 0.0045061 secs]
-2015-03-13T14:26:58.526+0100: 3.412: Total time for which application threads were stopped: 0.0047729 seconds
-2015-03-13T14:26:58.526+0100: 3.412: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.553+0100: 3.439: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 170M->170M(256M), 0.0019960 secs]
-2015-03-13T14:26:58.555+0100: 3.441: Total time for which application threads were stopped: 0.0022125 seconds
-2015-03-13T14:26:58.555+0100: 3.441: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.555+0100: 3.441: [GC concurrent-root-region-scan-end, 0.0001236 secs]
-2015-03-13T14:26:58.555+0100: 3.441: [GC concurrent-mark-start]
-2015-03-13T14:26:58.555+0100: 3.442: [GC pause (G1 Humongous Allocation) (young) 170M->170M(256M), 0.0013010 secs]
-2015-03-13T14:26:58.557+0100: 3.443: Total time for which application threads were stopped: 0.0014701 seconds
-2015-03-13T14:26:58.557+0100: 3.443: [Full GC (Allocation Failure)  170M->280K(256M), 0.0044982 secs]
-2015-03-13T14:26:58.562+0100: 3.448: Total time for which application threads were stopped: 0.0047622 seconds
-2015-03-13T14:26:58.562+0100: 3.448: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.590+0100: 3.476: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 171M->171M(256M), 0.0017467 secs]
-2015-03-13T14:26:58.592+0100: 3.478: Total time for which application threads were stopped: 0.0019622 seconds
-2015-03-13T14:26:58.592+0100: 3.478: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.592+0100: 3.478: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.592+0100: 3.478: [GC concurrent-root-region-scan-end, 0.0002038 secs]
-2015-03-13T14:26:58.592+0100: 3.478: [GC concurrent-mark-start]
- 171M->171M(256M), 0.0016133 secs]
-2015-03-13T14:26:58.594+0100: 3.480: Total time for which application threads were stopped: 0.0017824 seconds
-2015-03-13T14:26:58.594+0100: 3.480: [Full GC (Allocation Failure)  171M->280K(256M), 0.0044846 secs]
-2015-03-13T14:26:58.599+0100: 3.485: Total time for which application threads were stopped: 0.0047299 seconds
-2015-03-13T14:26:58.599+0100: 3.485: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.628+0100: 3.514: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 172M->172M(256M), 0.0016470 secs]
-2015-03-13T14:26:58.630+0100: 3.516: Total time for which application threads were stopped: 0.0018596 seconds
-2015-03-13T14:26:58.630+0100: 3.516: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.630+0100: 3.516: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.630+0100: 3.516: [GC concurrent-root-region-scan-end, 0.0001862 secs]
-2015-03-13T14:26:58.630+0100: 3.516: [GC concurrent-mark-start]
- 172M->172M(256M), 0.0011480 secs]
-2015-03-13T14:26:58.631+0100: 3.517: Total time for which application threads were stopped: 0.0013152 seconds
-2015-03-13T14:26:58.631+0100: 3.518: [Full GC (Allocation Failure)  172M->280K(256M), 0.0044684 secs]
-2015-03-13T14:26:58.636+0100: 3.522: Total time for which application threads were stopped: 0.0047231 seconds
-2015-03-13T14:26:58.636+0100: 3.522: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.665+0100: 3.551: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 173M->173M(256M), 0.0017418 secs]
-2015-03-13T14:26:58.667+0100: 3.553: Total time for which application threads were stopped: 0.0019569 seconds
-2015-03-13T14:26:58.667+0100: 3.553: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.667+0100: 3.553: [GC concurrent-root-region-scan-end, 0.0001320 secs]
-2015-03-13T14:26:58.667+0100: 3.553: [GC concurrent-mark-start]
-2015-03-13T14:26:58.667+0100: 3.553: [GC pause (G1 Humongous Allocation) (young) 173M->173M(256M), 0.0014784 secs]
-2015-03-13T14:26:58.669+0100: 3.555: Total time for which application threads were stopped: 0.0016626 seconds
-2015-03-13T14:26:58.669+0100: 3.555: [Full GC (Allocation Failure)  173M->280K(256M), 0.0043917 secs]
-2015-03-13T14:26:58.673+0100: 3.560: Total time for which application threads were stopped: 0.0046546 seconds
-2015-03-13T14:26:58.674+0100: 3.560: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.701+0100: 3.588: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 174M->174M(256M), 0.0017223 secs]
-2015-03-13T14:26:58.703+0100: 3.590: Total time for which application threads were stopped: 0.0019305 seconds
-2015-03-13T14:26:58.703+0100: 3.590: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.703+0100: 3.590: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.703+0100: 3.590: [GC concurrent-root-region-scan-end, 0.0001891 secs]
-2015-03-13T14:26:58.703+0100: 3.590: [GC concurrent-mark-start]
- 174M->174M(256M), 0.0014525 secs]
-2015-03-13T14:26:58.705+0100: 3.591: Total time for which application threads were stopped: 0.0016387 seconds
-2015-03-13T14:26:58.705+0100: 3.592: [Full GC (Allocation Failure)  174M->280K(256M), 0.0043765 secs]
-2015-03-13T14:26:58.710+0100: 3.596: Total time for which application threads were stopped: 0.0046258 seconds
-2015-03-13T14:26:58.710+0100: 3.596: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.738+0100: 3.624: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 175M->175M(256M), 0.0017614 secs]
-2015-03-13T14:26:58.740+0100: 3.626: Total time for which application threads were stopped: 0.0019671 seconds
-2015-03-13T14:26:58.740+0100: 3.626: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.740+0100: 3.626: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.740+0100: 3.626: [GC concurrent-root-region-scan-end, 0.0001852 secs]
-2015-03-13T14:26:58.740+0100: 3.626: [GC concurrent-mark-start]
- 175M->175M(256M), 0.0014271 secs]
-2015-03-13T14:26:58.741+0100: 3.628: Total time for which application threads were stopped: 0.0016001 seconds
-2015-03-13T14:26:58.742+0100: 3.628: [Full GC (Allocation Failure)  175M->280K(256M), 0.0045554 secs]
-2015-03-13T14:26:58.746+0100: 3.633: Total time for which application threads were stopped: 0.0048052 seconds
-2015-03-13T14:26:58.746+0100: 3.633: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.775+0100: 3.661: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 176M->176M(256M), 0.0018122 secs]
-2015-03-13T14:26:58.777+0100: 3.663: Total time for which application threads were stopped: 0.0020184 seconds
-2015-03-13T14:26:58.777+0100: 3.663: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.777+0100: 3.663: [GC concurrent-root-region-scan-end, 0.0000865 secs]
-2015-03-13T14:26:58.777+0100: 3.663: [GC concurrent-mark-start]
-2015-03-13T14:26:58.777+0100: 3.663: [GC pause (G1 Humongous Allocation) (young) 176M->176M(256M), 0.0013293 secs]
-2015-03-13T14:26:58.778+0100: 3.665: Total time for which application threads were stopped: 0.0015014 seconds
-2015-03-13T14:26:58.778+0100: 3.665: [Full GC (Allocation Failure)  176M->280K(256M), 0.0044420 secs]
-2015-03-13T14:26:58.783+0100: 3.669: Total time for which application threads were stopped: 0.0046957 seconds
-2015-03-13T14:26:58.783+0100: 3.669: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.811+0100: 3.698: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 177M->177M(256M), 0.0016519 secs]
-2015-03-13T14:26:58.813+0100: 3.700: Total time for which application threads were stopped: 0.0018552 seconds
-2015-03-13T14:26:58.813+0100: 3.700: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.813+0100: 3.700: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.813+0100: 3.700: [GC concurrent-root-region-scan-end, 0.0002121 secs]
-2015-03-13T14:26:58.813+0100: 3.700: [GC concurrent-mark-start]
- 177M->177M(256M), 0.0015331 secs]
-2015-03-13T14:26:58.815+0100: 3.701: Total time for which application threads were stopped: 0.0016983 seconds
-2015-03-13T14:26:58.815+0100: 3.702: [Full GC (Allocation Failure)  177M->280K(256M), 0.0044533 secs]
-2015-03-13T14:26:58.820+0100: 3.706: Total time for which application threads were stopped: 0.0047015 seconds
-2015-03-13T14:26:58.820+0100: 3.706: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.849+0100: 3.735: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 178M->178M(256M), 0.0016250 secs]
-2015-03-13T14:26:58.851+0100: 3.737: Total time for which application threads were stopped: 0.0018332 seconds
-2015-03-13T14:26:58.851+0100: 3.737: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.851+0100: 3.737: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.851+0100: 3.737: [GC concurrent-root-region-scan-end, 0.0001979 secs]
-2015-03-13T14:26:58.851+0100: 3.737: [GC concurrent-mark-start]
- 178M->178M(256M), 0.0015732 secs]
-2015-03-13T14:26:58.852+0100: 3.739: Total time for which application threads were stopped: 0.0017452 seconds
-2015-03-13T14:26:58.853+0100: 3.739: [Full GC (Allocation Failure)  178M->280K(256M), 0.0047064 secs]
-2015-03-13T14:26:58.858+0100: 3.744: Total time for which application threads were stopped: 0.0049816 seconds
-2015-03-13T14:26:58.858+0100: 3.744: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.887+0100: 3.774: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 179M->179M(256M), 0.0012761 secs]
-2015-03-13T14:26:58.889+0100: 3.775: Total time for which application threads were stopped: 0.0015195 seconds
-2015-03-13T14:26:58.889+0100: 3.775: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.889+0100: 3.775: [GC concurrent-root-region-scan-end, 0.0000709 secs]
-2015-03-13T14:26:58.889+0100: 3.775: [GC concurrent-mark-start]
-2015-03-13T14:26:58.889+0100: 3.776: [GC pause (G1 Humongous Allocation) (young) 179M->179M(256M), 0.0016436 secs]
-2015-03-13T14:26:58.891+0100: 3.777: Total time for which application threads were stopped: 0.0018303 seconds
-2015-03-13T14:26:58.891+0100: 3.778: [Full GC (Allocation Failure)  179M->280K(256M), 0.0045774 secs]
-2015-03-13T14:26:58.896+0100: 3.782: Total time for which application threads were stopped: 0.0048575 seconds
-2015-03-13T14:26:58.896+0100: 3.782: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.925+0100: 3.811: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 180M->180M(256M), 0.0017428 secs]
-2015-03-13T14:26:58.927+0100: 3.813: Total time for which application threads were stopped: 0.0019471 seconds
-2015-03-13T14:26:58.927+0100: 3.813: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.927+0100: 3.814: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:58.927+0100: 3.814: [GC concurrent-root-region-scan-end, 0.0002043 secs]
-2015-03-13T14:26:58.927+0100: 3.814: [GC concurrent-mark-start]
- 180M->180M(256M), 0.0016470 secs]
-2015-03-13T14:26:58.929+0100: 3.815: Total time for which application threads were stopped: 0.0018166 seconds
-2015-03-13T14:26:58.929+0100: 3.815: [Full GC (Allocation Failure)  180M->280K(256M), 0.0046820 secs]
-2015-03-13T14:26:58.934+0100: 3.820: Total time for which application threads were stopped: 0.0049488 seconds
-2015-03-13T14:26:58.934+0100: 3.820: [GC concurrent-mark-abort]
-2015-03-13T14:26:58.963+0100: 3.850: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 181M->181M(256M), 0.0017433 secs]
-2015-03-13T14:26:58.965+0100: 3.852: Total time for which application threads were stopped: 0.0019564 seconds
-2015-03-13T14:26:58.965+0100: 3.852: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:58.965+0100: 3.852: [GC concurrent-root-region-scan-end, 0.0000845 secs]
-2015-03-13T14:26:58.965+0100: 3.852: [GC concurrent-mark-start]
-2015-03-13T14:26:58.965+0100: 3.852: [GC pause (G1 Humongous Allocation) (young) 181M->181M(256M), 0.0018234 secs]
-2015-03-13T14:26:58.967+0100: 3.854: Total time for which application threads were stopped: 0.0019886 seconds
-2015-03-13T14:26:58.967+0100: 3.854: [Full GC (Allocation Failure)  181M->280K(256M), 0.0043477 secs]
-2015-03-13T14:26:58.972+0100: 3.858: Total time for which application threads were stopped: 0.0046116 seconds
-2015-03-13T14:26:58.972+0100: 3.859: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.002+0100: 3.888: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 182M->182M(256M), 0.0018576 secs]
-2015-03-13T14:26:59.004+0100: 2015-03-13T14:26:59.004+0100: 3.890: 3.890: Total time for which application threads were stopped: 0.0020761 seconds
-[GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.004+0100: 3.891: [GC concurrent-root-region-scan-end, 0.0001398 secs]
-2015-03-13T14:26:59.004+0100: 3.891: [GC concurrent-mark-start]
-2015-03-13T14:26:59.004+0100: 3.891: [GC pause (G1 Humongous Allocation) (young) 182M->182M(256M), 0.0016475 secs]
-2015-03-13T14:26:59.006+0100: 3.892: Total time for which application threads were stopped: 0.0018303 seconds
-2015-03-13T14:26:59.006+0100: 3.893: [Full GC (Allocation Failure)  182M->280K(256M), 0.0047294 secs]
-2015-03-13T14:26:59.011+0100: 3.897: Total time for which application threads were stopped: 0.0050187 seconds
-2015-03-13T14:26:59.011+0100: 3.898: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.041+0100: 3.927: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 183M->183M(256M), 0.0015439 secs]
-2015-03-13T14:26:59.042+0100: 3.929: Total time for which application threads were stopped: 0.0017633 seconds
-2015-03-13T14:26:59.042+0100: 3.929: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.042+0100: 3.929: [GC concurrent-root-region-scan-end, 0.0001163 secs]
-2015-03-13T14:26:59.042+0100: 2015-03-13T14:26:59.042+0100: 3.929: [GC concurrent-mark-start]
-3.929: [GC pause (G1 Humongous Allocation) (young) 183M->183M(256M), 0.0015214 secs]
-2015-03-13T14:26:59.044+0100: 3.931: Total time for which application threads were stopped: 0.0016969 seconds
-2015-03-13T14:26:59.044+0100: 3.931: [Full GC (Allocation Failure)  183M->280K(256M), 0.0046659 secs]
-2015-03-13T14:26:59.049+0100: 3.936: Total time for which application threads were stopped: 0.0049352 seconds
-2015-03-13T14:26:59.049+0100: 3.936: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.081+0100: 3.968: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 184M->184M(256M), 0.0013836 secs]
-2015-03-13T14:26:59.083+0100: 3.970: Total time for which application threads were stopped: 0.0015928 seconds
-2015-03-13T14:26:59.083+0100: 3.970: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.083+0100: 3.970: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.083+0100: 3.970: [GC concurrent-root-region-scan-end, 0.0002014 secs]
-2015-03-13T14:26:59.083+0100: 3.970: [GC concurrent-mark-start]
- 184M->184M(256M), 0.0016143 secs]
-2015-03-13T14:26:59.085+0100: 3.971: Total time for which application threads were stopped: 0.0017853 seconds
-2015-03-13T14:26:59.085+0100: 3.972: [Full GC (Allocation Failure)  184M->280K(256M), 0.0045588 secs]
-2015-03-13T14:26:59.090+0100: 3.976: Total time for which application threads were stopped: 0.0048340 seconds
-2015-03-13T14:26:59.090+0100: 3.976: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.121+0100: 4.007: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 185M->185M(256M), 0.0020057 secs]
-2015-03-13T14:26:59.123+0100: 4.009: Total time for which application threads were stopped: 0.0022218 seconds
-2015-03-13T14:26:59.123+0100: 4.009: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.123+0100: 4.010: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.123+0100: 4.010: [GC concurrent-root-region-scan-end, 0.0002048 secs]
-2015-03-13T14:26:59.123+0100: 4.010: [GC concurrent-mark-start]
- 185M->185M(256M), 0.0012155 secs]
-2015-03-13T14:26:59.124+0100: 4.011: Total time for which application threads were stopped: 0.0013885 seconds
-2015-03-13T14:26:59.124+0100: 4.011: [Full GC (Allocation Failure)  185M->280K(256M), 0.0053286 secs]
-2015-03-13T14:26:59.130+0100: 4.017: Total time for which application threads were stopped: 0.0056316 seconds
-2015-03-13T14:26:59.130+0100: 4.017: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.160+0100: 4.047: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 186M->186M(256M), 0.0019109 secs]
-2015-03-13T14:26:59.162+0100: 4.049: Total time for which application threads were stopped: 0.0021338 seconds
-2015-03-13T14:26:59.162+0100: 4.049: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.163+0100: 4.049: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.163+0100: 4.049: [GC concurrent-root-region-scan-end, 0.0001535 secs]
-2015-03-13T14:26:59.163+0100: 4.049: [GC concurrent-mark-start]
- 186M->186M(256M), 0.0016182 secs]
-2015-03-13T14:26:59.164+0100: 4.051: Total time for which application threads were stopped: 0.0017907 seconds
-2015-03-13T14:26:59.164+0100: 4.051: [Full GC (Allocation Failure)  186M->280K(256M), 0.0048144 secs]
-2015-03-13T14:26:59.169+0100: 4.056: Total time for which application threads were stopped: 0.0050744 seconds
-2015-03-13T14:26:59.170+0100: 4.056: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.201+0100: 4.088: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 187M->187M(256M), 0.0018655 secs]
-2015-03-13T14:26:59.203+0100: 4.090: Total time for which application threads were stopped: 0.0020756 seconds
-2015-03-13T14:26:59.203+0100: 4.090: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.203+0100: 4.090: [GC concurrent-root-region-scan-end, 0.0000782 secs]
-2015-03-13T14:26:59.204+0100: 4.090: [GC concurrent-mark-start]
-2015-03-13T14:26:59.204+0100: 4.090: [GC pause (G1 Humongous Allocation) (young) 187M->187M(256M), 0.0015131 secs]
-2015-03-13T14:26:59.205+0100: 4.092: Total time for which application threads were stopped: 0.0016842 seconds
-2015-03-13T14:26:59.205+0100: 4.092: [Full GC (Allocation Failure)  187M->280K(256M), 0.0051536 secs]
-2015-03-13T14:26:59.211+0100: 4.097: Total time for which application threads were stopped: 0.0054356 seconds
-2015-03-13T14:26:59.211+0100: 4.098: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.242+0100: 4.129: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 188M->188M(256M), 0.0014945 secs]
-2015-03-13T14:26:59.244+0100: 4.130: Total time for which application threads were stopped: 0.0017179 seconds
-2015-03-13T14:26:59.244+0100: 4.130: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.244+0100: 4.130: [GC concurrent-root-region-scan-end, 0.0000860 secs]
-2015-03-13T14:26:59.244+0100: 4.130: [GC concurrent-mark-start]
-2015-03-13T14:26:59.244+0100: 4.131: [GC pause (G1 Humongous Allocation) (young) 188M->188M(256M), 0.0008968 secs]
-2015-03-13T14:26:59.245+0100: 4.132: Total time for which application threads were stopped: 0.0010923 seconds
-2015-03-13T14:26:59.245+0100: 4.132: [Full GC (Allocation Failure)  188M->280K(256M), 0.0048682 secs]
-2015-03-13T14:26:59.250+0100: 4.137: Total time for which application threads were stopped: 0.0051482 seconds
-2015-03-13T14:26:59.250+0100: 4.137: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.280+0100: 4.167: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 189M->189M(256M), 0.0020253 secs]
-2015-03-13T14:26:59.283+0100: 2015-03-13T14:26:59.283+0100: 4.169: [GC concurrent-root-region-scan-start]
-4.169: Total time for which application threads were stopped: 0.0022740 seconds
-2015-03-13T14:26:59.283+0100: 4.169: [GC concurrent-root-region-scan-end, 0.0000733 secs]
-2015-03-13T14:26:59.283+0100: 4.169: [GC concurrent-mark-start]
-2015-03-13T14:26:59.283+0100: 4.169: [GC pause (G1 Humongous Allocation) (young) 189M->189M(256M), 0.0010517 secs]
-2015-03-13T14:26:59.284+0100: 4.171: Total time for which application threads were stopped: 0.0012106 seconds
-2015-03-13T14:26:59.284+0100: 4.171: [Full GC (Allocation Failure)  189M->280K(256M), 0.0048794 secs]
-2015-03-13T14:26:59.289+0100: 4.176: Total time for which application threads were stopped: 0.0051253 seconds
-2015-03-13T14:26:59.289+0100: 4.176: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.320+0100: 4.207: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 190M->190M(256M), 0.0014632 secs]
-2015-03-13T14:26:59.322+0100: 4.208: Total time for which application threads were stopped: 0.0016714 seconds
-2015-03-13T14:26:59.322+0100: 4.208: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.322+0100: 4.209: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.322+0100: 4.209: [GC concurrent-root-region-scan-end, 0.0001979 secs]
-2015-03-13T14:26:59.322+0100: 4.209: [GC concurrent-mark-start]
- 190M->190M(256M), 0.0016314 secs]
-2015-03-13T14:26:59.323+0100: 4.210: Total time for which application threads were stopped: 0.0018039 seconds
-2015-03-13T14:26:59.324+0100: 4.210: [Full GC (Allocation Failure)  190M->280K(256M), 0.0047079 secs]
-2015-03-13T14:26:59.329+0100: 4.215: Total time for which application threads were stopped: 0.0049826 seconds
-2015-03-13T14:26:59.329+0100: 4.215: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.361+0100: 4.248: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 191M->191M(256M), 0.0015898 secs]
-2015-03-13T14:26:59.362+0100: 4.249: Total time for which application threads were stopped: 0.0018010 seconds
-2015-03-13T14:26:59.362+0100: 4.249: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.363+0100: 4.249: [GC concurrent-root-region-scan-end, 0.0001432 secs]
-2015-03-13T14:26:59.363+0100: 2015-03-13T14:26:59.363+0100: 4.249: [GC concurrent-mark-start]
-4.249: [GC pause (G1 Humongous Allocation) (young) 191M->191M(256M), 0.0012218 secs]
-2015-03-13T14:26:59.364+0100: 4.251: Total time for which application threads were stopped: 0.0014061 seconds
-2015-03-13T14:26:59.364+0100: 4.251: [Full GC (Allocation Failure)  191M->280K(256M), 0.0048970 secs]
-2015-03-13T14:26:59.369+0100: 4.256: Total time for which application threads were stopped: 0.0051556 seconds
-2015-03-13T14:26:59.369+0100: 4.256: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.402+0100: 4.288: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 192M->192M(256M), 0.0018664 secs]
-2015-03-13T14:26:59.404+01002015-03-13T14:26:59.404+0100: : 4.2904.290: : [GC concurrent-root-region-scan-start]
-Total time for which application threads were stopped: 0.0021020 seconds
-2015-03-13T14:26:59.404+0100: 4.291: [GC concurrent-root-region-scan-end, 0.0001510 secs]
-2015-03-13T14:26:59.404+0100: 2015-03-13T14:26:59.404+0100: 4.291: [GC concurrent-mark-start]
-4.291: [GC pause (G1 Humongous Allocation) (young) 192M->192M(256M), 0.0013504 secs]
-2015-03-13T14:26:59.405+0100: 4.292: Total time for which application threads were stopped: 0.0014838 seconds
-2015-03-13T14:26:59.405+0100: 4.292: [Full GC (Allocation Failure)  192M->280K(256M), 0.0045940 secs]
-2015-03-13T14:26:59.410+0100: 4.297: Total time for which application threads were stopped: 0.0048521 seconds
-2015-03-13T14:26:59.410+0100: 4.297: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.442+0100: 4.329: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 193M->193M(256M), 0.0022237 secs]
-2015-03-13T14:26:59.445+0100: 4.332: Total time for which application threads were stopped: 0.0024490 seconds
-2015-03-13T14:26:59.445+0100: 4.332: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.445+0100: 4.332: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.445+0100: 4.332: [GC concurrent-root-region-scan-end, 0.0001940 secs]
-2015-03-13T14:26:59.445+0100: 4.332: [GC concurrent-mark-start]
- 193M->193M(256M), 0.0013743 secs]
-2015-03-13T14:26:59.446+0100: 4.333: Total time for which application threads were stopped: 0.0015405 seconds
-2015-03-13T14:26:59.446+0100: 4.333: [Full GC (Allocation Failure)  193M->280K(256M), 0.0049283 secs]
-2015-03-13T14:26:59.451+0100: 4.338: Total time for which application threads were stopped: 0.0051834 seconds
-2015-03-13T14:26:59.452+0100: 4.339: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.484+0100: 4.371: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 194M->194M(256M), 0.0016842 secs]
-2015-03-13T14:26:59.485+0100: 4.372: Total time for which application threads were stopped: 0.0018977 seconds
-2015-03-13T14:26:59.485+0100: 4.372: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.486+0100: 4.373: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.486+0100: 4.373: [GC concurrent-root-region-scan-end, 0.0002160 secs]
-2015-03-13T14:26:59.486+0100: 4.373: [GC concurrent-mark-start]
- 194M->194M(256M), 0.0015121 secs]
-2015-03-13T14:26:59.487+0100: 4.374: Total time for which application threads were stopped: 0.0016915 seconds
-2015-03-13T14:26:59.487+0100: 4.374: [Full GC (Allocation Failure)  194M->280K(256M), 0.0049645 secs]
-2015-03-13T14:26:59.493+0100: 4.379: Total time for which application threads were stopped: 0.0052685 seconds
-2015-03-13T14:26:59.493+0100: 4.380: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.525+0100: 4.412: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 195M->195M(256M), 0.0017360 secs]
-2015-03-13T14:26:59.526+0100: 4.413: Total time for which application threads were stopped: 0.0019637 seconds
-2015-03-13T14:26:59.526+0100: 4.413: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.527+0100: 4.414: [GC concurrent-root-region-scan-end, 0.0001075 secs]
-2015-03-13T14:26:59.527+0100: 4.414: [GC concurrent-mark-start]
-2015-03-13T14:26:59.527+0100: 4.414: [GC pause (G1 Humongous Allocation) (young) 195M->195M(256M), 0.0015825 secs]
-2015-03-13T14:26:59.528+0100: 4.415: Total time for which application threads were stopped: 0.0017506 seconds
-2015-03-13T14:26:59.528+0100: 4.415: [Full GC (Allocation Failure)  195M->280K(256M), 0.0048076 secs]
-2015-03-13T14:26:59.533+0100: 4.420: Total time for which application threads were stopped: 0.0050613 seconds
-2015-03-13T14:26:59.534+0100: 4.421: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.566+0100: 4.453: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 196M->196M(256M), 0.0016030 secs]
-2015-03-13T14:26:59.567+0100: 4.454: Total time for which application threads were stopped: 0.0018161 seconds
-2015-03-13T14:26:59.567+0100: 4.454: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.568+0100: 4.455: 2015-03-13T14:26:59.568+0100: [GC pause (G1 Humongous Allocation) (young)4.455: [GC concurrent-root-region-scan-end, 0.0001750 secs]
-2015-03-13T14:26:59.568+0100: 4.455: [GC concurrent-mark-start]
- 196M->196M(256M), 0.0015581 secs]
-2015-03-13T14:26:59.569+0100: 4.456: Total time for which application threads were stopped: 0.0017369 seconds
-2015-03-13T14:26:59.569+0100: 4.456: [Full GC (Allocation Failure)  196M->280K(256M), 0.0045119 secs]
-2015-03-13T14:26:59.574+0100: 4.461: Total time for which application threads were stopped: 0.0047734 seconds
-2015-03-13T14:26:59.574+0100: 4.461: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.606+0100: 4.493: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 197M->197M(256M), 0.0015102 secs]
-2015-03-13T14:26:59.608+0100: 4.495: Total time for which application threads were stopped: 0.0017296 seconds
-2015-03-13T14:26:59.608+0100: 4.495: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.608+0100: 4.495: [GC concurrent-root-region-scan-end, 0.0000826 secs]
-2015-03-13T14:26:59.608+0100: 4.495: [GC concurrent-mark-start]
-2015-03-13T14:26:59.608+0100: 4.495: [GC pause (G1 Humongous Allocation) (young) 197M->197M(256M), 0.0015698 secs]
-2015-03-13T14:26:59.610+0100: 4.497: Total time for which application threads were stopped: 0.0017345 seconds
-2015-03-13T14:26:59.610+0100: 4.497: [Full GC (Allocation Failure)  197M->280K(256M), 0.0046048 secs]
-2015-03-13T14:26:59.615+0100: 4.502: Total time for which application threads were stopped: 0.0048770 seconds
-2015-03-13T14:26:59.615+0100: 4.502: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.647+0100: 4.534: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 198M->198M(256M), 0.0016201 secs]
-2015-03-13T14:26:59.649+0100: 4.536: Total time for which application threads were stopped: 0.0018396 seconds
-2015-03-13T14:26:59.649+0100: 4.536: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.649+0100: 4.536: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.649+0100: 4.536: [GC concurrent-root-region-scan-end, 0.0001984 secs]
-2015-03-13T14:26:59.649+0100: 4.536: [GC concurrent-mark-start]
- 198M->198M(256M), 0.0012072 secs]
-2015-03-13T14:26:59.651+0100: 4.538: Total time for which application threads were stopped: 0.0013860 seconds
-2015-03-13T14:26:59.651+0100: 4.538: [Full GC (Allocation Failure)  198M->280K(256M), 0.0045926 secs]
-2015-03-13T14:26:59.656+0100: 4.543: Total time for which application threads were stopped: 0.0048584 seconds
-2015-03-13T14:26:59.656+0100: 4.543: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.688+0100: 4.575: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 199M->199M(256M), 0.0018660 secs]
-2015-03-13T14:26:59.690+0100: 4.577: Total time for which application threads were stopped: 0.0020790 seconds
-2015-03-13T14:26:59.690+0100: 4.577: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.690+0100: 4.577: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.690+0100: 4.578: [GC concurrent-root-region-scan-end, 0.0002009 secs]
-2015-03-13T14:26:59.691+0100: 4.578: [GC concurrent-mark-start]
- 199M->199M(256M), 0.0013098 secs]
-2015-03-13T14:26:59.692+0100: 4.579: Total time for which application threads were stopped: 0.0014838 seconds
-2015-03-13T14:26:59.692+0100: 4.579: [Full GC (Allocation Failure)  199M->280K(256M), 0.0048252 secs]
-2015-03-13T14:26:59.697+0100: 4.584: Total time for which application threads were stopped: 0.0050964 seconds
-2015-03-13T14:26:59.697+0100: 4.584: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.731+0100: 4.617: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 200M->200M(256M), 0.0017013 secs]
-2015-03-13T14:26:59.733+0100: 4.619: Total time for which application threads were stopped: 0.0019139 seconds
-2015-03-13T14:26:59.733+0100: 4.619: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.733+0100: 4.619: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.733+0100: 4.619: [GC concurrent-root-region-scan-end, 0.0002033 secs]
-2015-03-13T14:26:59.733+0100: 4.619: [GC concurrent-mark-start]
- 200M->200M(256M), 0.0014559 secs]
-2015-03-13T14:26:59.734+0100: 4.620: Total time for which application threads were stopped: 0.0016226 seconds
-2015-03-13T14:26:59.735+0100: 4.621: [Full GC (Allocation Failure)  200M->280K(256M), 0.0049264 secs]
-2015-03-13T14:26:59.740+0100: 4.626: Total time for which application threads were stopped: 0.0052147 seconds
-2015-03-13T14:26:59.740+0100: 4.626: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.772+0100: 4.658: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 201M->201M(256M), 0.0018088 secs]
-2015-03-13T14:26:59.774+0100: 4.660: Total time for which application threads were stopped: 0.0020370 seconds
-2015-03-13T14:26:59.774+0100: 4.660: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.774+0100: 4.661: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.774+0100: 4.661: [GC concurrent-root-region-scan-end, 0.0002004 secs]
-2015-03-13T14:26:59.774+0100: 4.661: [GC concurrent-mark-start]
- 201M->201M(256M), 0.0013694 secs]
-2015-03-13T14:26:59.776+0100: 4.662: Total time for which application threads were stopped: 0.0015419 seconds
-2015-03-13T14:26:59.776+0100: 4.662: [Full GC (Allocation Failure)  201M->280K(256M), 0.0046033 secs]
-2015-03-13T14:26:59.781+0100: 4.667: Total time for which application threads were stopped: 0.0048853 seconds
-2015-03-13T14:26:59.781+0100: 4.667: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.814+0100: 4.700: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 202M->202M(256M), 0.0017189 secs]
-2015-03-13T14:26:59.816+0100: 4.702: Total time for which application threads were stopped: 0.0019363 seconds
-2015-03-13T14:26:59.816+0100: 4.702: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.816+0100: 4.702: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.816+0100: 4.702: [GC concurrent-root-region-scan-end, 0.0002004 secs]
-2015-03-13T14:26:59.816+0100: 4.702: [GC concurrent-mark-start]
- 202M->202M(256M), 0.0015620 secs]
-2015-03-13T14:26:59.818+0100: 4.704: Total time for which application threads were stopped: 0.0017291 seconds
-2015-03-13T14:26:59.818+0100: 4.704: [Full GC (Allocation Failure)  202M->280K(256M), 0.0047910 secs]
-2015-03-13T14:26:59.823+0100: 4.709: Total time for which application threads were stopped: 0.0050657 seconds
-2015-03-13T14:26:59.823+0100: 4.709: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.857+0100: 4.743: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 203M->203M(256M), 0.0019696 secs]
-2015-03-13T14:26:59.859+0100: 4.745: Total time for which application threads were stopped: 0.0022027 seconds
-2015-03-13T14:26:59.859+0100: 4.745: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.859+0100: 4.745: [GC concurrent-root-region-scan-end, 0.0000855 secs]
-2015-03-13T14:26:59.859+0100: 4.745: [GC concurrent-mark-start]
-2015-03-13T14:26:59.859+0100: 4.745: [GC pause (G1 Humongous Allocation) (young) 203M->203M(256M), 0.0012287 secs]
-2015-03-13T14:26:59.860+0100: 4.746: Total time for which application threads were stopped: 0.0014173 seconds
-2015-03-13T14:26:59.860+0100: 4.747: [Full GC (Allocation Failure)  203M->280K(256M), 0.0045364 secs]
-2015-03-13T14:26:59.865+0100: 4.751: Total time for which application threads were stopped: 0.0048115 seconds
-2015-03-13T14:26:59.865+0100: 4.751: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.899+0100: 4.785: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 204M->204M(256M), 0.0016465 secs]
-2015-03-13T14:26:59.900+0100: 4.787: Total time for which application threads were stopped: 0.0018664 seconds
-2015-03-13T14:26:59.900+0100: 4.787: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.901+0100: 4.787: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.901+0100: 4.787: [GC concurrent-root-region-scan-end, 0.0001886 secs]
-2015-03-13T14:26:59.901+0100: 4.787: [GC concurrent-mark-start]
- 204M->204M(256M), 0.0016519 secs]
-2015-03-13T14:26:59.902+0100: 4.788: Total time for which application threads were stopped: 0.0018317 seconds
-2015-03-13T14:26:59.902+0100: 4.789: [Full GC (Allocation Failure)  204M->280K(256M), 0.0045906 secs]
-2015-03-13T14:26:59.907+0100: 4.793: Total time for which application threads were stopped: 0.0048609 seconds
-2015-03-13T14:26:59.907+0100: 4.794: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.940+0100: 4.827: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 205M->205M(256M), 0.0018860 secs]
-2015-03-13T14:26:59.942+0100: 4.829: Total time for which application threads were stopped: 0.0021020 seconds
-2015-03-13T14:26:59.943+0100: 4.829: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.943+0100: 4.829: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:26:59.943+0100: 4.829: [GC concurrent-root-region-scan-end, 0.0001755 secs]
-2015-03-13T14:26:59.943+0100: 4.829: [GC concurrent-mark-start]
- 205M->205M(256M), 0.0014926 secs]
-2015-03-13T14:26:59.944+0100: 4.830: Total time for which application threads were stopped: 0.0016602 seconds
-2015-03-13T14:26:59.944+0100: 4.831: [Full GC (Allocation Failure)  205M->280K(256M), 0.0046278 secs]
-2015-03-13T14:26:59.949+0100: 4.835: Total time for which application threads were stopped: 0.0048956 seconds
-2015-03-13T14:26:59.949+0100: 4.836: [GC concurrent-mark-abort]
-2015-03-13T14:26:59.982+0100: 4.869: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 206M->206M(256M), 0.0017628 secs]
-2015-03-13T14:26:59.984+0100: 4.871: Total time for which application threads were stopped: 0.0019798 seconds
-2015-03-13T14:26:59.984+0100: 4.871: [GC concurrent-root-region-scan-start]
-2015-03-13T14:26:59.984+0100: 4.8712015-03-13T14:26:59.984+0100: : [GC concurrent-root-region-scan-end, 0.0001686 secs]
-4.871: 2015-03-13T14:26:59.984+0100: [GC pause (G1 Humongous Allocation) (young)4.871: [GC concurrent-mark-start]
- 206M->206M(256M), 0.0011607 secs]
-2015-03-13T14:26:59.986+0100: 4.872: Total time for which application threads were stopped: 0.0013269 seconds
-2015-03-13T14:26:59.986+0100: 4.872: [Full GC (Allocation Failure)  206M->280K(256M), 0.0045598 secs]
-2015-03-13T14:26:59.991+0100: 4.877: Total time for which application threads were stopped: 0.0048350 seconds
-2015-03-13T14:26:59.991+0100: 4.877: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.025+0100: 4.911: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 207M->207M(256M), 0.0017189 secs]
-2015-03-13T14:27:00.026+0100: 4.913: Total time for which application threads were stopped: 0.0019407 seconds
-2015-03-13T14:27:00.027+0100: 4.913: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.027+0100: 4.913: 2015-03-13T14:27:00.027+0100: [GC pause (G1 Humongous Allocation) (young)4.913: [GC concurrent-root-region-scan-end, 0.0001422 secs]
-2015-03-13T14:27:00.027+0100: 4.913: [GC concurrent-mark-start]
- 207M->207M(256M), 0.0012824 secs]
-2015-03-13T14:27:00.028+0100: 4.914: Total time for which application threads were stopped: 0.0014574 seconds
-2015-03-13T14:27:00.028+0100: 4.915: [Full GC (Allocation Failure)  207M->280K(256M), 0.0046473 secs]
-2015-03-13T14:27:00.033+0100: 4.919: Total time for which application threads were stopped: 0.0049298 seconds
-2015-03-13T14:27:00.033+0100: 4.920: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.067+0100: 4.953: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 208M->208M(256M), 0.0017081 secs]
-2015-03-13T14:27:00.069+0100: 4.955: Total time for which application threads were stopped: 0.0019266 seconds
-2015-03-13T14:27:00.069+0100: 4.955: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.069+0100: 4.955: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.069+0100: 4.955: [GC concurrent-root-region-scan-end, 0.0001867 secs]
-2015-03-13T14:27:00.069+0100: 4.955: [GC concurrent-mark-start]
- 208M->208M(256M), 0.0016407 secs]
-2015-03-13T14:27:00.071+0100: 4.957: Total time for which application threads were stopped: 0.0018132 seconds
-2015-03-13T14:27:00.071+0100: 4.957: [Full GC (Allocation Failure)  208M->280K(256M), 0.0048873 secs]
-2015-03-13T14:27:00.076+0100: 4.962: Total time for which application threads were stopped: 0.0051605 seconds
-2015-03-13T14:27:00.076+0100: 4.963: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.110+0100: 4.997: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 209M->209M(256M), 0.0019280 secs]
-2015-03-13T14:27:00.112+0100: 4.999: Total time for which application threads were stopped: 0.0021514 seconds
-2015-03-13T14:27:00.112+0100: 4.999: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.112+0100: 4.999: [GC concurrent-root-region-scan-end, 0.0001217 secs]
-2015-03-13T14:27:00.113+0100: 4.999: [GC concurrent-mark-start]
-2015-03-13T14:27:00.113+0100: 4.999: [GC pause (G1 Humongous Allocation) (young) 209M->209M(256M), 0.0012482 secs]
-2015-03-13T14:27:00.114+0100: 5.000: Total time for which application threads were stopped: 0.0014207 seconds
-2015-03-13T14:27:00.114+0100: 5.000: [Full GC (Allocation Failure)  209M->280K(256M), 0.0045960 secs]
-2015-03-13T14:27:00.119+0100: 5.005: Total time for which application threads were stopped: 0.0048716 seconds
-2015-03-13T14:27:00.119+0100: 5.005: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.153+0100: 5.040: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->210M(256M), 0.0017545 secs]
-2015-03-13T14:27:00.155+0100: 5.042: Total time for which application threads were stopped: 0.0019691 seconds
-2015-03-13T14:27:00.155+0100: 5.042: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.155+0100: 5.042: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.156+0100: 5.042: [GC concurrent-root-region-scan-end, 0.0002053 secs]
-2015-03-13T14:27:00.156+0100: 5.042: [GC concurrent-mark-start]
- 210M->210M(256M), 0.0014486 secs]
-2015-03-13T14:27:00.157+0100: 5.043: Total time for which application threads were stopped: 0.0016162 seconds
-2015-03-13T14:27:00.157+0100: 5.044: [Full GC (Allocation Failure)  210M->280K(256M), 0.0046087 secs]
-2015-03-13T14:27:00.162+0100: 5.048: Total time for which application threads were stopped: 0.0048995 seconds
-2015-03-13T14:27:00.162+0100: 5.049: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.197+0100: 5.083: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 211M->211M(256M), 0.0019236 secs]
-2015-03-13T14:27:00.199+0100: 5.085: Total time for which application threads were stopped: 0.0022613 seconds
-2015-03-13T14:27:00.199+0100: 5.085: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.199+0100: 5.085: [GC concurrent-root-region-scan-end, 0.0001017 secs]
-2015-03-13T14:27:00.199+0100: 5.085: [GC concurrent-mark-start]
-2015-03-13T14:27:00.199+0100: 5.085: [GC pause (G1 Humongous Allocation) (young) 211M->211M(256M), 0.0012594 secs]
-2015-03-13T14:27:00.200+0100: 5.087: Total time for which application threads were stopped: 0.0014437 seconds
-2015-03-13T14:27:00.201+0100: 5.087: [Full GC (Allocation Failure)  211M->280K(256M), 0.0047993 secs]
-2015-03-13T14:27:00.206+0100: 5.092: Total time for which application threads were stopped: 0.0050652 seconds
-2015-03-13T14:27:00.206+0100: 5.092: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.240+0100: 5.126: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 212M->212M(256M), 0.0016030 secs]
-2015-03-13T14:27:00.241+0100: 5.128: Total time for which application threads were stopped: 0.0018102 seconds
-2015-03-13T14:27:00.241+0100: 5.128: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.242+0100: 5.128: 2015-03-13T14:27:00.242+0100: [GC pause (G1 Humongous Allocation) (young)5.128: [GC concurrent-root-region-scan-end, 0.0001750 secs]
-2015-03-13T14:27:00.242+0100: 5.128: [GC concurrent-mark-start]
- 212M->212M(256M), 0.0013723 secs]
-2015-03-13T14:27:00.243+0100: 5.129: Total time for which application threads were stopped: 0.0015439 seconds
-2015-03-13T14:27:00.243+0100: 5.130: [Full GC (Allocation Failure)  212M->280K(256M), 0.0045740 secs]
-2015-03-13T14:27:00.248+0100: 5.134: Total time for which application threads were stopped: 0.0048462 seconds
-2015-03-13T14:27:00.248+0100: 5.135: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.283+0100: 5.169: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 213M->213M(256M), 0.0014843 secs]
-2015-03-13T14:27:00.284+0100: 5.171: Total time for which application threads were stopped: 0.0016915 seconds
-2015-03-13T14:27:00.284+0100: 5.171: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.284+0100: 5.171: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.284+0100: 5.171: [GC concurrent-root-region-scan-end, 0.0002043 secs]
-2015-03-13T14:27:00.285+0100: 5.171: [GC concurrent-mark-start]
- 213M->213M(256M), 0.0019349 secs]
-2015-03-13T14:27:00.286+0100: 5.173: Total time for which application threads were stopped: 0.0021059 seconds
-2015-03-13T14:27:00.287+0100: 5.173: [Full GC (Allocation Failure)  213M->280K(256M), 0.0047988 secs]
-2015-03-13T14:27:00.292+0100: 5.178: Total time for which application threads were stopped: 0.0051184 seconds
-2015-03-13T14:27:00.292+0100: 5.178: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.326+0100: 5.213: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 214M->214M(256M), 0.0016245 secs]
-2015-03-13T14:27:00.328+0100: 5.214: Total time for which application threads were stopped: 0.0018391 seconds
-2015-03-13T14:27:00.328+0100: 5.214: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.328+0100: 5.215: [GC concurrent-root-region-scan-end, 0.0001222 secs]
-2015-03-13T14:27:00.328+0100: 5.215: [GC concurrent-mark-start]
-2015-03-13T14:27:00.328+0100: 5.215: [GC pause (G1 Humongous Allocation) (young) 214M->214M(256M), 0.0013719 secs]
-2015-03-13T14:27:00.330+0100: 5.216: Total time for which application threads were stopped: 0.0015414 seconds
-2015-03-13T14:27:00.330+0100: 5.216: [Full GC (Allocation Failure)  214M->280K(256M), 0.0046585 secs]
-2015-03-13T14:27:00.335+0100: 5.221: Total time for which application threads were stopped: 0.0049220 seconds
-2015-03-13T14:27:00.335+0100: 5.221: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.370+0100: 5.257: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 215M->215M(256M), 0.0018234 secs]
-2015-03-13T14:27:00.372+0100: 5.259: Total time for which application threads were stopped: 0.0020395 seconds
-2015-03-13T14:27:00.372+0100: 5.259: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.372+0100: 5.259: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.373+0100: 5.259: [GC concurrent-root-region-scan-end, 0.0002062 secs]
-2015-03-13T14:27:00.373+0100: 5.259: [GC concurrent-mark-start]
- 215M->215M(256M), 0.0014202 secs]
-2015-03-13T14:27:00.374+0100: 5.261: Total time for which application threads were stopped: 0.0015957 seconds
-2015-03-13T14:27:00.374+0100: 5.261: [Full GC (Allocation Failure)  215M->280K(256M), 0.0047309 secs]
-2015-03-13T14:27:00.379+0100: 5.266: Total time for which application threads were stopped: 0.0049987 seconds
-2015-03-13T14:27:00.379+0100: 5.266: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.415+0100: 5.301: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 216M->216M(256M), 0.0015141 secs]
-2015-03-13T14:27:00.416+0100: 5.303: Total time for which application threads were stopped: 0.0017330 seconds
-2015-03-13T14:27:00.416+0100: 5.303: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.416+0100: 5.303: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.416+0100: 5.303: [GC concurrent-root-region-scan-end, 0.0002004 secs]
-2015-03-13T14:27:00.416+0100: 5.303: [GC concurrent-mark-start]
- 216M->216M(256M), 0.0018293 secs]
-2015-03-13T14:27:00.418+0100: 5.305: Total time for which application threads were stopped: 0.0019974 seconds
-2015-03-13T14:27:00.418+0100: 5.305: [Full GC (Allocation Failure)  216M->280K(256M), 0.0045769 secs]
-2015-03-13T14:27:00.423+0100: 5.310: Total time for which application threads were stopped: 0.0048364 seconds
-2015-03-13T14:27:00.423+0100: 5.310: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.459+0100: 5.345: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 217M->217M(256M), 0.0016465 secs]
-2015-03-13T14:27:00.460+0100: 5.347: Total time for which application threads were stopped: 0.0018562 seconds
-2015-03-13T14:27:00.460+0100: 5.347: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.461+0100: 5.347: [GC concurrent-root-region-scan-end, 0.0001212 secs]
-2015-03-13T14:27:00.461+0100: 5.347: [GC concurrent-mark-start]
-2015-03-13T14:27:00.461+0100: 5.347: [GC pause (G1 Humongous Allocation) (young) 217M->217M(256M), 0.0014437 secs]
-2015-03-13T14:27:00.462+0100: 5.349: Total time for which application threads were stopped: 0.0016128 seconds
-2015-03-13T14:27:00.462+0100: 5.349: [Full GC (Allocation Failure)  217M->280K(256M), 0.0048320 secs]
-2015-03-13T14:27:00.467+0100: 5.354: Total time for which application threads were stopped: 0.0050999 seconds
-2015-03-13T14:27:00.468+0100: 5.354: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.503+0100: 5.390: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 218M->218M(256M), 0.0017179 secs]
-2015-03-13T14:27:00.505+0100: 5.391: Total time for which application threads were stopped: 0.0019231 seconds
-2015-03-13T14:27:00.505+0100: 5.391: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.505+0100: 5.392: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.505+0100: 5.392: [GC concurrent-root-region-scan-end, 0.0001794 secs]
-2015-03-13T14:27:00.505+0100: 5.392: [GC concurrent-mark-start]
- 218M->218M(256M), 0.0014168 secs]
-2015-03-13T14:27:00.506+0100: 5.393: Total time for which application threads were stopped: 0.0015849 seconds
-2015-03-13T14:27:00.507+0100: 5.393: [Full GC (Allocation Failure)  218M->280K(256M), 0.0048223 secs]
-2015-03-13T14:27:00.512+0100: 5.398: Total time for which application threads were stopped: 0.0050920 seconds
-2015-03-13T14:27:00.512+0100: 5.398: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.547+0100: 5.433: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 219M->219M(256M), 0.0015356 secs]
-2015-03-13T14:27:00.548+0100: 5.435: Total time for which application threads were stopped: 0.0017404 seconds
-2015-03-13T14:27:00.548+0100: 5.435: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.548+0100: 5.435: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.548+0100: 5.435: [GC concurrent-root-region-scan-end, 0.0002014 secs]
-2015-03-13T14:27:00.549+0100: 5.435: [GC concurrent-mark-start]
- 219M->219M(256M), 0.0016338 secs]
-2015-03-13T14:27:00.550+0100: 5.437: Total time for which application threads were stopped: 0.0018117 seconds
-2015-03-13T14:27:00.550+0100: 5.437: [Full GC (Allocation Failure)  219M->280K(256M), 0.0042231 secs]
-2015-03-13T14:27:00.555+0100: 5.441: Total time for which application threads were stopped: 0.0044929 seconds
-2015-03-13T14:27:00.555+0100: 5.442: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.591+0100: 5.477: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 220M->220M(256M), 0.0018635 secs]
-2015-03-13T14:27:00.593+0100: 2015-03-13T14:27:00.593+01005.479: : Total time for which application threads were stopped: 0.0020756 seconds
-5.479: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.593+0100: 5.479: [GC concurrent-root-region-scan-end, 0.0001359 secs]
-2015-03-13T14:27:00.593+0100: 5.479: [GC concurrent-mark-start]
-2015-03-13T14:27:00.593+0100: 5.479: [GC pause (G1 Humongous Allocation) (young) 220M->220M(256M), 0.0013015 secs]
-2015-03-13T14:27:00.594+0100: 5.481: Total time for which application threads were stopped: 0.0014672 seconds
-2015-03-13T14:27:00.594+0100: 5.481: [Full GC (Allocation Failure)  220M->280K(256M), 0.0045251 secs]
-2015-03-13T14:27:00.599+0100: 5.486: Total time for which application threads were stopped: 0.0047866 seconds
-2015-03-13T14:27:00.599+0100: 5.486: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.635+0100: 5.522: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 221M->221M(256M), 0.0016040 secs]
-2015-03-13T14:27:00.637+0100: 5.523: Total time for which application threads were stopped: 0.0018166 seconds
-2015-03-13T14:27:00.637+0100: 5.523: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.637+0100: 5.524: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.637+0100: 5.524: [GC concurrent-root-region-scan-end, 0.0001984 secs]
-2015-03-13T14:27:00.637+0100: 5.524: [GC concurrent-mark-start]
- 221M->221M(256M), 0.0015483 secs]
-2015-03-13T14:27:00.638+0100: 5.525: Total time for which application threads were stopped: 0.0017125 seconds
-2015-03-13T14:27:00.639+0100: 5.525: [Full GC (Allocation Failure)  221M->280K(256M), 0.0047323 secs]
-2015-03-13T14:27:00.644+0100: 5.530: Total time for which application threads were stopped: 0.0050153 seconds
-2015-03-13T14:27:00.644+0100: 5.530: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.679+0100: 5.566: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 222M->222M(256M), 0.0015146 secs]
-2015-03-13T14:27:00.681+0100: 5.568: Total time for which application threads were stopped: 0.0017320 seconds
-2015-03-13T14:27:00.681+0100: 5.568: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.681+0100: 5.568: [GC concurrent-root-region-scan-end, 0.0001105 secs]
-2015-03-13T14:27:00.681+0100: 5.568: [GC concurrent-mark-start]
-2015-03-13T14:27:00.681+0100: 5.568: [GC pause (G1 Humongous Allocation) (young) 222M->222M(256M), 0.0016250 secs]
-2015-03-13T14:27:00.683+0100: 5.570: Total time for which application threads were stopped: 0.0017951 seconds
-2015-03-13T14:27:00.683+0100: 5.570: [Full GC (Allocation Failure)  222M->280K(256M), 0.0048902 secs]
-2015-03-13T14:27:00.688+0100: 5.575: Total time for which application threads were stopped: 0.0051722 seconds
-2015-03-13T14:27:00.688+0100: 5.575: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.725+0100: 5.612: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 223M->223M(256M), 0.0017350 secs]
-2015-03-13T14:27:00.727+0100: 5.613: Total time for which application threads were stopped: 0.0019422 seconds
-2015-03-13T14:27:00.727+0100: 5.613: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.727+0100: 5.614: [GC concurrent-root-region-scan-end, 0.0001129 secs]
-2015-03-13T14:27:00.727+0100: 5.614: [GC concurrent-mark-start]
-2015-03-13T14:27:00.727+0100: 5.614: [GC pause (G1 Humongous Allocation) (young) 223M->223M(256M), 0.0011930 secs]
-2015-03-13T14:27:00.728+0100: 5.615: Total time for which application threads were stopped: 0.0013635 seconds
-2015-03-13T14:27:00.728+0100: 5.615: [Full GC (Allocation Failure)  223M->280K(256M), 0.0047675 secs]
-2015-03-13T14:27:00.733+0100: 5.620: Total time for which application threads were stopped: 0.0050456 seconds
-2015-03-13T14:27:00.733+0100: 5.620: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.770+0100: 5.657: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 224M->224M(256M), 0.0022076 secs]
-2015-03-13T14:27:00.772+0100: 5.659: Total time for which application threads were stopped: 0.0024202 seconds
-2015-03-13T14:27:00.772+0100: 5.659: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.772+0100: 5.659: [GC concurrent-root-region-scan-end, 0.0001608 secs]
-2015-03-13T14:27:00.772+0100: 5.659: [GC concurrent-mark-start]
-2015-03-13T14:27:00.772+0100: 5.659: [GC pause (G1 Humongous Allocation) (young) 224M->224M(256M), 0.0012028 secs]
-2015-03-13T14:27:00.774+0100: 5.661: Total time for which application threads were stopped: 0.0013733 seconds
-2015-03-13T14:27:00.774+0100: 5.661: [Full GC (Allocation Failure)  224M->280K(256M), 0.0048066 secs]
-2015-03-13T14:27:00.779+0100: 5.666: Total time for which application threads were stopped: 0.0050916 seconds
-2015-03-13T14:27:00.779+0100: 5.666: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.815+0100: 5.702: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 225M->225M(256M), 0.0016177 secs]
-2015-03-13T14:27:00.817+0100: 5.704: Total time for which application threads were stopped: 0.0018322 seconds
-2015-03-13T14:27:00.817+0100: 5.704: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.817+0100: 5.704: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.817+0100: 5.704: [GC concurrent-root-region-scan-end, 0.0001882 secs]
-2015-03-13T14:27:00.817+0100: 5.704: [GC concurrent-mark-start]
- 225M->225M(256M), 0.0016319 secs]
-2015-03-13T14:27:00.819+0100: 5.706: Total time for which application threads were stopped: 0.0018049 seconds
-2015-03-13T14:27:00.819+0100: 5.706: [Full GC (Allocation Failure)  225M->280K(256M), 0.0049083 secs]
-2015-03-13T14:27:00.824+0100: 5.711: Total time for which application threads were stopped: 0.0051849 seconds
-2015-03-13T14:27:00.824+0100: 5.711: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.861+0100: 5.748: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 226M->226M(256M), 0.0013660 secs]
-2015-03-13T14:27:00.862+0100: 5.749: Total time for which application threads were stopped: 0.0015864 seconds
-2015-03-13T14:27:00.862+0100: 5.749: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.862+0100: 5.749: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.863+0100: 5.750: [GC concurrent-root-region-scan-end, 0.0001926 secs]
-2015-03-13T14:27:00.863+0100: 5.750: [GC concurrent-mark-start]
- 226M->226M(256M), 0.0014026 secs]
-2015-03-13T14:27:00.865+0100: 5.752: Total time for which application threads were stopped: 0.0022120 seconds
-2015-03-13T14:27:00.865+0100: 5.752: [Full GC (Allocation Failure)  226M->280K(256M), 0.0046370 secs]
-2015-03-13T14:27:00.870+0100: 5.757: Total time for which application threads were stopped: 0.0049356 seconds
-2015-03-13T14:27:00.870+0100: 5.757: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.907+0100: 5.794: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 227M->227M(256M), 0.0016319 secs]
-2015-03-13T14:27:00.909+0100: 5.796: Total time for which application threads were stopped: 0.0018606 seconds
-2015-03-13T14:27:00.909+0100: 5.796: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.909+0100: 5.796: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:00.909+0100: 5.796: [GC concurrent-root-region-scan-end, 0.0001588 secs]
-2015-03-13T14:27:00.909+0100: 5.796: [GC concurrent-mark-start]
- 227M->227M(256M), 0.0015888 secs]
-2015-03-13T14:27:00.910+0100: 5.797: Total time for which application threads were stopped: 0.0017550 seconds
-2015-03-13T14:27:00.911+0100: 5.798: [Full GC (Allocation Failure)  227M->280K(256M), 0.0045373 secs]
-2015-03-13T14:27:00.915+0100: 5.802: Total time for which application threads were stopped: 0.0048276 seconds
-2015-03-13T14:27:00.916+0100: 5.803: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.952+0100: 5.839: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 228M->228M(256M), 0.0019031 secs]
-2015-03-13T14:27:00.954+0100: 5.841: Total time for which application threads were stopped: 0.0021201 seconds
-2015-03-13T14:27:00.954+0100: 5.841: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.954+0100: 5.841: 2015-03-13T14:27:00.954+0100: [GC concurrent-root-region-scan-end, 0.0001554 secs]
-5.841: 2015-03-13T14:27:00.954+0100: [GC pause (G1 Humongous Allocation) (young)5.841: [GC concurrent-mark-start]
- 228M->228M(256M), 0.0012174 secs]
-2015-03-13T14:27:00.956+0100: 5.843: Total time for which application threads were stopped: 0.0013855 seconds
-2015-03-13T14:27:00.956+0100: 5.843: [Full GC (Allocation Failure)  228M->280K(256M), 0.0044777 secs]
-2015-03-13T14:27:00.961+0100: 5.848: Total time for which application threads were stopped: 0.0047622 seconds
-2015-03-13T14:27:00.961+0100: 5.848: [GC concurrent-mark-abort]
-2015-03-13T14:27:00.997+0100: 5.885: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 229M->229M(256M), 0.0016582 secs]
-2015-03-13T14:27:00.999+0100: 5.886: Total time for which application threads were stopped: 0.0018811 seconds
-2015-03-13T14:27:00.999+0100: 5.886: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:00.999+0100: 5.886: [GC concurrent-root-region-scan-end, 0.0000845 secs]
-2015-03-13T14:27:00.999+0100: 5.886: [GC concurrent-mark-start]
-2015-03-13T14:27:00.999+0100: 5.886: [GC pause (G1 Humongous Allocation) (young) 229M->229M(256M), 0.0016798 secs]
-2015-03-13T14:27:01.001+0100: 5.888: Total time for which application threads were stopped: 0.0018464 seconds
-2015-03-13T14:27:01.001+0100: 5.888: [Full GC (Allocation Failure)  229M->280K(256M), 0.0048809 secs]
-2015-03-13T14:27:01.006+0100: 5.894: Total time for which application threads were stopped: 0.0051658 seconds
-2015-03-13T14:27:01.007+0100: 5.894: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.045+0100: 5.931: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 230M->230M(256M), 0.0017076 secs]
-2015-03-13T14:27:01.047+0100: 2015-03-13T14:27:01.047+01005.933: : 5.933Total time for which application threads were stopped: 0.0019266 seconds
-: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.047+0100: 5.933: [GC concurrent-root-region-scan-end, 0.0001149 secs]
-2015-03-13T14:27:01.047+0100: 2015-03-13T14:27:01.047+01005.933: : [GC concurrent-mark-start]
-5.933: [GC pause (G1 Humongous Allocation) (young) 230M->230M(256M), 0.0013020 secs]
-2015-03-13T14:27:01.048+0100: 5.935: Total time for which application threads were stopped: 0.0014740 seconds
-2015-03-13T14:27:01.049+0100: 5.935: [Full GC (Allocation Failure)  230M->280K(256M), 0.0049464 secs]
-2015-03-13T14:27:01.054+0100: 5.940: Total time for which application threads were stopped: 0.0052313 seconds
-2015-03-13T14:27:01.054+0100: 5.940: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.092+0100: 5.978: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 231M->231M(256M), 0.0017809 secs]
-2015-03-13T14:27:01.094+0100: 5.980: Total time for which application threads were stopped: 0.0020321 seconds
-2015-03-13T14:27:01.094+0100: 5.980: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.094+0100: 5.980: [GC concurrent-root-region-scan-end, 0.0001329 secs]
-2015-03-13T14:27:01.094+0100: 5.980: [GC concurrent-mark-start]
-2015-03-13T14:27:01.094+0100: 5.980: [GC pause (G1 Humongous Allocation) (young) 231M->231M(256M), 0.0013225 secs]
-2015-03-13T14:27:01.095+0100: 5.982: Total time for which application threads were stopped: 0.0015077 seconds
-2015-03-13T14:27:01.096+0100: 5.982: [Full GC (Allocation Failure)  231M->280K(256M), 0.0049718 secs]
-2015-03-13T14:27:01.101+0100: 5.987: Total time for which application threads were stopped: 0.0052748 seconds
-2015-03-13T14:27:01.101+0100: 5.987: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.138+0100: 6.025: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 232M->232M(256M), 0.0020649 secs]
-2015-03-13T14:27:01.141+0100: 6.027: Total time for which application threads were stopped: 0.0022902 seconds
-2015-03-13T14:27:01.141+0100: 6.027: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.141+0100: 6.027: [GC concurrent-root-region-scan-end, 0.0000679 secs]
-2015-03-13T14:27:01.141+0100: 6.027: [GC concurrent-mark-start]
-2015-03-13T14:27:01.141+0100: 6.027: [GC pause (G1 Humongous Allocation) (young) 232M->232M(256M), 0.0012345 secs]
-2015-03-13T14:27:01.142+0100: 6.028: Total time for which application threads were stopped: 0.0014061 seconds
-2015-03-13T14:27:01.142+0100: 6.028: [Full GC (Allocation Failure)  232M->280K(256M), 0.0047690 secs]
-2015-03-13T14:27:01.147+0100: 6.033: Total time for which application threads were stopped: 0.0050334 seconds
-2015-03-13T14:27:01.147+0100: 6.034: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.186+0100: 6.072: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 233M->233M(256M), 0.0014623 secs]
-2015-03-13T14:27:01.187+0100: 6.073: Total time for which application threads were stopped: 0.0016710 seconds
-2015-03-13T14:27:01.187+0100: 6.073: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.187+0100: 6.074: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:01.187+0100: 6.074: [GC concurrent-root-region-scan-end, 0.0002018 secs]
-2015-03-13T14:27:01.187+0100: 6.074: [GC concurrent-mark-start]
- 233M->233M(256M), 0.0017702 secs]
-2015-03-13T14:27:01.189+0100: 6.075: Total time for which application threads were stopped: 0.0019442 seconds
-2015-03-13T14:27:01.189+0100: 6.076: [Full GC (Allocation Failure)  233M->280K(256M), 0.0048144 secs]
-2015-03-13T14:27:01.194+0100: 6.081: Total time for which application threads were stopped: 0.0051043 seconds
-2015-03-13T14:27:01.195+0100: 6.081: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.232+0100: 6.119: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 234M->234M(256M), 0.0018997 secs]
-2015-03-13T14:27:01.234+0100: 6.121: Total time for which application threads were stopped: 0.0021201 seconds
-2015-03-13T14:27:01.234+0100: 6.121: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.234+0100: 6.121: [GC concurrent-root-region-scan-end, 0.0000845 secs]
-2015-03-13T14:27:01.234+0100: 6.121: [GC concurrent-mark-start]
-2015-03-13T14:27:01.235+0100: 6.121: [GC pause (G1 Humongous Allocation) (young) 234M->234M(256M), 0.0015644 secs]
-2015-03-13T14:27:01.236+0100: 6.122: Total time for which application threads were stopped: 0.0017369 seconds
-2015-03-13T14:27:01.236+0100: 6.123: [Full GC (Allocation Failure)  234M->280K(256M), 0.0047998 secs]
-2015-03-13T14:27:01.241+0100: 6.128: Total time for which application threads were stopped: 0.0051160 seconds
-2015-03-13T14:27:01.241+0100: 6.128: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.280+0100: 6.166: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 235M->235M(256M), 0.0011793 secs]
-2015-03-13T14:27:01.281+0100: 6.167: Total time for which application threads were stopped: 0.0013733 seconds
-2015-03-13T14:27:01.281+0100: 6.167: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.281+0100: 6.167: [GC concurrent-root-region-scan-end, 0.0000782 secs]
-2015-03-13T14:27:01.281+0100: 6.167: [GC concurrent-mark-start]
-2015-03-13T14:27:01.281+0100: 6.167: [GC pause (G1 Humongous Allocation) (young) 235M->235M(256M), 0.0008093 secs]
-2015-03-13T14:27:01.282+0100: 6.168: Total time for which application threads were stopped: 0.0009564 seconds
-2015-03-13T14:27:01.282+0100: 6.169: [Full GC (Allocation Failure)  235M->280K(256M), 0.0051091 secs]
-2015-03-13T14:27:01.288+0100: 6.174: Total time for which application threads were stopped: 0.0054190 seconds
-2015-03-13T14:27:01.288+0100: 6.174: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.326+0100: 6.213: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 236M->236M(256M), 0.0018215 secs]
-2015-03-13T14:27:01.328+0100: 6.214: Total time for which application threads were stopped: 0.0020424 seconds
-2015-03-13T14:27:01.328+0100: 6.214: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.328+0100: 6.215: [GC concurrent-root-region-scan-end, 0.0000738 secs]
-2015-03-13T14:27:01.328+0100: 6.215: [GC concurrent-mark-start]
-2015-03-13T14:27:01.328+0100: 6.215: [GC pause (G1 Humongous Allocation) (young) 236M->236M(256M), 0.0012819 secs]
-2015-03-13T14:27:01.330+0100: 6.216: Total time for which application threads were stopped: 0.0014569 seconds
-2015-03-13T14:27:01.330+0100: 6.216: [Full GC (Allocation Failure)  236M->280K(256M), 0.0048340 secs]
-2015-03-13T14:27:01.335+0100: 6.221: Total time for which application threads were stopped: 0.0051175 seconds
-2015-03-13T14:27:01.335+0100: 6.221: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.373+0100: 6.260: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 237M->237M(256M), 0.0014559 secs]
-2015-03-13T14:27:01.375+0100: 6.261: Total time for which application threads were stopped: 0.0016685 seconds
-2015-03-13T14:27:01.375+0100: 6.261: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.375+0100: 6.261: [GC concurrent-root-region-scan-end, 0.0000762 secs]
-2015-03-13T14:27:01.375+0100: 6.261: [GC concurrent-mark-start]
-2015-03-13T14:27:01.375+0100: 6.261: [GC pause (G1 Humongous Allocation) (young) 237M->237M(256M), 0.0014867 secs]
-2015-03-13T14:27:01.377+0100: 6.263: Total time for which application threads were stopped: 0.0016553 seconds
-2015-03-13T14:27:01.377+0100: 6.263: [Full GC (Allocation Failure)  237M->280K(256M), 0.0047705 secs]
-2015-03-13T14:27:01.382+0100: 6.268: Total time for which application threads were stopped: 0.0050588 seconds
-2015-03-13T14:27:01.382+0100: 6.268: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.420+0100: 6.307: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 238M->238M(256M), 0.0014246 secs]
-2015-03-13T14:27:01.422+0100: 6.308: Total time for which application threads were stopped: 0.0016250 seconds
-2015-03-13T14:27:01.422+0100: 6.308: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.422+0100: 6.308: [GC concurrent-root-region-scan-end, 0.0000806 secs]
-2015-03-13T14:27:01.422+01002015-03-13T14:27:01.422+0100: : 6.308: 6.308: [GC concurrent-mark-start]
-[GC pause (G1 Humongous Allocation) (young) 238M->238M(256M), 0.0013679 secs]
-2015-03-13T14:27:01.424+0100: 6.310: Total time for which application threads were stopped: 0.0015346 seconds
-2015-03-13T14:27:01.424+0100: 6.310: [Full GC (Allocation Failure)  238M->280K(256M), 0.0048931 secs]
-2015-03-13T14:27:01.429+0100: 6.315: Total time for which application threads were stopped: 0.0051820 seconds
-2015-03-13T14:27:01.429+0100: 6.315: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.468+0100: 6.355: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 239M->239M(256M), 0.0016201 secs]
-2015-03-13T14:27:01.470+0100: 6.356: Total time for which application threads were stopped: 0.0018190 seconds
-2015-03-13T14:27:01.470+0100: 6.356: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.470+0100: 6.356: [GC concurrent-root-region-scan-end, 0.0001202 secs]
-2015-03-13T14:27:01.470+0100: 2015-03-13T14:27:01.470+01006.356: : [GC concurrent-mark-start]
-6.356: [GC pause (G1 Humongous Allocation) (young) 239M->239M(256M), 0.0011211 secs]
-2015-03-13T14:27:01.471+0100: 6.358: Total time for which application threads were stopped: 0.0013166 seconds
-2015-03-13T14:27:01.471+0100: 6.358: [Full GC (Allocation Failure)  239M->280K(256M), 0.0050285 secs]
-2015-03-13T14:27:01.477+0100: 6.363: Total time for which application threads were stopped: 0.0053217 seconds
-2015-03-13T14:27:01.477+0100: 6.363: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.516+0100: 6.403: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 240M->240M(256M), 0.0014334 secs]
-2015-03-13T14:27:01.518+0100: 6.404: 2015-03-13T14:27:01.518+0100Total time for which application threads were stopped: 0.0016431 seconds
-: 6.404: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.518+0100: 6.404: [GC concurrent-root-region-scan-end, 0.0001119 secs]
-2015-03-13T14:27:01.518+0100: 6.404: [GC concurrent-mark-start]
-2015-03-13T14:27:01.518+0100: 6.404: [GC pause (G1 Humongous Allocation) (young) 240M->240M(256M), 0.0014520 secs]
-2015-03-13T14:27:01.519+0100: 6.406: Total time for which application threads were stopped: 0.0016411 seconds
-2015-03-13T14:27:01.520+0100: 6.406: [Full GC (Allocation Failure)  240M->280K(256M), 0.0050085 secs]
-2015-03-13T14:27:01.525+0100: 6.411: Total time for which application threads were stopped: 0.0053100 seconds
-2015-03-13T14:27:01.525+0100: 6.411: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.565+0100: 6.451: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 241M->241M(256M), 0.0015761 secs]
-2015-03-13T14:27:01.566+0100: 6.453: Total time for which application threads were stopped: 0.0017853 seconds
-2015-03-13T14:27:01.566+0100: 6.453: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.566+0100: 6.453: [GC concurrent-root-region-scan-end, 0.0000797 secs]
-2015-03-13T14:27:01.566+0100: 6.453: [GC concurrent-mark-start]
-2015-03-13T14:27:01.566+0100: 6.453: [GC pause (G1 Humongous Allocation) (young) 241M->241M(256M), 0.0018684 secs]
-2015-03-13T14:27:01.568+0100: 6.455: Total time for which application threads were stopped: 0.0020346 seconds
-2015-03-13T14:27:01.568+0100: 6.455: [Full GC (Allocation Failure)  241M->280K(256M), 0.0045041 secs]
-2015-03-13T14:27:01.573+0100: 6.460: Total time for which application threads were stopped: 0.0047890 seconds
-2015-03-13T14:27:01.573+0100: 6.460: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.613+0100: 6.499: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 242M->242M(256M), 0.0016148 secs]
-2015-03-13T14:27:01.614+0100: 6.501: Total time for which application threads were stopped: 0.0018269 seconds
-2015-03-13T14:27:01.614+0100: 6.501: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.614+0100: 6.501: [GC concurrent-root-region-scan-end, 0.0000841 secs]
-2015-03-13T14:27:01.614+0100: 6.501: [GC concurrent-mark-start]
-2015-03-13T14:27:01.614+0100: 6.501: [GC pause (G1 Humongous Allocation) (young) 242M->242M(256M), 0.0016553 secs]
-2015-03-13T14:27:01.616+0100: 6.503: Total time for which application threads were stopped: 0.0018200 seconds
-2015-03-13T14:27:01.616+0100: 6.503: [Full GC (Allocation Failure)  242M->280K(256M), 0.0048887 secs]
-2015-03-13T14:27:01.622+0100: 6.508: Total time for which application threads were stopped: 0.0051913 seconds
-2015-03-13T14:27:01.622+0100: 6.508: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.661+0100: 6.548: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 243M->243M(256M), 0.0016871 secs]
-2015-03-13T14:27:01.663+0100: 6.549: Total time for which application threads were stopped: 0.0018963 seconds
-2015-03-13T14:27:01.663+0100: 6.549: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.663+0100: 6.550: [GC concurrent-root-region-scan-end, 0.0000767 secs]
-2015-03-13T14:27:01.663+0100: 6.550: 2015-03-13T14:27:01.663+0100[GC concurrent-mark-start]
-: 6.550: [GC pause (G1 Humongous Allocation) (young) 243M->243M(256M), 0.0009256 secs]
-2015-03-13T14:27:01.664+0100: 6.551: Total time for which application threads were stopped: 0.0010884 seconds
-2015-03-13T14:27:01.664+0100: 6.551: [Full GC (Allocation Failure)  243M->280K(256M), 0.0046488 secs]
-2015-03-13T14:27:01.669+0100: 6.556: Total time for which application threads were stopped: 0.0049449 seconds
-2015-03-13T14:27:01.669+0100: 6.556: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.709+0100: 6.595: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 244M->244M(256M), 0.0016084 secs]
-2015-03-13T14:27:01.711+0100: 2015-03-13T14:27:01.711+0100: 6.597: 6.597: Total time for which application threads were stopped: 0.0018283 seconds
-[GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.711+0100: 6.597: [GC concurrent-root-region-scan-end, 0.0000909 secs]
-2015-03-13T14:27:01.711+0100: 6.597: [GC concurrent-mark-start]
-2015-03-13T14:27:01.711+0100: 6.597: [GC pause (G1 Humongous Allocation) (young) 244M->244M(256M), 0.0013533 secs]
-2015-03-13T14:27:01.712+0100: 6.599: Total time for which application threads were stopped: 0.0015370 seconds
-2015-03-13T14:27:01.712+0100: 6.599: [Full GC (Allocation Failure)  244M->280K(256M), 0.0047529 secs]
-2015-03-13T14:27:01.717+0100: 6.604: Total time for which application threads were stopped: 0.0050456 seconds
-2015-03-13T14:27:01.717+0100: 6.604: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.757+0100: 6.644: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 245M->245M(256M), 0.0016323 secs]
-2015-03-13T14:27:01.759+0100: 6.645: Total time for which application threads were stopped: 0.0018405 seconds
-2015-03-13T14:27:01.759+0100: 6.645: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.759+0100: 6.645: [GC concurrent-root-region-scan-end, 0.0000684 secs]
-2015-03-13T14:27:01.759+0100: 6.645: [GC concurrent-mark-start]
-2015-03-13T14:27:01.759+0100: 6.645: [GC pause (G1 Humongous Allocation) (young) 245M->245M(256M), 0.0014921 secs]
-2015-03-13T14:27:01.760+0100: 6.647: Total time for which application threads were stopped: 0.0016670 seconds
-2015-03-13T14:27:01.761+0100: 6.647: [Full GC (Allocation Failure)  245M->280K(256M), 0.0046121 secs]
-2015-03-13T14:27:01.765+0100: 6.652: Total time for which application threads were stopped: 0.0049073 seconds
-2015-03-13T14:27:01.766+0100: 6.652: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.806+0100: 6.693: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 246M->246M(256M), 0.0017198 secs]
-2015-03-13T14:27:01.808+0100: 6.694: Total time for which application threads were stopped: 0.0019314 seconds
-2015-03-13T14:27:01.808+0100: 6.694: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.808+0100: 6.695: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:01.808+0100: 6.695: [GC concurrent-root-region-scan-end, 0.0002048 secs]
-2015-03-13T14:27:01.808+0100: 6.695: [GC concurrent-mark-start]
- 246M->246M(256M), 0.0016817 secs]
-2015-03-13T14:27:01.810+0100: 6.696: Total time for which application threads were stopped: 0.0018576 seconds
-2015-03-13T14:27:01.810+0100: 6.697: [Full GC (Allocation Failure)  246M->280K(256M), 0.0047289 secs]
-2015-03-13T14:27:01.815+0100: 6.701: Total time for which application threads were stopped: 0.0050197 seconds
-2015-03-13T14:27:01.815+0100: 6.702: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.855+0100: 6.741: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 247M->247M(256M), 0.0016001 secs]
-2015-03-13T14:27:01.856+0100: 6.743: Total time for which application threads were stopped: 0.0018093 seconds
-2015-03-13T14:27:01.856+0100: 6.743: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.856+0100: 6.743: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:01.856+0100: 6.743: [GC concurrent-root-region-scan-end, 0.0001906 secs]
-2015-03-13T14:27:01.857+0100: 6.743: [GC concurrent-mark-start]
- 247M->247M(256M), 0.0014232 secs]
-2015-03-13T14:27:01.858+0100: 6.745: Total time for which application threads were stopped: 0.0015962 seconds
-2015-03-13T14:27:01.858+0100: 6.745: [Full GC (Allocation Failure)  247M->280K(256M), 0.0048071 secs]
-2015-03-13T14:27:01.863+0100: 6.750: Total time for which application threads were stopped: 0.0050935 seconds
-2015-03-13T14:27:01.863+0100: 6.750: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.903+0100: 6.790: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 248M->248M(256M), 0.0017247 secs]
-2015-03-13T14:27:01.905+0100: 6.792: Total time for which application threads were stopped: 0.0019344 seconds
-2015-03-13T14:27:01.905+0100: 6.792: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.905+0100: 6.792: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:01.905+0100: 6.792: [GC concurrent-root-region-scan-end, 0.0002009 secs]
-2015-03-13T14:27:01.905+0100: 6.792: [GC concurrent-mark-start]
- 248M->248M(256M), 0.0014950 secs]
-2015-03-13T14:27:01.907+0100: 6.794: Total time for which application threads were stopped: 0.0016680 seconds
-2015-03-13T14:27:01.907+0100: 6.794: [Full GC (Allocation Failure)  248M->280K(256M), 0.0048775 secs]
-2015-03-13T14:27:01.912+0100: 6.799: Total time for which application threads were stopped: 0.0051712 seconds
-2015-03-13T14:27:01.912+0100: 6.799: [GC concurrent-mark-abort]
-2015-03-13T14:27:01.953+0100: 6.840: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 249M->249M(256M), 0.0017467 secs]
-2015-03-13T14:27:01.955+0100: 6.841: Total time for which application threads were stopped: 0.0019573 seconds
-2015-03-13T14:27:01.955+0100: 6.841: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:01.955+0100: 6.842: [GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:01.955+0100: 6.842: [GC concurrent-root-region-scan-end, 0.0001183 secs]
-2015-03-13T14:27:01.955+0100: 6.842: [GC concurrent-mark-start]
- 249M->249M(256M), 0.0014691 secs]
-2015-03-13T14:27:01.956+0100: 6.843: Total time for which application threads were stopped: 0.0016309 seconds
-2015-03-13T14:27:01.957+0100: 6.843: [Full GC (Allocation Failure)  249M->258K(256M), 0.0046238 secs]
-2015-03-13T14:27:01.961+0100: 6.848: Total time for which application threads were stopped: 0.0049107 seconds
-2015-03-13T14:27:01.962+0100: 6.848: [GC concurrent-mark-abort]
-2015-03-13T14:27:02.002+0100: 6.888: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 250M->250M(256M), 0.0016231 secs]
-2015-03-13T14:27:02.003+0100: 6.890: Total time for which application threads were stopped: 0.0018308 seconds
-2015-03-13T14:27:02.003+0100: 6.890: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:02.004+0100: 2015-03-13T14:27:02.004+01006.890: : [GC pause (G1 Humongous Allocation) (young)6.890: [GC concurrent-root-region-scan-end, 0.0001295 secs]
-2015-03-13T14:27:02.004+0100: 6.890: [GC concurrent-mark-start]
- 250M->250M(256M), 0.0014017 secs]
-2015-03-13T14:27:02.005+0100: 6.892: Total time for which application threads were stopped: 0.0015698 seconds
-2015-03-13T14:27:02.005+0100: 6.892: [Full GC (Allocation Failure)  250M->258K(256M), 0.0043580 secs]
-2015-03-13T14:27:02.010+0100: 6.896: Total time for which application threads were stopped: 0.0046400 seconds
-2015-03-13T14:27:02.010+0100: 6.897: [GC concurrent-mark-abort]
-2015-03-13T14:27:02.050+0100: 6.937: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 251M->251M(256M), 0.0016392 secs]
-2015-03-13T14:27:02.052+0100: 6.938: Total time for which application threads were stopped: 0.0018464 seconds
-2015-03-13T14:27:02.052+0100: 6.939: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:02.052+0100: 2015-03-13T14:27:02.052+0100: 6.939: 6.939: [GC concurrent-root-region-scan-end, 0.0001549 secs]
-[GC pause (G1 Humongous Allocation) (young)2015-03-13T14:27:02.052+0100: 6.939: [GC concurrent-mark-start]
- 251M->251M(256M), 0.0015229 secs]
-2015-03-13T14:27:02.053+0100: 6.940: Total time for which application threads were stopped: 0.0016910 seconds
-2015-03-13T14:27:02.054+0100: 6.940: [Full GC (Allocation Failure)  251M->258K(256M), 0.0046952 secs]
-2015-03-13T14:27:02.059+0100: 6.945: Total time for which application threads were stopped: 0.0049816 seconds
-2015-03-13T14:27:02.059+0100: 6.946: [GC concurrent-mark-abort]
-2015-03-13T14:27:02.099+0100: 6.986: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 252M->252M(256M), 0.0020781 secs]
-2015-03-13T14:27:02.101+0100: 6.988: Total time for which application threads were stopped: 0.0023009 seconds
-2015-03-13T14:27:02.101+0100: 6.988: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:02.102+0100: 6.988: [GC concurrent-root-region-scan-end, 0.0000767 secs]
-2015-03-13T14:27:02.102+0100: 6.988: [GC concurrent-mark-start]
-2015-03-13T14:27:02.102+0100: 6.988: [GC pause (G1 Humongous Allocation) (young) 252M->252M(256M), 0.0013982 secs]
-2015-03-13T14:27:02.103+0100: 6.990: Total time for which application threads were stopped: 0.0015669 seconds
-2015-03-13T14:27:02.103+0100: 6.990: [Full GC (Allocation Failure)  252M->258K(256M), 0.0049811 secs]
-2015-03-13T14:27:02.109+0100: 6.995: Total time for which application threads were stopped: 0.0052851 seconds
-2015-03-13T14:27:02.109+0100: 6.996: [GC concurrent-mark-abort]
-2015-03-13T14:27:02.149+0100: 7.036: [GC pause (G1 Humongous Allocation) (young) (initial-mark)-- 253M->253M(256M), 0.0024094 secs]
-2015-03-13T14:27:02.152+0100: 7.039: Total time for which application threads were stopped: 0.0026425 seconds
-2015-03-13T14:27:02.152+0100: 7.039: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:02.152+0100: 7.039: [GC concurrent-root-region-scan-end, 0.0000210 secs]
-2015-03-13T14:27:02.152+0100: 7.039: [GC concurrent-mark-start]
-2015-03-13T14:27:02.152+0100: 7.039: [GC pause (G1 Humongous Allocation) (young) 253M->253M(256M), 0.0012883 secs]
-2015-03-13T14:27:02.153+0100: 7.040: Total time for which application threads were stopped: 0.0014515 seconds
-2015-03-13T14:27:02.154+0100: 7.041: [Full GC (Allocation Failure)  253M->258K(256M), 0.0044894 secs]
-2015-03-13T14:27:02.158+0100: 7.045: Total time for which application threads were stopped: 0.0047617 seconds
-2015-03-13T14:27:02.158+0100: 7.045: [GC concurrent-mark-abort]
-2015-03-13T14:27:02.199+0100: 7.086: [GC pause (G1 Evacuation Pause) (young) 254M->254M(256M), 0.0016969 secs]
-2015-03-13T14:27:02.201+0100: 7.088: Total time for which application threads were stopped: 0.0019290 seconds
-2015-03-13T14:27:02.201+0100: 7.088: [GC pause (G1 Evacuation Pause) (young) (initial-mark) 254M->254M(256M), 0.0016123 secs]
-2015-03-13T14:27:02.203+0100: 7.090: Total time for which application threads were stopped: 0.0018562 seconds
-2015-03-13T14:27:02.203+0100: 7.090: [GC concurrent-root-region-scan-start]
-2015-03-13T14:27:02.203+0100: 7.090: [GC concurrent-root-region-scan-end, 0.0000205 secs]
-2015-03-13T14:27:02.203+0100: 7.090: [GC concurrent-mark-start]
-2015-03-13T14:27:02.203+0100: 7.090: [Full GC (Allocation Failure)  254M->258K(256M), 0.0045217 secs]
-2015-03-13T14:27:02.207+0100: 7.094: Total time for which application threads were stopped: 0.0047074 seconds
-2015-03-13T14:27:02.208+0100: 7.095: [GC concurrent-mark-abort]
-2015-03-13T14:27:02.208+0100: 7.095: [GC pause (G1 Humongous Allocation) (young) 258K->260K(256M), 0.0015673 secs]
-2015-03-13T14:27:02.209+0100: 7.096: Total time for which application threads were stopped: 0.0017526 seconds
-2015-03-13T14:27:02.210+0100: 7.096: [Full GC (Allocation Failure)  260K->258K(256M), 0.0041801 secs]
-2015-03-13T14:27:02.214+0100: 7.101: [Full GC (Allocation Failure)  258K->258K(256M), 0.0040320 secs]
-2015-03-13T14:27:02.218+0100: 7.105: Total time for which application threads were stopped: 0.0084980 seconds
+2015-03-19T16:19:23.559+0100: 0.444: [GC concurrent-root-region-scan-end, 0.0000455 secs]
+2015-03-19T16:19:23.559+0100: 0.444: [GC concurrent-mark-start]
+2015-03-19T16:19:23.559+0100: 0.447: [GC pause (G1 Humongous Allocation) (young) 229M->228M(256M), 0.0009413 secs]
+2015-03-19T16:19:23.559+0100: 0.448: Total time for which application threads were stopped: 0.0044323 seconds
+2015-03-19T16:19:23.559+0100: 0.448: [Full GC (Allocation Failure)  228M->46M(256M), 0.0020991 secs]
+2015-03-19T16:19:23.575+0100: 0.450: Total time for which application threads were stopped: 0.0021778 seconds
+2015-03-19T16:19:23.575+0100: 0.450: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.575+0100: 0.457: [GC pause (G1 Humongous Allocation) (young) 187M->187M(256M), 0.0007175 secs]
+2015-03-19T16:19:23.575+0100: 0.458: Total time for which application threads were stopped: 0.0073680 seconds
+2015-03-19T16:19:23.575+0100: 0.458: [Full GC (Allocation Failure)  187M->284K(256M), 0.0019745 secs]
+2015-03-19T16:19:23.575+0100: 0.460: Total time for which application threads were stopped: 0.0020507 seconds
+2015-03-19T16:19:23.590+0100: 0.470: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 192M->190M(256M), 0.0006676 secs]
+2015-03-19T16:19:23.590+0100: 0.470: Total time for which application threads were stopped: 0.0012824 seconds
+2015-03-19T16:19:23.590+0100: 0.470: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.590+0100: 0.470: [GC pause (G1 Humongous Allocation) (young)2015-03-19T16:19:23.590+0100: 0.471: [GC concurrent-root-region-scan-end, 0.0000841 secs]
+2015-03-19T16:19:23.590+0100: 0.471: [GC concurrent-mark-start]
+ 191M->190M(256M), 0.0004198 secs]
+2015-03-19T16:19:23.590+0100: 0.471: Total time for which application threads were stopped: 0.0005044 seconds
+2015-03-19T16:19:23.590+0100: 0.471: [Full GC (Allocation Failure)  190M->284K(256M), 0.0018728 secs]
+2015-03-19T16:19:23.590+0100: 0.473: Total time for which application threads were stopped: 0.0019559 seconds
+2015-03-19T16:19:23.590+0100: 0.473: [GC concurrent-mark-abort]
+2015-03-19T16:19:23.606+0100: 0.486: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 195M->194M(256M), 0.0010122 secs]
+2015-03-19T16:19:23.606+0100: 0.487: Total time for which application threads were stopped: 0.0013215 seconds
+2015-03-19T16:19:23.606+0100: 0.487: [GC concurrent-root-region-scan-start]
+2015-03-19T16:19:23.606+0100: 0.487: [GC concurrent-root-region-scan-end, 0.0000484 secs]
+2015-03-19T16:19:23.606+0100: 0.487: [GC concurrent-mark-start]
+2015-03-19T16:19:23.606+0100: 0.487: [GC pause (G1 Humongous Allocation) (young) 194M->194M(256M), 0.0003529 secs]
+2015-03-19T16:19:23.606+0100: 0.488: Total time for which application threads were stopped: 0.0004340 seconds
+2015-03-19T16:19:23.606+0100: 0.488: [Full GC (Allocation Failure)  194M->283K(256M), 0.0022022 secs]
+2015-03-19T16:19:23.606+0100: 0.490: Total time for which application threads were stopped: 0.0022999 seconds
+2015-03-19T16:19:23.606+0100: 0.490: [GC concurrent-mark-abort]
