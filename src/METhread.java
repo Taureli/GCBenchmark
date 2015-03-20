@@ -3,12 +3,12 @@ public class METhread extends Thread{
 	@Override
 	public void run(){
 		
-		int n = 50;
+		int n = 100;
 		
 		long startTime = System.currentTimeMillis();
 		for(int i = 0; i < n; i++){
+			//MemoryEater.alloc(64);
 			MemoryEater.alloc(i);
-			//MemoryEater.alloc(i);
 		}
 		long endTime = System.currentTimeMillis();
 		
