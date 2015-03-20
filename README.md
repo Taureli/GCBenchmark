@@ -1,58 +1,56 @@
 #Garbage Collector Benchmark
 Autor: Jakub Karolczak
 
-#Wyniki poszczeg髄nych test體
+Wszystkie testy wykonano przy u偶yciu Java 8, rozmiar sterty = 1024mb.
 
-###1 watek, 100 powt髍zen, n=64, heap=1024 
-SerialGC: 542ms
+##Pomiary czas贸w dla konkretnej ilo艣ci powt贸rze艅
 
-ParallelOldGC: 553ms
+###Test1 - 1 w膮tek, 100 powt贸rzen, przekazywana warto艣膰: 64 
+|Garbage Collector|1 w膮tek|
+|:-----:|:---:|
+|SerialGC|542ms|
+|ParallelOldGC|553ms|
+|ConcMarkSweepGC|557ms|
+|G1GC|711ms|
 
-ConcMarkSweepGC: 557ms
+###4 w膮tki, 100 powt贸rzen, przekazywana warto艣膰: 64
+|Garbage Collector|1 w膮tek|2 w膮tek|3 w膮tek|4 w膮tek|艣rednio|
+|:-----:|:---:|:-----:|:---:|:-----:|:---:|
+|SerialGC|4597ms|4630ms|4660ms|4665ms|4638ms|
+|ParallelOldGC|4187ms|4406ms|4590ms|4627ms|4452,5ms|
+|ConcMarkSweepGC|3448ms|3477ms|3458ms|3485ms|3460,25ms|
+|G1GC|1572ms|1674ms|1674ms|1707ms|1656,75ms|
 
-G1GC: 711ms
+###1 w膮tek, 100 powt贸rzen, przekazywana warto艣膰: od 0 do 99
+|Garbage Collector|1 w膮tek|
+|:-----:|:---:|
+|SerialGC|425ms|
+|ParallelOldGC|427ms|
+|ConcMarkSweepGC|430ms|
+|G1GC|605ms|
 
-###4 watki, 100 powt髍zen, n=64, heap=1024 
-SerialGC: 4597ms, 4630ms, 4660ms, 4665ms
+###4 w膮tki, 100 powt贸rzen, przekazywana warto艣膰: od 0 do 99
+|Garbage Collector|1 w膮tek|2 w膮tek|3 w膮tek|4 w膮tek|艣rednio|
+|:-----:|:---:|:-----:|:---:|:-----:|:---:|
+|SerialGC|3120ms|3251ms|3577ms|3577ms|3381,25ms|
+|ParallelOldGC|2794ms|3136ms|3280ms|3288ms|3124,5ms|
+|ConcMarkSweepGC|2720ms|2685ms|2861ms|2880ms|2786,5ms|
+|G1GC|1304ms|1372ms|1373ms|1384ms|1358,25ms|
 
-ParallelOldGC: 4187ms, 4406ms, 4590ms, 4627ms
+##Pomiary liczby alokacji w okre艣lonym czasie
 
-ConcMarkSweepGC: 3448ms, 3477ms, 3458ms, 3485ms
+###1 w膮tek, czas: 1 minuta
+|Garbage Collector|1 w膮tek|
+|:-----:|:---:|
+|SerialGC|13109 alokacji|
+|ParallelOldGC|12975 alokacji|
+|ConcMarkSweepGC|12481 alokacji|
+|G1GC|8537 alokacji|
 
-G1GC: 1572ms, 1674ms, 1674ms, 1707ms
-
-###1 watek, 100 powt髍zen, n=0-99, heap=1024 
-SerialGC: 425ms
-
-ParallelOldGC: 427ms
-
-ConcMarkSweepGC: 430ms
-
-G1GC: 605ms
-
-###4 watki, 100 powt髍zen, n=0-99, heap=1024 
-SerialGC: 3120ms, 3251ms, 3577ms, 3577ms
-
-ParallelOldGC: 2794ms, 3136ms, 3280ms, 3288ms
-
-ConcMarkSweepGC: 2720ms, 2685ms, 2861ms, 2880ms
-
-G1GC: 1304ms, 1372ms, 1373ms, 1384ms
-
-###1 watek, czas: 1 minuta, heap=1024
-SerialGC: 13109 alokacji
-
-ParallelOldGC: 12975 alokacji
-
-ConcMarkSweepGC: 12481 alokacji
-
-G1GC: 8537 alokacji
-
-###4 watki, czas: 1 minuta, heap=1024
-SerialGC: 1412, 1412, 1412, 1412 alokacji
-
-ParallelOldGC: 1078, 1148, 1192, 1341 alokacji
-
-ConcMarkSweepGC: 1717, 1721, 1717, 1724 alokacji
-
-G1GC:  2118, 2117, 2161, 2092 alokacji
+###4 w膮tki, czas: 1 minuta
+|Garbage Collector|1 w膮tek|2 w膮tek|3 w膮tek|4 w膮tek|艣rednio|
+|:-----:|:---:|:-----:|:---:|:-----:|:---:|
+|SerialGC|1412 alokacji|1412 alokacji|1412 alokacji|1412 alokacji|1412 alokacji|
+|ParallelOldGC|1078 alokacji|1148 alokacji|1192 alokacji|1341 alokacji|1189,75 alokacji|
+|ConcMarkSweepGC|1717 alokacji|1721 alokacji|1717 alokacji|1724 alokacji|1719,25 alokacji|
+|G1GC|2118 alokacji|2117 alokacji|2161 alokacji|2092 alokacji|2122 alokacji|
